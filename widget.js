@@ -1,11 +1,11 @@
-alert("Gini V6 JSON-ONLY");
-
-/* Gini Website Bot — widget.js (JSON-first, no Sheets) */
+/* Gini Website Bot — widget.js (JSON-only, no Sheets) */
 (function(){
+  // ---- tiny helpers ----
   function css(t){const s=document.createElement('style');s.textContent=t;document.head.appendChild(s);}
   function el(h){const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild;}
   function log(){console.log('Gini:',...arguments);} function warn(){console.warn('Gini:',...arguments);} function err(){console.error('Gini:',...arguments);}
 
+  // ---- styles ----
   css(`
     .gini-launcher{position:fixed;bottom:20px;right:20px;z-index:2147483000;background:var(--gini-primary,#215C73);
       color:#fff;border:none;border-radius:999px;padding:12px 16px;box-shadow:0 8px 24px rgba(0,0,0,.18);cursor:pointer;font:600 14px/1 system-ui}
@@ -24,68 +24,101 @@ alert("Gini V6 JSON-ONLY");
     .gini-small{font:12px/1.2 system-ui;color:#555}
   `);
 
-  async function fetchJSON(url){ const r=await fetch(url,{mode:'cors',cache:'no-store'}); if(!r.ok) throw new Error('KB JSON HTTP '+r.status); return r.json(); }
-  function parseCSV(t){const L=t.replace(/\r/g,'').split('\n').filter(Boolean), H=L[0].split(',').map(h=>h.trim());
-    return L.slice(1).map(line=>{const C=line.split(',').map(c=>c.trim());const row={};H.forEach((h,i)=>row[h]=C[i]||'');return row;});}
-  async function fetchCSV(url){ const r=await fetch(url,{mode:'cors',cache:'no-store'}); if(!r.ok) throw new Error('CSV HTTP '+r.status); return parseCSV(await r.text()); }
+  // ---- JSON loader only ----
+  async function fetchJSON(url){
+    const r = await fetch(url, { mode:'cors', cache:'no-store' });
+    if (!r.ok) throw new Error('KB JSON HTTP '+r.status);
+    return r.json();
+  }
 
-  function score(q,kq){ const n=s=>s.toLowerCase().replace(/[^a-z0-9\s]/g,' ').split(/\s+/).filter(w=>w.length>2);
-    const A=new Set(n(q)), B=n(kq); let hits=0; for(const w of B) if(A.has(w)) hits++; return hits/Math.max(3,B.length); }
+  // simple word-overlap matcher
+  function score(q,kq){
+    const norm=s=>s.toLowerCase().replace(/[^a-z0-9\s]/g,' ').split(/\s+/).filter(w=>w.length>2);
+    const A=new Set(norm(q)), B=norm(kq); let hits=0; for(const w of B) if(A.has(w)) hits++;
+    return hits/Math.max(3,B.length);
+  }
 
+  // ---- public API ----
   window.MySiteBot = {
     init: function(config){
-      document.documentElement.style.setProperty('--gini-primary',(config.theme?.primary)||'#215C73');
-      document.documentElement.style.setProperty('--gini-accent',(config.theme?.accents?.[0])||'#00B0B9');
+      // theme
+      document.documentElement.style.setProperty('--gini-primary', (config.theme?.primary)||'#215C73');
+      document.documentElement.style.setProperty('--gini-accent',  (config.theme?.accents?.[0])||'#00B0B9');
 
-      const launcher=document.createElement('button'); launcher.className='gini-launcher'; launcher.textContent='Chat • Gini'; document.body.appendChild(launcher);
+      // launcher
+      const launcher=document.createElement('button');
+      launcher.className='gini-launcher';
+      launcher.textContent='Chat • Gini';
+      document.body.appendChild(launcher);
 
       let kb=[], ready=false, loadErr=null;
+
       async function loadKB(){
         console.time('kb-load');
         try{
-          if (Array.isArray(config.kbData) && config.kbData.length){ kb=config.kbData; log(`inline KB ready (${kb.length}) ✅`); }
-          else if (config.kbUrl){ kb=await fetchJSON(config.kbUrl); log(`loaded JSON KB (${kb.length}) ✅`); }
-          else { throw new Error('No kbUrl / kbData / Nothing provided'); }
+          if (Array.isArray(config.kbData) && config.kbData.length){
+            kb = config.kbData;
+            log(`inline KB ready (${kb.length}) ✅`);
+          } else if (config.kbUrl){
+            kb = await fetchJSON(config.kbUrl);
+            log(`loaded JSON KB (${kb.length}) ✅`);
+          } else {
+            throw new Error('No kbUrl / kbData provided (JSON-only build)');
+          }
           kb = kb.filter(r => String(r.status||'').toLowerCase() !== 'draft');
           ready=true; loadErr=null;
-        }catch(e){ loadErr=e; ready=false; err('KB load error ❌', e); }
-        finally{ console.timeEnd('kb-load'); }
+        }catch(e){
+          loadErr=e; ready=false; err('KB load error ❌', e);
+        }finally{
+          console.timeEnd('kb-load');
+        }
       }
-      const load = loadKB(); // start immediately
+      const load = loadKB();
 
       launcher.onclick = async ()=>{
-        const panel = el(`
-          <div class="gini-panel" role="dialog" aria-label="Gini chat">
-            <div class="gini-head">Gini <button class="gini-close" aria-label="Close">×</button></div>
-            <div class="gini-body">
-              <div class="gini-msgs"></div>
-              <div class="gini-foot">
-                <input class="gini-input" placeholder="Type your question…" />
-                <button class="gini-send">Send</button>
+        const panel = (function(){
+          const p=el(`
+            <div class="gini-panel" role="dialog" aria-label="Gini chat">
+              <div class="gini-head">Gini <button class="gini-close" aria-label="Close">×</button></div>
+              <div class="gini-body">
+                <div class="gini-msgs"></div>
+                <div class="gini-foot">
+                  <input class="gini-input" placeholder="Type your question…" />
+                  <button class="gini-send">Send</button>
+                </div>
               </div>
-            </div>
-          </div>`);
-        document.body.appendChild(panel);
-        panel.querySelector('.gini-close').onclick=()=>panel.remove();
+            </div>`);
+          document.body.appendChild(p);
+          p.querySelector('.gini-close').onclick=()=>p.remove();
+          return p;
+        })();
+
         const msgs=panel.querySelector('.gini-msgs'), input=panel.querySelector('.gini-input'), sendB=panel.querySelector('.gini-send');
         function say(html,who='bot'){ const d=document.createElement('div'); d.className=`gini-msg gini-${who}`; d.innerHTML=html; msgs.appendChild(d); msgs.scrollTop=msgs.scrollHeight; }
 
         say(`<div>${config.welcomeMessage||'Hi! How can I help you today?'}</div><div class="gini-small" style="margin-top:6px">Loading knowledge base…</div>`);
         await load;
-        if(ready) say(`<div class="gini-small">Knowledge base ready (${kb.length}) ✅</div>`);
-        else say(`<div>Couldn’t load the knowledge base. Try again or email <b>${config.handoff?.email||'wecare@diginu.com'}</b>.</div><div class="gini-small">${loadErr? (loadErr.message||String(loadErr)) : 'Unknown error'}</div>`);
+        if(ready){ say(`<div class="gini-small">Knowledge base ready (${kb.length}) ✅</div>`); }
+        else { say(`<div>Couldn’t load the knowledge base. Try again or email <b>${config.handoff?.email||'wecare@diginu.com'}</b>.</div><div class="gini-small">${loadErr ? (loadErr.message||String(loadErr)) : 'Unknown error'}</div>`); }
 
         function send(){
-          const q=(input.value||'').trim(); if(!q) return; say(q,'user'); input.value='';
+          const q=(input.value||'').trim(); if(!q) return;
+          say(q,'user'); input.value='';
           if(!ready || !kb.length){ say(`<div>Still preparing the KB. If this persists, email <b>${config.handoff?.email||'wecare@diginu.com'}</b>.</div>`); return; }
           let best=null, bestScore=0; for(const row of kb){ const s=score(q,row.question||''); if(s>bestScore){ bestScore=s; best=row; } }
-          if(best && best.answer && bestScore>=0.34){ let html=best.answer; if(best.source_url) html+=`<div class="gini-small">Source: <a href="${best.source_url}" target="_blank" rel="noopener">link</a></div>`; say(html); }
-          else { say(`<div>I'm not fully sure yet. Want me to email our team at <b>${config.handoff?.email||'wecare@diginu.com'}</b>?</div>`); }
+          if(best && best.answer && bestScore>=0.34){
+            let html=best.answer;
+            if(best.source_url) html += `<div class="gini-small">Source: <a href="${best.source_url}" target="_blank" rel="noopener">link</a></div>`;
+            say(html);
+          } else {
+            say(`<div>I'm not fully sure yet. Want me to email our team at <b>${config.handoff?.email||'wecare@diginu.com'}</b>?</div>`);
+          }
         }
-        input.addEventListener('keydown', e=>{ if(e.key==='Enter') send(); }); sendB.onclick=send;
+        input.addEventListener('keydown', e=>{ if(e.key==='Enter') send(); });
+        sendB.onclick = send;
       };
 
-      log('widget mounted ✅ (JSON-first)');
+      log('widget mounted ✅ (JSON-only)');
     }
   };
 })();
