@@ -1,0 +1,50 @@
+[
+  {
+    "id": "welcome",
+    "question": "What is diginu?",
+    "answer": "diginu is an online food delivery app",
+    "tags": "templates",
+    "source_url": "and mentorship. We offer business build mode support from idea to launch.",
+    "status": "about,getting-started",
+    "updated_at": "https://diginu.com/",
+    "": "published",
+    "__1": "2025-10-18T13:24:18.695885",
+    "__2": ""
+  },
+  {
+    "id": "programs-pricing",
+    "question": "How much do your programs cost?",
+    "answer": "diginu is free",
+    "tags": "we have our rewards programme that has 2 tiers",
+    "source_url": "R59 and R99 per month",
+    "status": "pricing,programs",
+    "updated_at": "",
+    "": "draft",
+    "__1": "2025-10-18T13:24:18.695905",
+    "__2": ""
+  },
+  {
+    "id": "contact-support",
+    "question": "How do I contact support?",
+    "answer": "You can email wecare@diginu.com. Our team replies within 1 business day.",
+    "tags": "support,contact",
+    "source_url": "",
+    "status": "published",
+    "updated_at": "2025-10-18T13:24:18.695907",
+    "": "",
+    "__1": "",
+    "__2": ""
+  },
+  {
+    "id": "refund-policy",
+    "question": "What is your refund policy?",
+    "answer": "We offer a  30-day refund on unused services for our rewards membership",
+    "tags": "email wecare@diginu.com.",
+    "source_url": "billing,refunds",
+    "status": "",
+    "updated_at": "published",
+    "": "2025-10-18T13:24:18.695908",
+    "__1": "",
+    "__2": ""
+  }
+]
