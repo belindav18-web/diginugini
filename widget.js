@@ -45,8 +45,7 @@ alert("Gini V6 JSON-ONLY");
         try{
           if (Array.isArray(config.kbData) && config.kbData.length){ kb=config.kbData; log(`inline KB ready (${kb.length}) ✅`); }
           else if (config.kbUrl){ kb=await fetchJSON(config.kbUrl); log(`loaded JSON KB (${kb.length}) ✅`); }
-          else if (config.sheetCsvUrl){ kb=await fetchCSV(config.sheetCsvUrl); log(`loaded CSV KB (${kb.length}) ✅`); }
-          else { throw new Error('No kbUrl / kbData / sheetCsvUrl provided'); }
+          else { throw new Error('No kbUrl / kbData / Nothing provided'); }
           kb = kb.filter(r => String(r.status||'').toLowerCase() !== 'draft');
           ready=true; loadErr=null;
         }catch(e){ loadErr=e; ready=false; err('KB load error ❌', e); }
