@@ -1,3 +1,22 @@
+async function fetchJSON(url){
+  const res = await fetch(url, { mode: "cors" });
+  if (!res.ok) throw new Error("KB JSON HTTP " + res.status);
+  return await res.json();
+}
+
+async function loadKB(config){
+  if (config.kbUrl) {
+    return await fetchJSON(config.kbUrl); // super fast from Netlify CDN
+  }
+  // Fallback to Google Sheet CSV
+  return await fetchCSVtoRows(config.sheetCsvUrl);
+}
+
+// On init:
+getCachedKB(() => loadKB(config))
+  .then(rows => { kb = rows.filter(r => (r.status||'').toLowerCase()==='published'); ready = true; })
+  .catch(err => console.error("KB load error:", err));
+
 // Simple Diginu Bot Widget v1 - loads FAQ responses from Google Sheet
 (function () {
   window.MySiteBot = {
