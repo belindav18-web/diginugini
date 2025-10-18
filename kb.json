@@ -1,14 +1,26 @@
 [
   {
-    "id": "welcome",
+    "id": "what-is-diginu",
     "question": "What is diginu?",
-    "answer": "diginu helps entrepreneurs launch and grow businesses with guided programs, templates, and mentorship.",
+    "answer": "diginu is an online food delivery app that not only has much cheaper rates but also offers you the opportunity to earn recurring commissions.",
     "status": "published"
   },
   {
-    "id": "refund-policy",
-    "question": "What is your refund policy?",
-    "answer": "We offer a 14-day refund on unused services for paid programs. Email wecare@diginu.com for help.",
+    "id": "how-to-earn",
+    "question": "How can I earn from diginu?",
+    "answer": "There are many ways to earn within the diginu eco-system. You can earn from deliveries, merchants (restaurants, take-aways, bottle stores, convenience stores, etc), diginuCashBack and from our diginuEgo bikes.",
+    "status": "published"
+  },
+  {
+    "id": "What-is-diginuCashBack",
+    "question": "What is diginuCashBack?",
+    "answer": "diginuCashBack is our Rewards programme, where you can save everyday as well as create an income everytime the people that you referred pays their membership.",
+    "status": "published"
+  },
+  {
+    "id": "can-someone-be-moved",
+    "question": "Can someone be moved if they signed up wrong?",
+    "answer": "If someone registered under another person they cannot be moved (we have a registered for life policy), but if they accidentally registered under the company, you can send an email to enrollerchange@diginu.com and request them to be moved but it must be within 7 days of that person registering.",
     "status": "published"
   }
 ]
