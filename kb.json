@@ -2,6 +2,12 @@
   {
     "id": "what-is-diginu",
     "question": "What is diginu?",
+    "aliases": [
+      "what does diginu do?",
+      "how can diginu help me?",
+      "tell me about diginu",
+      "explain diginu",
+    ],
     "answer": "diginu is an online food delivery app that not only has much cheaper rates but also offers you the opportunity to earn recurring commissions.",
     "status": "published"
   },
@@ -18,18 +24,29 @@
     ],
     "answer": "You can earn a few ways with diginu. You can earn from our delivery side(customers and merchants), our rewards programme (diginuCashBack) and our electric bikes (diginuEgo).",
     "status": "published"
-
   },
-  {
+    {
     "id": "What-is-diginuCashBack",
     "question": "What is diginuCashBack?",
+    "aliases": [
+      "explain diginuCashBack",
+      "whats the rewards program",
+      "what rewards do you get",
+      "explain diginuCashBack",
+    ],
     "answer": "diginuCashBack is our Rewards programme, where you can save everyday as well as create an income everytime the people that you referred pays their membership.",
     "status": "published"
   },
   {
     "id": "can-someone-be-moved",
     "question": "Can someone be moved if they signed up wrong?",
+    "aliases": [
+      "can someone be moved",
+      "what if they register under wrong person",
+      "can you change your upline?",
+      "how to change my upline",
+    ],
     "answer": "If someone registered under another person they cannot be moved (we have a registered for life policy), but if they accidentally registered under the company, you can send an email to enrollerchange@diginu.com and request them to be moved but it must be within 7 days of that person registering.",
     "status": "published"
-  }
-]
+  },
+
