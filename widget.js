@@ -1,3 +1,5 @@
+alert("Gini V6 JSON-ONLY");
+
 /* Gini Website Bot — widget.js (JSON-first, no Sheets) */
 (function(){
   function css(t){const s=document.createElement('style');s.textContent=t;document.head.appendChild(s);}
