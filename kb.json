@@ -47,7 +47,7 @@
     ],
     "answer": "If someone registered under another person they cannot be moved (we have a 'registered for life' policy). If they accidentally registered under the company, you can email enrollerchange@diginu.com to request a move, but it must be within 7 days of that person registering.",
     "status": "published"
-  }
+  },
   {
   "id": "cancel-cashback-debit",
   "question": "How do I cancel my diginuCashBack debit order?",
@@ -67,7 +67,7 @@
   ],
   "answer": "To cancel your <b>diginuCashBack debit order</b> and remove your banking details, you must email <b>cashback@diginu.com</b>. This cannot be done in your profile or app settings — all cancellations are processed by our support team via email. Be sure to include your full name, ID number, and registered phone number in your email so they can locate your account.",
   "status": "published"
-}
+},
 {
   "id": "ego-overview",
   "question": "What is diginuEgo?",
