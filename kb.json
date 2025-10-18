@@ -1,4 +1,14 @@
 [
-  {"id":"welcome","question":"What is Diginu?","answer":"Diginu helps entrepreneurs launch and grow businesses with guided programs, templates, and mentorship.","status":"published"},
-  {"id":"refund-policy","question":"What is your refund policy?","answer":"We offer a 14-day refund on unused services. Email wecare@diginu.com for help.","status":"published"}
+  {
+    "id": "welcome",
+    "question": "What is Diginu?",
+    "answer": "Diginu helps entrepreneurs launch and grow businesses with guided programs, templates, and mentorship.",
+    "status": "published"
+  },
+  {
+    "id": "refund-policy",
+    "question": "What is your refund policy?",
+    "answer": "We offer a 14-day refund on unused services for paid programs. Email wecare@diginu.com for help.",
+    "status": "published"
+  }
 ]
