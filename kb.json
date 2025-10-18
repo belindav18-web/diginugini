@@ -201,5 +201,38 @@
   "answer": "<p>Yes. From <b>2026</b>, diginu plans to roll out <b>battery swapping and charging stations</b> across the country, with solar and wind generation at many sites. This supports faster turnarounds and lower operating costs for riders and fleets.</p>",
   "status": "published"
 }
-
+{
+  "id": "diginupay-cash-withdrawal",
+  "question": "How do I withdraw cash from my diginuPay wallet?",
+  "aliases": [
+    "withdraw money from diginupay",
+    "how to cash out from diginupay",
+    "diginupay cash withdrawal",
+    "where can I withdraw diginupay money",
+    "diginupay atm withdrawal",
+    "cash out voucher diginupay",
+    "withdraw cash from wallet",
+    "diginupay mobiMoney voucher",
+    "nedbank voucher withdrawal"
+  ],
+  "answer": "<p>You can withdraw cash from your <b>diginuPay</b> wallet using a <b>cashout voucher</b> sent to your phone. Here’s how it works:</p><ul><li>Open your <b>diginuPay app</b> and request a <b>cash withdrawal</b></li><li>You will receive an <b>SMS with a Nedbank MobiMoney voucher code</b></li><li>Go to any supported store or ATM and use the voucher to withdraw cash</li></ul><p><b>Where you can withdraw:</b></p><ul><li>Nedbank ATMs</li><li>Checkers, Shoprite, Pick n Pay, OK, Usave, Boxer & House and Home</li><li>Kazang partner stores nationwide</li></ul><p>diginuPay is integrated with <b>Nedbank MobiMoney</b>, giving you thousands of withdrawal locations across South Africa for easy access.</p>",
+  "status": "published"
+}
+{
+  "id": "thankyou",
+  "question": "Thank you",
+  "aliases": [
+    "Thanks",
+    "tnx",
+    "Tu",
+    "sharp",
+    "dankie",
+    "baie dankie",
+    "dank",
+    "thank",
+    "thank u"
+  ],
+  "answer": "You are most welcome",
+  "status": "published"
+}
 ]
