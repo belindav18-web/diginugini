@@ -48,4 +48,158 @@
     "answer": "If someone registered under another person they cannot be moved (we have a 'registered for life' policy). If they accidentally registered under the company, you can email enrollerchange@diginu.com to request a move, but it must be within 7 days of that person registering.",
     "status": "published"
   }
+  {
+  "id": "cancel-cashback-debit",
+  "question": "How do I cancel my diginuCashBack debit order?",
+  "aliases": [
+    "how to cancel diginucashback debit",
+    "stop diginucashback debit order",
+    "cancel cashback subscription",
+    "remove my banking details from diginucashback",
+    "stop debit order",
+    "cancel debit order",
+    "how do i stop diginucashback payment",
+    "cancel diginucashback membership",
+    "cancel cashback debit",
+    "how do i remove my bank details from diginu",
+    "cancel diginu cashback debit",
+    "how do i cancel cashback debit order"
+  ],
+  "answer": "To cancel your <b>diginuCashBack debit order</b> and remove your banking details, you must email <b>cashback@diginu.com</b>. This cannot be done in your profile or app settings — all cancellations are processed by our support team via email. Be sure to include your full name, ID number, and registered phone number in your email so they can locate your account.",
+  "status": "published"
+}
+{
+  "id": "ego-overview",
+  "question": "What is diginuEgo?",
+  "aliases": [
+    "what is the ego bike",
+    "diginu ego overview",
+    "tell me about the diginuego bike",
+    "is the ego bike electric",
+    "diginu electric bike info",
+    "diginuEgo motorcycle details",
+    "ego product overview"
+  ],
+  "answer": "<p><b>diginuEgo</b> is an AI-powered electric motorbike designed for modern mobility in Africa. It pairs smart security and live tracking with practical daily performance, making it ideal for commuting, delivery work, and fleet use.</p><ul><li>Electric, mid-drive motor</li><li>Live tracking dashboard</li><li>Remote power-off (anti-theft)</li><li>Swappable lithium-ion batteries</li><li>Fleet management ready</li></ul><p>It’s built for reliability, affordability and real-world convenience.</p>",
+  "status": "published"
+},
+{
+  "id": "ego-features",
+  "question": "What are the key features of diginuEgo?",
+  "aliases": [
+    "diginuego features",
+    "ego bike main features",
+    "top features of diginu ego",
+    "what makes the ego bike special",
+    "ai features ego bike"
+  ],
+  "answer": "<ul><li><b>AI & Telematics:</b> live tracking dashboard for visibility and control</li><li><b>Remote Power-Off:</b> disable the bike remotely if stolen</li><li><b>Swappable Batteries:</b> keep riding by swapping packs (no long downtime)</li><li><b>Strong Braking:</b> front & rear <b>disc brakes (240mm)</b></li><li><b>Comfort & Handling:</b> upside-down front fork + rear monoshock</li><li><b>Built for Work:</b> fleet management functionality</li><li><b>Everyday Practicality:</b> suitable for commuting, school or work</li></ul>",
+  "status": "published"
+},
+{
+  "id": "ego-specs",
+  "question": "What are the technical specifications of diginuEgo?",
+  "aliases": [
+    "diginu ego technical specs",
+    "ego bike specifications",
+    "ego tech details",
+    "what are the specs of the ego bike",
+    "diginu ego dimensions and specs"
+  ],
+  "answer": "<ul><li><b>Brakes:</b> front & rear disc brakes (240mm)</li><li><b>Front Suspension:</b> upside-down (inverted) telescopic fork</li><li><b>Rear Suspension:</b> monoshock</li><li><b>Wheelbase:</b> 1350&nbsp;mm</li><li><b>Seat Height:</b> 815&nbsp;mm (rider)</li><li><b>Carrying Capacity:</b> up to 150&nbsp;kg</li><li><b>Motor:</b> mid-drive, 3000&nbsp;W</li><li><b>Battery:</b> lithium-ion, swappable</li><li><b>Pack Voltage:</b> 65–72&nbsp;V</li><li><b>Energy:</b> ~4.3&nbsp;kWh</li></ul>",
+  "status": "published"
+},
+{
+  "id": "ego-battery-range-charging",
+  "question": "What is the battery, range and charging time for diginuEgo?",
+  "aliases": [
+    "ego battery info",
+    "diginu ego range",
+    "how long to charge ego bike",
+    "diginu ego charging time",
+    "ego range per mode",
+    "ego battery capacity"
+  ],
+  "answer": "<ul><li><b>Battery:</b> lithium-ion, swappable packs</li><li><b>Charging:</b> ~80% in &lt; 3 hours, ~100% in &lt; 4.5 hours</li><li><b>Range (Eco):</b> ~105–120&nbsp;km*</li><li><b>Range (Normal):</b> ~75–90&nbsp;km*</li><li><b>Range (Sport):</b> ~65–70&nbsp;km*</li></ul><p><i>*Actual range varies with load, terrain and riding style.</i></p>",
+  "status": "published"
+},
+{
+  "id": "ego-price",
+  "question": "How much does the diginuEgo cost?",
+  "aliases": [
+    "diginu ego price",
+    "what is the price of the ego bike",
+    "ego bike cost",
+    "how much is diginu ego",
+    "ego motorcycle price south africa"
+  ],
+  "answer": "<p>The <b>diginuEgo</b> bike is priced at <b>R89,900 (incl. VAT)</b>. Licensing and admin fees are excluded.</p><p>Interested in ordering or a quote? <b><a href=\"mailto:wecare@diginu.com\">Contact us</a></b> and we’ll assist.</p>",
+  "status": "published"
+},
+{
+  "id": "ego-security",
+  "question": "Does the diginuEgo have anti-theft and tracking?",
+  "aliases": [
+    "ego remote shutdown",
+    "can ego be disabled if stolen",
+    "diginu ego gps tracking",
+    "ego security features",
+    "anti theft features ego bike"
+  ],
+  "answer": "<ul><li><b>Remote power-off:</b> disable the bike over the internet if stolen</li><li><b>Live tracking dashboard:</b> monitor location and status in real-time</li><li><b>Fleet visibility:</b> centralised oversight for multiple bikes</li></ul><p>These features are part of diginu’s focus on secure, reliable mobility.</p>",
+  "status": "published"
+},
+{
+  "id": "ego-videos",
+  "question": "Where can I see diginuEgo videos and demos?",
+  "aliases": [
+    "ego bike video",
+    "show me the screen panel",
+    "how to swap the battery video",
+    "ego demo video links",
+    "diginu ego youtube"
+  ],
+  "answer": "<ul><li><b>Bike screen / panel:</b> <a href=\"https://youtu.be/gh79U9_4ihg\" target=\"_blank\" rel=\"noopener\">https://youtu.be/gh79U9_4ihg</a></li><li><b>Battery swap demo:</b> <a href=\"https://youtu.be/EUOo8SXl6sU\" target=\"_blank\" rel=\"noopener\">https://youtu.be/EUOo8SXl6sU</a></li><li><b>How the bike looks:</b> <a href=\"https://youtu.be/NBtCJRi35jk\" target=\"_blank\" rel=\"noopener\">https://youtu.be/NBtCJRi35jk</a></li></ul>",
+  "status": "published"
+},
+{
+  "id": "ego-use-cases",
+  "question": "Is the diginuEgo good for delivery riders and commuting?",
+  "aliases": [
+    "ego for delivery work",
+    "is the ego practical for commuting",
+    "diginu ego daily use",
+    "ego bike for school or work",
+    "is ego suitable for couriers"
+  ],
+  "answer": "<p>Yes. diginuEgo is designed for daily use with low running costs and minimal downtime thanks to <b>swappable batteries</b>. The suspension, braking and mid-drive configuration support predictable handling in urban traffic.</p><p>For delivery teams, live tracking and remote control improve safety and operational oversight.</p>",
+  "status": "published"
+},
+{
+  "id": "ego-fleet",
+  "question": "Does the diginuEgo support fleet management?",
+  "aliases": [
+    "ego fleet management",
+    "manage multiple ego bikes",
+    "fleet dashboard for diginu ego",
+    "ego telematics",
+    "does ego integrate with fleet tools"
+  ],
+  "answer": "<p>Yes. The platform includes <b>fleet management functionality</b> with a live dashboard for location, usage and control. This helps teams optimise deployment, monitor security, and reduce downtime.</p>",
+  "status": "published"
+},
+{
+  "id": "ego-battery-swapping-stations",
+  "question": "Are there plans for battery swapping or charging stations?",
+  "aliases": [
+    "ego swapping stations",
+    "when will ego have battery swap stations",
+    "public charging for ego",
+    "diginu battery swap roadmap",
+    "ego future charging network"
+  ],
+  "answer": "<p>Yes. From <b>2026</b>, diginu plans to roll out <b>battery swapping and charging stations</b> across the country, with solar and wind generation at many sites. This supports faster turnarounds and lower operating costs for riders and fleets.</p>",
+  "status": "published"
+}
+
 ]
