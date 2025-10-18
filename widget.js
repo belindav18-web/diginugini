@@ -1,4 +1,4 @@
-/* Gini Website Bot — widget.js (JSON-only, no Sheets) */
+/* Gini Website Bot — widget.js (JSON-only, with logo in launcher) */
 (function(){
   // ---- tiny helpers ----
   function css(t){const s=document.createElement('style');s.textContent=t;document.head.appendChild(s);}
@@ -7,10 +7,25 @@
 
   // ---- styles ----
   css(`
-    .gini-launcher{position:fixed;bottom:20px;right:20px;z-index:2147483000;background:var(--gini-primary,#215C73);
-      color:#fff;border:none;border-radius:999px;padding:12px 16px;box-shadow:0 8px 24px rgba(0,0,0,.18);cursor:pointer;font:600 14px/1 system-ui}
-    .gini-panel{position:fixed;bottom:84px;right:20px;z-index:2147483001;width:380px;max-width:95vw;background:#fff;border-radius:16px;
-      overflow:hidden;box-shadow:0 16px 44px rgba(0,0,0,.22);border:2px solid var(--gini-accent,#00B0B9)}
+    .gini-launcher{
+      position:fixed;bottom:20px;right:20px;z-index:2147483000;
+      background:var(--gini-primary,#215C73);color:#fff;border:none;border-radius:999px;
+      padding:10px 14px;box-shadow:0 8px 24px rgba(0,0,0,.18);cursor:pointer;
+      font:600 14px/1 system-ui;display:flex;align-items:center;gap:10px;
+    }
+    .gini-launcher:hover{ filter:brightness(1.05) }
+    .gini-logo{
+      width:22px;height:22px;object-fit:cover;border-radius:999px;
+      background:#fff; /* white ring behind logo for contrast */
+      padding:2px;border:2px solid var(--gini-accent,#00B0B9);
+      box-sizing:content-box;
+    }
+    .gini-label{ display:inline-block; }
+    .gini-panel{
+      position:fixed;bottom:84px;right:20px;z-index:2147483001;width:380px;max-width:95vw;
+      background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 16px 44px rgba(0,0,0,.22);
+      border:2px solid var(--gini-accent,#00B0B9)
+    }
     .gini-head{background:var(--gini-primary,#215C73);color:#fff;padding:12px 14px;font:600 14px/1 system-ui;position:relative}
     .gini-close{position:absolute;top:8px;right:10px;background:transparent;border:none;color:#fff;font:700 18px/1 system-ui;cursor:pointer}
     .gini-body{padding:12px;height:420px;display:flex;flex-direction:column}
@@ -45,10 +60,25 @@
       document.documentElement.style.setProperty('--gini-primary', (config.theme?.primary)||'#215C73');
       document.documentElement.style.setProperty('--gini-accent',  (config.theme?.accents?.[0])||'#00B0B9');
 
-      // launcher
+      // launcher (logo + label "Gini")
       const launcher=document.createElement('button');
       launcher.className='gini-launcher';
-      launcher.textContent='Chat • Gini';
+      launcher.setAttribute('aria-label','Open Gini chat');
+
+      // logo URL: use config.logoUrl if provided, else default to your GitHub path
+      const defaultLogo = 'https://cdn.jsdelivr.net/gh/belindav18-web/diginugini@main/just%20the%20logo.jpeg';
+      const logoUrl = config.logoUrl || defaultLogo;
+
+      launcher.innerHTML = `
+        <img class="gini-logo" src="${logoUrl}" alt="" />
+        <span class="gini-label">Gini</span>
+      `;
+
+      // if logo fails, gracefully hide the img and keep text
+      launcher.querySelector('.gini-logo').addEventListener('error', function(){
+        this.style.display='none';
+      });
+
       document.body.appendChild(launcher);
 
       let kb=[], ready=false, loadErr=null;
@@ -118,7 +148,7 @@
         sendB.onclick = send;
       };
 
-      log('widget mounted ✅ (JSON-only)');
+      log('widget mounted ✅ (JSON-only, logo launcher)');
     }
   };
 })();
