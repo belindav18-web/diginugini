@@ -200,9 +200,8 @@
   ],
   "answer": "<p>Yes. From <b>2026</b>, diginu plans to roll out <b>battery swapping and charging stations</b> across the country, with solar and wind generation at many sites. This supports faster turnarounds and lower operating costs for riders and fleets.</p>",
   "status": "published"
-}
-  ,
-{
+},
+  {
   "id": "diginupay-cash-withdrawal",
   "question": "How do I withdraw cash from my diginuPay wallet?",
   "aliases": [
@@ -218,8 +217,7 @@
   ],
   "answer": "<p>You can withdraw cash from your <b>diginuPay</b> wallet using a <b>cashout voucher</b> sent to your phone. Here’s how it works:</p><ul><li>Open your <b>diginuPay app</b> and request a <b>cash withdrawal</b></li><li>You will receive an <b>SMS with a Nedbank MobiMoney voucher code</b></li><li>Go to any supported store or ATM and use the voucher to withdraw cash</li></ul><p><b>Where you can withdraw:</b></p><ul><li>Nedbank ATMs</li><li>Checkers, Shoprite, Pick n Pay, OK, Usave, Boxer & House and Home</li><li>Kazang partner stores nationwide</li></ul><p>diginuPay is integrated with <b>Nedbank MobiMoney</b>, giving you thousands of withdrawal locations across South Africa for easy access.</p>",
   "status": "published"
-}
-  ,
+},
 {
   "id": "thankyou",
   "question": "Thank you",
@@ -234,10 +232,9 @@
     "thank",
     "thank u"
   ],
-  "answer": "You are most welcome",
+  "answer": "You're most welcome! 😊",
   "status": "published"
-}
-  ,
+},
   {
   "id": "diginupay-withdrawal-fees",
   "question": "What are the fees for withdrawing cash from diginuPay?",
@@ -250,8 +247,7 @@
   ],
   "answer": "<p>Withdrawal fees depend on the withdrawal method and are shown <b>before you confirm</b> the cashout in the app. You’ll always see the fee and total amount you will receive.</p><ul><li>Generate a <b>Nedbank MobiMoney voucher</b> in your diginuPay app</li><li>Fees are clearly displayed at checkout</li><li>Some partner locations may show fees on the till/ATM screen</li></ul><p><i>Tip:</i> If something looks incorrect, cancel and try again or contact support.</p><p><b>Need help?</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-daily-limits",
   "question": "What are the daily withdrawal limits on diginuPay?",
@@ -264,8 +260,7 @@
   ],
   "answer": "<p>Withdrawal and transaction limits help protect your account and may vary based on your <b>verification (KYC)</b> status.</p><ul><li>Limits are shown at the point of withdrawal</li><li>Higher limits may require <b>ID verification</b></li><li>Multiple withdrawals per day are allowed within your limit</li></ul><p><i>Security note:</i> diginuPay may request extra verification to keep your funds safe.</p><p><b>Questions?</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-wallet-to-wallet",
   "question": "Can I transfer money wallet-to-wallet on diginuPay?",
@@ -278,8 +273,7 @@
   ],
   "answer": "<p>Yes, you can make instant <b>wallet-to-wallet</b> transfers to any diginuPay user.</p><ul><li>Open the app → <b>Transfer</b> → select/browse recipient</li><li>Confirm amount and reference</li><li>Recipient is notified instantly</li></ul><p><i>Security note:</i> Only send to people you trust and double-check the recipient details before confirming.</p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-transfer-to-bank",
   "question": "How do I transfer money from diginuPay to my bank account?",
@@ -292,8 +286,7 @@
   ],
   "answer": "<p>You can transfer to a South African bank account from within the app.</p><ul><li>Add or select your <b>bank beneficiary</b></li><li>Enter amount and confirm</li><li>Processing times vary by bank and method</li></ul><p><i>Security note:</i> For your protection, diginuPay may verify your identity before enabling bank transfers.</p><p><b>Need assistance?</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-receive-money",
   "question": "How do I receive money in my diginuPay wallet?",
@@ -306,8 +299,7 @@
   ],
   "answer": "<p>There are a few ways to receive money:</p><ul><li>Another user sends you a <b>wallet-to-wallet</b> transfer</li><li>You receive funds from a <b>merchant payout</b> or <b>commission</b></li><li>You deposit using any available top-up method in the app</li></ul><p>You’ll get a notification when funds land.</p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-supported-banks",
   "question": "Which banks and cards are supported by diginuPay?",
@@ -320,8 +312,7 @@
   ],
   "answer": "<p>diginuPay works with major South African banks for transfers and voucher cashouts via <b>Nedbank MobiMoney</b>. Card support and methods may vary by feature.</p><ul><li>Withdrawals: Nedbank ATMs and partner retailers via voucher</li><li>Transfers: to SA bank accounts (processing times may vary)</li><li>Cards/Instant EFT: availability shown in app during checkout</li></ul><p>Check your app for the latest supported options.</p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-voucher-sms-not-received",
   "question": "I didn’t receive my voucher SMS — what should I do?",
@@ -334,8 +325,7 @@
   ],
   "answer": "<p>If your <b>Nedbank MobiMoney voucher</b> SMS hasn’t arrived:</p><ul><li>Confirm your phone has signal and isn’t in Do Not Disturb</li><li>Check your number in <b>Profile</b> is correct</li><li>Wait a few minutes and try <b>resend</b> if available</li><li>If still missing, cancel and generate a new voucher</li></ul><p><i>Note:</i> Some networks can delay SMS delivery. If it persists, contact us with your attempted time and amount.</p><p><b>Support:</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-voucher-expired",
   "question": "My voucher expired — can I still withdraw?",
@@ -348,8 +338,7 @@
   ],
   "answer": "<p>Expired vouchers can’t be redeemed. Simply generate a <b>new voucher</b> in the app and use it at an eligible ATM or retailer.</p><ul><li>Check the <b>validity window</b> when you create the voucher</li><li>Only share codes with trusted cashiers</li></ul><p>If you’re unsure whether a voucher was used, contact support and we’ll help trace it.</p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-cash-withdrawal-failed",
   "question": "My cash withdrawal failed — how do I fix it?",
@@ -362,8 +351,7 @@
   ],
   "answer": "<p>Try these steps:</p><ul><li>Confirm the <b>voucher code</b> matches your SMS</li><li>Use a listed <b>Nedbank ATM</b> or supported retailer</li><li>Check you’re selecting <b>Nedbank MobiMoney</b> at the till/ATM</li><li>Ensure you’re within the voucher’s <b>validity</b> and your daily <b>limit</b></li></ul><p>If it still fails, note the time, store/ATM, and error message, then contact us.</p><p><b>Support:</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-update-bank-details",
   "question": "How do I update my bank details in diginuPay?",
@@ -376,8 +364,7 @@
   ],
   "answer": "<p>You can update your payout/bank details from your profile or payments section in the app.</p><ul><li>Open <b>Profile</b> → <b>Bank details</b></li><li>Edit account name/number/branch</li><li>Save and verify if prompted</li></ul><p><i>Security note:</i> For your protection, we may request <b>ID verification</b> when changing bank details.</p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-link-bank-account",
   "question": "How do I add or link a bank account to diginuPay?",
@@ -390,8 +377,7 @@
   ],
   "answer": "<p>To link a bank account for payouts:</p><ul><li>Go to <b>Profile → Bank details</b></li><li>Enter your bank, account number and branch info</li><li>Save and complete any verification steps</li></ul><p>Once linked, you can transfer from your wallet to your bank.</p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-deposit-into-wallet",
   "question": "How do I deposit money into my diginuPay wallet?",
@@ -404,8 +390,7 @@
   ],
   "answer": "<p>Open your app and choose a <b>top-up</b> option available to you. Methods may include card, EFT, or other providers displayed in-app.</p><ul><li>Choose your method and amount</li><li>Follow the prompts to complete payment</li><li>We’ll notify you when funds arrive</li></ul><p><i>Note:</i> Processing times vary by method.</p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-pending-payments",
   "question": "Why is my payment pending in diginuPay?",
@@ -418,8 +403,7 @@
   ],
   "answer": "<p><b>Pending</b> means your payment is still being processed by the bank or provider. This is normal for EFT and some card methods.</p><ul><li>Most pendings resolve automatically</li><li>Times vary by bank/weekend/public holidays</li><li>If it exceeds the usual window, contact support with your reference</li></ul>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-reversals-refunds",
   "question": "How do reversals and refunds work on diginuPay?",
@@ -432,8 +416,7 @@
   ],
   "answer": "<p>Refunds and reversals depend on the original payment method and provider rules.</p><ul><li>In-app transfers are usually <b>final</b></li><li>Card/EFT payments may require a provider dispute</li><li>We’ll help investigate if funds didn’t arrive or were duplicated</li></ul><p>Start by sharing the date, amount and reference with support.</p><p><b>Contact:</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
   "status": "published"
-}
-,
+},
 {
   "id": "diginupay-account-locked-flagged",
   "question": "Why is my diginuPay account locked or flagged?",
