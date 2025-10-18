@@ -26,8 +26,8 @@
       background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 16px 44px rgba(0,0,0,.22);
       border:2px solid var(--gini-accent,#00B0B9)
     }
-    .gini-head{background:var(--gini-primary,#215C73);color:#fff;padding:12px 14px;font:600 14px/1 system-ui;position:relative}
-    .gini-close{position:absolute;top:8px;right:10px;background:transparent;border:none;color:#fff;font:700 18px/1 system-ui;cursor:pointer}
+    .gini-head{background:var(--gini-primary,#215C73);color:#fff;padding:12px 14px;font:800 16px/1 system-ui;position:relative}
+    .gini-close{position:absolute;top:8px;right:10px;background:#215C73;border:none;color:#fff;font:700 18px/1 system-ui;cursor:pointer}
     .gini-body{padding:12px;height:420px;display:flex;flex-direction:column}
     .gini-msgs{flex:1 1 auto;overflow:auto;display:flex;flex-direction:column;gap:10px}
     .gini-msg{max-width:85%;padding:10px 12px;border-radius:12px;font:14px/1.4 system-ui}
