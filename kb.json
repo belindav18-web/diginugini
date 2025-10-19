@@ -1,664 +1,998 @@
-[
-  {
-    "id": "what-is-diginu",
-    "question": "What is diginu?",
-    "aliases": [
-      "what does diginu do?",
-      "how can diginu help me?",
-      "tell me about diginu",
-      "explain diginu"
-    ],
-    "answer": "diginu is an online food delivery app that not only has much cheaper rates but also offers you the opportunity to earn recurring commissions.",
-    "status": "published"
-  },
-  {
-    "id": "earn",
-    "question": "How do I earn with diginu?",
-    "aliases": [
-      "how can i earn?",
-      "how can i earn with diginu?",
-      "can i earn?",
-      "ways to earn with diginu",
-      "how to make money",
-      "how do i make money"
-    ],
-    "answer": "You can earn a few ways with diginu. You can earn from our delivery side (customers and merchants), our rewards programme (diginuCashBack) and our electric bikes (diginuEgo).",
-    "status": "published"
-  },
-  {
-    "id": "what-is-diginucashback",
-    "question": "What is diginuCashBack?",
-    "aliases": [
-      "explain diginucashback",
-      "whats the rewards program",
-      "what is cashback",
-      "cashback?",
-      "diginucashback?",
-      "what rewards do you get"
-    ],
-    "answer": "diginuCashBack is our rewards programme, where you can save every day as well as create an income every time the people that you referred pay their membership.",
-    "status": "published"
-  },
-  {
-    "id": "can-someone-be-moved",
-    "question": "Can someone be moved if they signed up wrong?",
-    "aliases": [
-      "can someone be moved",
-      "what if they register under wrong person",
-      "can you change your upline?",
-      "how to change my upline"
-    ],
-    "answer": "If someone registered under another person they cannot be moved (we have a 'registered for life' policy). If they accidentally registered under the company, you can email enrollerchange@diginu.com to request a move, but it must be within 7 days of that person registering.",
-    "status": "published"
-  },
-  {
-  "id": "cancel-cashback-debit",
-  "question": "How do I cancel my diginuCashBack debit order?",
-  "aliases": [
-    "how to cancel diginucashback debit",
-    "stop diginucashback debit order",
-    "cancel cashback subscription",
-    "remove my banking details from diginucashback",
-    "stop debit order",
-    "cancel debit order",
-    "how do i stop diginucashback payment",
-    "cancel diginucashback membership",
-    "cancel cashback debit",
-    "how do i remove my bank details from diginu",
-    "cancel diginu cashback debit",
-    "how do i cancel cashback debit order"
-  ],
-  "answer": "To cancel your <b>diginuCashBack debit order</b> and remove your banking details, you must email <b>cashback@diginu.com</b>. This cannot be done in your profile or app settings — all cancellations are processed by our support team via email. Be sure to include your full name, ID number, and registered phone number in your email so they can locate your account.",
-  "status": "published"
-},
 {
-  "id": "ego-overview",
-  "question": "What is diginuEgo?",
-  "aliases": [
-    "what is the ego bike",
-    "diginu ego overview",
-    "tell me about the diginuego bike",
-    "is the ego bike electric",
-    "diginu electric bike info",
-    "diginuEgo motorcycle details",
-    "ego product overview"
-  ],
-  "answer": "<p><b>diginuEgo</b> is an AI-powered electric motorbike designed for modern mobility in Africa. It pairs smart security and live tracking with practical daily performance, making it ideal for commuting, delivery work, and fleet use.</p><ul><li>Electric, mid-drive motor</li><li>Live tracking dashboard</li><li>Remote power-off (anti-theft)</li><li>Swappable lithium-ion batteries</li><li>Fleet management ready</li></ul><p>It’s built for reliability, affordability and real-world convenience.</p>",
-  "status": "published"
-},
-{
-  "id": "ego-features",
-  "question": "What are the key features of diginuEgo?",
-  "aliases": [
-    "diginuego features",
-    "ego bike main features",
-    "top features of diginu ego",
-    "what makes the ego bike special",
-    "ai features ego bike"
-  ],
-  "answer": "<ul><li><b>AI & Telematics:</b> live tracking dashboard for visibility and control</li><li><b>Remote Power-Off:</b> disable the bike remotely if stolen</li><li><b>Swappable Batteries:</b> keep riding by swapping packs (no long downtime)</li><li><b>Strong Braking:</b> front & rear <b>disc brakes (240mm)</b></li><li><b>Comfort & Handling:</b> upside-down front fork + rear monoshock</li><li><b>Built for Work:</b> fleet management functionality</li><li><b>Everyday Practicality:</b> suitable for commuting, school or work</li></ul>",
-  "status": "published"
-},
-{
-  "id": "ego-specs",
-  "question": "What are the technical specifications of diginuEgo?",
-  "aliases": [
-    "diginu ego technical specs",
-    "ego bike specifications",
-    "ego tech details",
-    "what are the specs of the ego bike",
-    "diginu ego dimensions and specs"
-  ],
-  "answer": "<ul><li><b>Brakes:</b> front & rear disc brakes (240mm)</li><li><b>Front Suspension:</b> upside-down (inverted) telescopic fork</li><li><b>Rear Suspension:</b> monoshock</li><li><b>Wheelbase:</b> 1350&nbsp;mm</li><li><b>Seat Height:</b> 815&nbsp;mm (rider)</li><li><b>Carrying Capacity:</b> up to 150&nbsp;kg</li><li><b>Motor:</b> mid-drive, 3000&nbsp;W</li><li><b>Battery:</b> lithium-ion, swappable</li><li><b>Pack Voltage:</b> 65–72&nbsp;V</li><li><b>Energy:</b> ~4.3&nbsp;kWh</li></ul>",
-  "status": "published"
-},
-{
-  "id": "ego-battery-range-charging",
-  "question": "What is the battery, range and charging time for diginuEgo?",
-  "aliases": [
-    "ego battery info",
-    "diginu ego range",
-    "how long to charge ego bike",
-    "diginu ego charging time",
-    "ego range per mode",
-    "ego battery capacity"
-  ],
-  "answer": "<ul><li><b>Battery:</b> lithium-ion, swappable packs</li><li><b>Charging:</b> ~80% in &lt; 3 hours, ~100% in &lt; 4.5 hours</li><li><b>Range (Eco):</b> ~105–120&nbsp;km*</li><li><b>Range (Normal):</b> ~75–90&nbsp;km*</li><li><b>Range (Sport):</b> ~65–70&nbsp;km*</li></ul><p><i>*Actual range varies with load, terrain and riding style.</i></p>",
-  "status": "published"
-},
-{
-  "id": "ego-price",
-  "question": "How much does the diginuEgo cost?",
-  "aliases": [
-    "diginu ego price",
-    "what is the price of the ego bike",
-    "ego bike cost",
-    "how much is diginu ego",
-    "ego motorcycle price south africa"
-  ],
-  "answer": "<p>The <b>diginuEgo</b> bike is priced at <b>R89,900 (incl. VAT)</b>. Licensing and admin fees are excluded.</p><p>Interested in ordering or a quote? <b><a href=\"mailto:wecare@diginu.com\">Contact us</a></b> and we’ll assist.</p>",
-  "status": "published"
-},
-{
-  "id": "ego-security",
-  "question": "Does the diginuEgo have anti-theft and tracking?",
-  "aliases": [
-    "ego remote shutdown",
-    "can ego be disabled if stolen",
-    "diginu ego gps tracking",
-    "ego security features",
-    "anti theft features ego bike"
-  ],
-  "answer": "<ul><li><b>Remote power-off:</b> disable the bike over the internet if stolen</li><li><b>Live tracking dashboard:</b> monitor location and status in real-time</li><li><b>Fleet visibility:</b> centralised oversight for multiple bikes</li></ul><p>These features are part of diginu’s focus on secure, reliable mobility.</p>",
-  "status": "published"
-},
-{
-  "id": "ego-videos",
-  "question": "Where can I see diginuEgo videos and demos?",
-  "aliases": [
-    "ego bike video",
-    "show me the screen panel",
-    "how to swap the battery video",
-    "ego demo video links",
-    "diginu ego youtube"
-  ],
-  "answer": "<ul><li><b>Bike screen / panel:</b> <a href=\"https://youtu.be/gh79U9_4ihg\" target=\"_blank\" rel=\"noopener\">https://youtu.be/gh79U9_4ihg</a></li><li><b>Battery swap demo:</b> <a href=\"https://youtu.be/EUOo8SXl6sU\" target=\"_blank\" rel=\"noopener\">https://youtu.be/EUOo8SXl6sU</a></li><li><b>How the bike looks:</b> <a href=\"https://youtu.be/NBtCJRi35jk\" target=\"_blank\" rel=\"noopener\">https://youtu.be/NBtCJRi35jk</a></li></ul>",
-  "status": "published"
-},
-{
-  "id": "ego-use-cases",
-  "question": "Is the diginuEgo good for delivery riders and commuting?",
-  "aliases": [
-    "ego for delivery work",
-    "is the ego practical for commuting",
-    "diginu ego daily use",
-    "ego bike for school or work",
-    "is ego suitable for couriers"
-  ],
-  "answer": "<p>Yes. diginuEgo is designed for daily use with low running costs and minimal downtime thanks to <b>swappable batteries</b>. The suspension, braking and mid-drive configuration support predictable handling in urban traffic.</p><p>For delivery teams, live tracking and remote control improve safety and operational oversight.</p>",
-  "status": "published"
-},
-{
-  "id": "ego-fleet",
-  "question": "Does the diginuEgo support fleet management?",
-  "aliases": [
-    "ego fleet management",
-    "manage multiple ego bikes",
-    "fleet dashboard for diginu ego",
-    "ego telematics",
-    "does ego integrate with fleet tools"
-  ],
-  "answer": "<p>Yes. The platform includes <b>fleet management functionality</b> with a live dashboard for location, usage and control. This helps teams optimise deployment, monitor security, and reduce downtime.</p>",
-  "status": "published"
-},
-{
-  "id": "ego-battery-swapping-stations",
-  "question": "Are there plans for battery swapping or charging stations?",
-  "aliases": [
-    "ego swapping stations",
-    "when will ego have battery swap stations",
-    "public charging for ego",
-    "diginu battery swap roadmap",
-    "ego future charging network"
-  ],
-  "answer": "<p>Yes. From <b>2026</b>, diginu plans to roll out <b>battery swapping and charging stations</b> across the country, with solar and wind generation at many sites. This supports faster turnarounds and lower operating costs for riders and fleets.</p>",
-  "status": "published"
-},
-  {
-  "id": "diginupay-cash-withdrawal",
-  "question": "How do I withdraw cash from my diginuPay wallet?",
-  "aliases": [
-    "withdraw money from diginupay",
-    "how to cash out from diginupay",
-    "diginupay cash withdrawal",
-    "where can I withdraw diginupay money",
-    "diginupay atm withdrawal",
-    "cash out voucher diginupay",
-    "withdraw cash from wallet",
-    "diginupay mobiMoney voucher",
-    "nedbank voucher withdrawal"
-  ],
-  "answer": "<p>You can withdraw cash from your <b>diginuPay</b> wallet using a <b>cashout voucher</b> sent to your phone. Here’s how it works:</p><ul><li>Open your <b>diginuPay app</b> and request a <b>cash withdrawal</b></li><li>You will receive an <b>SMS with a Nedbank MobiMoney voucher code</b></li><li>Go to any supported store or ATM and use the voucher to withdraw cash</li></ul><p><b>Where you can withdraw:</b></p><ul><li>Nedbank ATMs</li><li>Checkers, Shoprite, Pick n Pay, OK, Usave, Boxer & House and Home</li><li>Kazang partner stores nationwide</li></ul><p>diginuPay is integrated with <b>Nedbank MobiMoney</b>, giving you thousands of withdrawal locations across South Africa for easy access.</p>",
-  "status": "published"
-},
-{
-  "id": "thankyou",
-  "question": "Thank you",
-  "aliases": [
-    "Thanks",
-    "thanks",
-    "tnx",
-    "Tu",
-    "sharp",
-    "dankie",
-    "baie dankie",
-    "dank",
-    "thank",
-    "thank u"
-  ],
-  "answer": "You're most welcome! 😊",
-  "status": "published"
-},
-  {
-  "id": "diginupay-withdrawal-fees",
-  "question": "What are the fees for withdrawing cash from diginuPay?",
-  "aliases": [
-    "diginupay cash withdrawal fees",
-    "how much does it cost to withdraw",
-    "withdrawal charges wallet",
-    "atm voucher fee diginupay",
-    "cash out cost"
-  ],
-  "answer": "<p>Withdrawal fees depend on the withdrawal method and are shown <b>before you confirm</b> the cashout in the app. You’ll always see the fee and total amount you will receive.</p><ul><li>Generate a <b>Nedbank MobiMoney voucher</b> in your diginuPay app</li><li>Fees are clearly displayed at checkout</li><li>Some partner locations may show fees on the till/ATM screen</li></ul><p><i>Tip:</i> If something looks incorrect, cancel and try again or contact support.</p><p><b>Need help?</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-daily-limits",
-  "question": "What are the daily withdrawal limits on diginuPay?",
-  "aliases": [
-    "diginupay daily limits",
-    "how much can i withdraw per day",
-    "cash out limits wallet",
-    "voucher withdrawal limits",
-    "daily limit diginupay"
-  ],
-  "answer": "<p>Withdrawal and transaction limits help protect your account and may vary based on your <b>verification (KYC)</b> status.</p><ul><li>Limits are shown at the point of withdrawal</li><li>Higher limits may require <b>ID verification</b></li><li>Multiple withdrawals per day are allowed within your limit</li></ul><p><i>Security note:</i> diginuPay may request extra verification to keep your funds safe.</p><p><b>Questions?</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-wallet-to-wallet",
-  "question": "Can I transfer money wallet-to-wallet on diginuPay?",
-  "aliases": [
-    "send money to another diginupay user",
-    "wallet transfer diginupay",
-    "pay another user in app",
-    "wallet to wallet payment",
-    "transfer to friend diginupay"
-  ],
-  "answer": "<p>Yes, you can make instant <b>wallet-to-wallet</b> transfers to any diginuPay user.</p><ul><li>Open the app → <b>Transfer</b> → select/browse recipient</li><li>Confirm amount and reference</li><li>Recipient is notified instantly</li></ul><p><i>Security note:</i> Only send to people you trust and double-check the recipient details before confirming.</p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-transfer-to-bank",
-  "question": "How do I transfer money from diginuPay to my bank account?",
-  "aliases": [
-    "withdraw to bank account",
-    "eft from diginupay",
-    "send money to bank",
-    "transfer funds to bank",
-    "payout to bank account"
-  ],
-  "answer": "<p>You can transfer to a South African bank account from within the app.</p><ul><li>Add or select your <b>bank beneficiary</b></li><li>Enter amount and confirm</li><li>Processing times vary by bank and method</li></ul><p><i>Security note:</i> For your protection, diginuPay may verify your identity before enabling bank transfers.</p><p><b>Need assistance?</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-receive-money",
-  "question": "How do I receive money in my diginuPay wallet?",
-  "aliases": [
-    "how can someone send me money",
-    "receive funds in wallet",
-    "top up from someone",
-    "incoming payment diginupay",
-    "get paid to my wallet"
-  ],
-  "answer": "<p>There are a few ways to receive money:</p><ul><li>Another user sends you a <b>wallet-to-wallet</b> transfer</li><li>You receive funds from a <b>merchant payout</b> or <b>commission</b></li><li>You deposit using any available top-up method in the app</li></ul><p>You’ll get a notification when funds land.</p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-supported-banks",
-  "question": "Which banks and cards are supported by diginuPay?",
-  "aliases": [
-    "supported banks diginupay",
-    "which cards can i use",
-    "can i use nedbank capitec fnb",
-    "bank compatibility diginupay",
-    "does my bank work with diginupay"
-  ],
-  "answer": "<p>diginuPay works with major South African banks for transfers and voucher cashouts via <b>Nedbank MobiMoney</b>. Card support and methods may vary by feature.</p><ul><li>Withdrawals: Nedbank ATMs and partner retailers via voucher</li><li>Transfers: to SA bank accounts (processing times may vary)</li><li>Cards/Instant EFT: availability shown in app during checkout</li></ul><p>Check your app for the latest supported options.</p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-voucher-sms-not-received",
-  "question": "I didn’t receive my voucher SMS — what should I do?",
-  "aliases": [
-    "voucher sms delay",
-    "no voucher code received",
-    "didn't get cashout code",
-    "sms not coming through",
-    "where is my voucher"
-  ],
-  "answer": "<p>If your <b>Nedbank MobiMoney voucher</b> SMS hasn’t arrived:</p><ul><li>Confirm your phone has signal and isn’t in Do Not Disturb</li><li>Check your number in <b>Profile</b> is correct</li><li>Wait a few minutes and try <b>resend</b> if available</li><li>If still missing, cancel and generate a new voucher</li></ul><p><i>Note:</i> Some networks can delay SMS delivery. If it persists, contact us with your attempted time and amount.</p><p><b>Support:</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-voucher-expired",
-  "question": "My voucher expired — can I still withdraw?",
-  "aliases": [
-    "voucher expired what now",
-    "cashout code expired",
-    "expired voucher diginupay",
-    "voucher time limit",
-    "how long is voucher valid"
-  ],
-  "answer": "<p>Expired vouchers can’t be redeemed. Simply generate a <b>new voucher</b> in the app and use it at an eligible ATM or retailer.</p><ul><li>Check the <b>validity window</b> when you create the voucher</li><li>Only share codes with trusted cashiers</li></ul><p>If you’re unsure whether a voucher was used, contact support and we’ll help trace it.</p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-cash-withdrawal-failed",
-  "question": "My cash withdrawal failed — how do I fix it?",
-  "aliases": [
-    "withdrawal failed at atm",
-    "voucher not working at store",
-    "cashout declined",
-    "cash withdrawal issue",
-    "mobiMoney error"
-  ],
-  "answer": "<p>Try these steps:</p><ul><li>Confirm the <b>voucher code</b> matches your SMS</li><li>Use a listed <b>Nedbank ATM</b> or supported retailer</li><li>Check you’re selecting <b>Nedbank MobiMoney</b> at the till/ATM</li><li>Ensure you’re within the voucher’s <b>validity</b> and your daily <b>limit</b></li></ul><p>If it still fails, note the time, store/ATM, and error message, then contact us.</p><p><b>Support:</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-update-bank-details",
-  "question": "How do I update my bank details in diginuPay?",
-  "aliases": [
-    "change my bank account",
-    "update payout details",
-    "edit bank info",
-    "bank details change",
-    "update beneficiary"
-  ],
-  "answer": "<p>You can update your payout/bank details from your profile or payments section in the app.</p><ul><li>Open <b>Profile</b> → <b>Bank details</b></li><li>Edit account name/number/branch</li><li>Save and verify if prompted</li></ul><p><i>Security note:</i> For your protection, we may request <b>ID verification</b> when changing bank details.</p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-link-bank-account",
-  "question": "How do I add or link a bank account to diginuPay?",
-  "aliases": [
-    "link my bank",
-    "add new bank account",
-    "set up bank beneficiary",
-    "add bank details",
-    "how to link account"
-  ],
-  "answer": "<p>To link a bank account for payouts:</p><ul><li>Go to <b>Profile → Bank details</b></li><li>Enter your bank, account number and branch info</li><li>Save and complete any verification steps</li></ul><p>Once linked, you can transfer from your wallet to your bank.</p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-deposit-into-wallet",
-  "question": "How do I deposit money into my diginuPay wallet?",
-  "aliases": [
-    "top up my wallet",
-    "add funds to wallet",
-    "deposit to diginupay",
-    "load money diginupay",
-    "how to fund my wallet"
-  ],
-  "answer": "<p>Open your app and choose a <b>top-up</b> option available to you. Methods may include card, EFT, or other providers displayed in-app.</p><ul><li>Choose your method and amount</li><li>Follow the prompts to complete payment</li><li>We’ll notify you when funds arrive</li></ul><p><i>Note:</i> Processing times vary by method.</p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-pending-payments",
-  "question": "Why is my payment pending in diginuPay?",
-  "aliases": [
-    "payment pending explanation",
-    "why is my transaction still pending",
-    "delay in payment",
-    "processing payment diginupay",
-    "eft pending wallet"
-  ],
-  "answer": "<p><b>Pending</b> means your payment is still being processed by the bank or provider. This is normal for EFT and some card methods.</p><ul><li>Most pendings resolve automatically</li><li>Times vary by bank/weekend/public holidays</li><li>If it exceeds the usual window, contact support with your reference</li></ul>",
-  "status": "published"
-},
-{
-  "id": "diginupay-reversals-refunds",
-  "question": "How do reversals and refunds work on diginuPay?",
-  "aliases": [
-    "refund request diginupay",
-    "reverse a payment",
-    "chargeback wallet",
-    "transaction reversal",
-    "get my money back"
-  ],
-  "answer": "<p>Refunds and reversals depend on the original payment method and provider rules.</p><ul><li>In-app transfers are usually <b>final</b></li><li>Card/EFT payments may require a provider dispute</li><li>We’ll help investigate if funds didn’t arrive or were duplicated</li></ul><p>Start by sharing the date, amount and reference with support.</p><p><b>Contact:</b> <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a></p>",
-  "status": "published"
-},
-{
-  "id": "diginupay-account-locked-flagged",
-  "question": "Why is my diginuPay account locked or flagged?",
-  "aliases": [
-    "my account is locked",
-    "restricted wallet",
-    "can’t transact diginupay",
-    "compliance hold",
-    "kyc issue wallet"
-  ],
-  "answer": "<p>Accounts can be temporarily restricted for <b>security</b> or <b>compliance</b> reasons (e.g., unusual activity, incorrect details, or pending KYC checks).</p><ul><li>Check your email/app notifications for instructions</li><li>Complete any requested <b>ID verification</b></li><li>Contact support if you need help resolving it</li></ul><p>These checks help keep your money safe and prevent fraud.</p>",
-  "status": "published"
-},
-  {
-    "id": "policies-and-terms-overview",
-    "question": "Where can I find diginu’s Privacy Policy and Terms?",
-    "aliases": [
-      "where are your policies",
-      "policies and terms links",
-      "privacy policy and terms",
-      "terms and conditions link",
-      "merchant terms link",
-      "customer terms link",
-      "diginu policies",
-      "legal documents diginu",
-      "where to read your legal terms"
-    ],
-    "answer": "<p>You can read all diginu legal documents on our website:</p><ul><li><b>Privacy Policy:</b> <a href=\"https://diginu.com/privacy\" target=\"_blank\" rel=\"noopener\">diginu.com/privacy</a></li><li><b>Customer Terms & Conditions:</b> <a href=\"https://diginu.com/terms\" target=\"_blank\" rel=\"noopener\">diginu.com/terms</a></li><li><b>Merchant Terms & Conditions:</b> <a href=\"https://diginu.com/vendor-terms\" target=\"_blank\" rel=\"noopener\">diginu.com/vendor-terms</a></li></ul><p>These pages explain how we handle data, customer use, and merchant responsibilities.</p>",
-    "status": "published"
-  },
-  {
-    "id": "privacy-policy-link",
-    "question": "Where is diginu’s Privacy Policy?",
-    "aliases": [
-      "privacy policy",
-      "data privacy policy",
-      "how do you handle my data",
-      "privacy statement link",
-      "diginu privacy link"
-    ],
-    "answer": "<p>Our Privacy Policy is available here:</p><ul><li><a href=\"https://diginu.com/privacy\" target=\"_blank\" rel=\"noopener\">https://diginu.com/privacy</a></li></ul><p>It explains what data we collect, how it’s used, and your rights.</p>",
-    "status": "published"
-  },
-  {
-    "id": "customer-terms-link",
-    "question": "Where are the Customer Terms and Conditions?",
-    "aliases": [
-      "customer terms",
-      "customer t&cs",
-      "terms and conditions customers",
-      "app terms",
-      "user terms diginu"
-    ],
-    "answer": "<p>You can read the Customer Terms & Conditions here:</p><ul><li><a href=\"https://diginu.com/terms\" target=\"_blank\" rel=\"noopener\">https://diginu.com/terms</a></li></ul><p>This page covers customer use of the diginu app and services.</p>",
-    "status": "published"
-  },
-  {
-    "id": "merchant-terms-link",
-    "question": "Where are the Merchant Terms and Conditions?",
-    "aliases": [
-      "merchant terms",
-      "vendor terms",
-      "merchant t&cs",
-      "restaurant terms diginu",
-      "store terms diginu"
-    ],
-    "answer": "<p>Merchant Terms & Conditions are available here:</p><ul><li><a href=\"https://diginu.com/vendor-terms\" target=\"_blank\" rel=\"noopener\">https://diginu.com/vendor-terms</a></li></ul><p>They outline partner/merchant obligations, payouts, and platform policies.</p>",
-    "status": "published"
-  },
-   {
+  "generated": "2025-10-19",
+  "source": "diginu-kb-cleaned",
+  "items": [
+    {
+      "id": "what-is-diginu",
+      "question": "What is diginu?",
+      "aliases": [
+        "Explain Diginu",
+        "How Can Diginu Help Me?",
+        "tell me about diginu",
+        "what does Diginu do?"
+      ],
+      "answer": "diginu is an online food delivery app that not only has much cheaper rates but also offers you the opportunity to earn recurring commissions.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "earn",
+      "question": "How do I earn with diginu?",
+      "aliases": [
+        "How To Make Money",
+        "Ways To Earn With Diginu",
+        "can i earn",
+        "how can i earn",
+        "how can i earn with diginu?",
+        "how do i make money"
+      ],
+      "answer": "You can earn a few ways with diginu. You can earn from our delivery side (customers and merchants), our rewards programme (diginuCashBack) and our electric bikes (diginuEgo).",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "what-is-diginucashback",
+      "question": "What is diginuCashBack?",
+      "aliases": [
+        "Cashback?",
+        "Explain Diginucashback",
+        "Whats The Rewards Program",
+        "diginucashback",
+        "what is cashback",
+        "what rewards do you get"
+      ],
+      "answer": "diginuCashBack is our rewards programme, where you can save every day as well as create an income every time the people that you referred pay their membership.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "can-someone-be-moved",
+      "question": "Can someone be moved if they signed up wrong?",
+      "aliases": [
+        "Can Someone Be Moved",
+        "How To Change My Upline",
+        "can you change your upline?",
+        "what if they register under wrong person"
+      ],
+      "answer": "If someone registered under another person they cannot be moved (we have a 'registered for life' policy). If they accidentally registered under the company, you can email enrollerchange@diginu.com to request a move, but it must be within 7 days of that person registering.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "cancel-cashback-debit",
+      "question": "How do I cancel my diginuCashBack debit order?",
+      "aliases": [
+        "How To Cancel Diginucashback Debit",
+        "Remove My Banking Details From Diginucashback",
+        "cancel cashback debit",
+        "cancel cashback subscription",
+        "cancel debit order",
+        "cancel diginu cashback debit",
+        "cancel diginuCashBack membership",
+        "how do i cancel cashback debit order",
+        "how do i remove my bank details from diginu",
+        "how do i stop diginucashback payment",
+        "stop debit order",
+        "stop diginucashback debit order"
+      ],
+      "answer": "To cancel your diginuCashBack debit order and remove your banking details, you must email cashback@diginu.com . This cannot be done in your profile or app settings — all cancellations are processed by our support team via email. Be sure to include your full name, ID number, and registered phone number in your email so they can locate your account.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-overview",
+      "question": "What is diginuEgo?",
+      "aliases": [
+        "Diginu Ego Overview",
+        "Ego Product Overview",
+        "What Is The Ego Bike",
+        "diginu electric bike info",
+        "diginuego motorcycle details",
+        "is the ego bike electric",
+        "tell me about the diginuEgo bike"
+      ],
+      "answer": "diginuEgo is an AI-powered electric motorbike designed for modern mobility in Africa. It pairs smart security and live tracking with practical daily performance, making it ideal for commuting, delivery work, and fleet use. Electric, mid-drive motor Live tracking dashboard Remote power-off (anti-theft) Swappable lithium-ion batteries Fleet management ready It’s built for reliability, affordability and real-world convenience.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-features",
+      "question": "What are the key features of diginuEgo?",
+      "aliases": [
+        "Ai Features Ego Bike",
+        "Diginuego Features",
+        "Ego Bike Main Features",
+        "Top Features Of Diginu Ego",
+        "What Makes The Ego Bike Special"
+      ],
+      "answer": "AI & Telematics: live tracking dashboard for visibility and control Remote Power-Off: disable the bike remotely if stolen Swappable Batteries: keep riding by swapping packs (no long downtime) Strong Braking: front & rear disc brakes (240mm) Comfort & Handling: upside-down front fork + rear monoshock Built for Work: fleet management functionality Everyday Practicality: suitable for commuting, school or work",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-specs",
+      "question": "What are the technical specifications of diginuEgo?",
+      "aliases": [
+        "Diginu Ego Technical Specs",
+        "Diginu ego dimensions and specs",
+        "Ego Bike Specifications",
+        "Ego Tech Details",
+        "what are the specs of the ego bike"
+      ],
+      "answer": "Brakes: front & rear disc brakes (240mm) Front Suspension: upside-down (inverted) telescopic fork Rear Suspension: monoshock Wheelbase: 1350 mm Seat Height: 815 mm (rider) Carrying Capacity: up to 150 kg Motor: mid-drive, 3000 W Battery: lithium-ion, swappable Pack Voltage: 65–72 V Energy: ~4.3 kWh",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-battery-range-charging",
+      "question": "What is the battery, range and charging time for diginuEgo?",
+      "aliases": [
+        "Diginu Ego Charging Time",
+        "Ego Battery Capacity",
+        "Ego Range Per Mode",
+        "How Long To Charge Ego Bike",
+        "What is the battery range and charging time for diginuEgo",
+        "diginu ego range",
+        "ego battery info"
+      ],
+      "answer": "Battery: lithium-ion, swappable packs Charging: ~80% in Range (Eco): ~105–120 km* Range (Normal): ~75–90 km* Range (Sport): ~65–70 km* *Actual range varies with load, terrain and riding style.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-price",
+      "question": "How much does the diginuEgo cost?",
+      "aliases": [
+        "diginu ego price",
+        "ego bike cost",
+        "ego motorcycle price south africa",
+        "how much is diginu ego",
+        "what is the price of the ego bike"
+      ],
+      "answer": "The diginuEgo bike is priced at R89,900 (incl. VAT) . Licensing and admin fees are excluded. Interested in ordering or a quote? Contact us and we’ll assist.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-security",
+      "question": "Does the diginuEgo have anti-theft and tracking?",
+      "aliases": [
+        "Anti Theft Features Ego Bike",
+        "Can Ego Be Disabled If Stolen",
+        "Diginu ego gps tracking",
+        "Does the diginuEgo have antitheft and tracking",
+        "Ego Remote Shutdown",
+        "Ego Security Features"
+      ],
+      "answer": "Remote power-off: disable the bike over the internet if stolen Live tracking dashboard: monitor location and status in real-time Fleet visibility: centralised oversight for multiple bikes These features are part of diginu’s focus on secure, reliable mobility.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-videos",
+      "question": "Where can I see diginuEgo videos and demos?",
+      "aliases": [
+        "Ego Bike Video",
+        "Ego Demo Video Links",
+        "How To Swap The Battery Video",
+        "Show Me The Screen Panel",
+        "diginu ego youtube"
+      ],
+      "answer": "Bike screen / panel: https://youtu.be/gh79U9_4ihg Battery swap demo: https://youtu.be/EUOo8SXl6sU How the bike looks: https://youtu.be/NBtCJRi35jk",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-use-cases",
+      "question": "Is the diginuEgo good for delivery riders and commuting?",
+      "aliases": [
+        "Diginu Ego Daily Use",
+        "Ego Bike For School Or Work",
+        "Is Ego Suitable For Couriers",
+        "Is The Ego Practical For Commuting",
+        "ego for delivery work"
+      ],
+      "answer": "Yes. diginuEgo is designed for daily use with low running costs and minimal downtime thanks to swappable batteries . The suspension, braking and mid-drive configuration support predictable handling in urban traffic. For delivery teams, live tracking and remote control improve safety and operational oversight.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-fleet",
+      "question": "Does the diginuEgo support fleet management?",
+      "aliases": [
+        "Manage Multiple Ego Bikes",
+        "does ego integrate with fleet tools",
+        "ego fleet management",
+        "ego telematics",
+        "fleet dashboard for diginu ego"
+      ],
+      "answer": "Yes. The platform includes fleet management functionality with a live dashboard for location, usage and control. This helps teams optimise deployment, monitor security, and reduce downtime.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "ego-battery-swapping-stations",
+      "question": "Are there plans for battery swapping or charging stations?",
+      "aliases": [
+        "Diginu battery swap roadmap",
+        "Ego Future Charging Network",
+        "When Will Ego Have Battery Swap Stations",
+        "ego swapping stations",
+        "public charging for ego"
+      ],
+      "answer": "Yes. From 2026 , diginu plans to roll out battery swapping and charging stations across the country, with solar and wind generation at many sites. This supports faster turnarounds and lower operating costs for riders and fleets.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-cash-withdrawal",
+      "question": "How do I withdraw cash from my diginuPay wallet?",
+      "aliases": [
+        "Cash Out Voucher Diginupay",
+        "Nedbank Voucher Withdrawal",
+        "Withdraw Cash From Wallet",
+        "diginuPay cash withdrawal",
+        "diginupay atm withdrawal",
+        "diginupay mobimoney voucher",
+        "how to cash out from diginuPay",
+        "where can i withdraw diginupay money",
+        "withdraw money from diginuPay"
+      ],
+      "answer": "You can withdraw cash from your diginuPay wallet using a cashout voucher sent to your phone. Here’s how it works: Open your diginuPay app and request a cash withdrawal You will receive an SMS with a Nedbank MobiMoney voucher code Go to any supported store or ATM and use the voucher to withdraw cash Where you can withdraw: Nedbank ATMs Checkers, Shoprite, Pick n Pay, OK, Usave, Boxer & House and Home Kazang partner stores nationwide diginuPay is integrated with Nedbank MobiMoney , giving you thousands of withdrawal locations across South Africa for easy access.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "thankyou",
+      "question": "Thank you",
+      "aliases": [
+        "Dankie",
+        "Sharp",
+        "Tnx",
+        "Tu",
+        "baie dankie",
+        "dank",
+        "thank",
+        "thank u",
+        "thanks"
+      ],
+      "answer": "You're most welcome! 😊",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-withdrawal-fees",
+      "question": "What are the fees for withdrawing cash from diginuPay?",
+      "aliases": [
+        "How Much Does It Cost To Withdraw",
+        "Withdrawal Charges Wallet",
+        "atm voucher fee diginupay",
+        "cash out cost",
+        "diginupay cash withdrawal fees"
+      ],
+      "answer": "Withdrawal fees depend on the withdrawal method and are shown before you confirm the cashout in the app. You’ll always see the fee and total amount you will receive. Generate a Nedbank MobiMoney voucher in your diginuPay app Fees are clearly displayed at checkout Some partner locations may show fees on the till/ATM screen Tip: If something looks incorrect, cancel and try again or contact support. Need help? wecare@diginu.com",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-daily-limits",
+      "question": "What are the daily withdrawal limits on diginuPay?",
+      "aliases": [
+        "Daily Limit Diginupay",
+        "How Much Can I Withdraw Per Day",
+        "Voucher Withdrawal Limits",
+        "cash out limits wallet",
+        "diginuPay daily limits"
+      ],
+      "answer": "Withdrawal and transaction limits help protect your account and may vary based on your verification (KYC) status. Limits are shown at the point of withdrawal Higher limits may require ID verification Multiple withdrawals per day are allowed within your limit Security note: diginuPay may request extra verification to keep your funds safe. Questions? wecare@diginu.com",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-wallet-to-wallet",
+      "question": "Can I transfer money wallet-to-wallet on diginuPay?",
+      "aliases": [
+        "Can I transfer money wallettowallet on diginuPay",
+        "Wallet To Wallet Payment",
+        "pay another user in app",
+        "send money to another diginupay user",
+        "transfer to friend diginuPay",
+        "wallet transfer diginuPay"
+      ],
+      "answer": "Yes, you can make instant wallet-to-wallet transfers to any diginuPay user. Open the app → Transfer → select/browse recipient Confirm amount and reference Recipient is notified instantly Security note: Only send to people you trust and double-check the recipient details before confirming.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-transfer-to-bank",
+      "question": "How do I transfer money from diginuPay to my bank account?",
+      "aliases": [
+        "Transfer Funds To Bank",
+        "Withdraw To Bank Account",
+        "eft from diginupay",
+        "payout to bank account",
+        "send money to bank"
+      ],
+      "answer": "You can transfer to a South African bank account from within the app. Add or select your bank beneficiary Enter amount and confirm Processing times vary by bank and method Security note: For your protection, diginuPay may verify your identity before enabling bank transfers. Need assistance? wecare@diginu.com",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-receive-money",
+      "question": "How do I receive money in my diginuPay wallet?",
+      "aliases": [
+        "Get Paid To My Wallet",
+        "How Can Someone Send Me Money",
+        "Incoming Payment Diginupay",
+        "Receive Funds In Wallet",
+        "Top Up From Someone"
+      ],
+      "answer": "There are a few ways to receive money: Another user sends you a wallet-to-wallet transfer You receive funds from a merchant payout or commission You deposit using any available top-up method in the app You’ll get a notification when funds land.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-supported-banks",
+      "question": "Which banks and cards are supported by diginuPay?",
+      "aliases": [
+        "Bank Compatibility Diginupay",
+        "Can I Use Nedbank Capitec Fnb",
+        "Does My Bank Work With Diginupay",
+        "Supported Banks Diginupay",
+        "which cards can i use"
+      ],
+      "answer": "diginuPay works with major South African banks for transfers and voucher cashouts via Nedbank MobiMoney . Card support and methods may vary by feature. Withdrawals: Nedbank ATMs and partner retailers via voucher Transfers: to SA bank accounts (processing times may vary) Cards/Instant EFT: availability shown in app during checkout Check your app for the latest supported options.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-voucher-sms-not-received",
+      "question": "I didn’t receive my voucher SMS — what should I do?",
+      "aliases": [
+        "I didnt receive my voucher SMS what should I do",
+        "No Voucher Code Received",
+        "Where Is My Voucher",
+        "didn't get cashout code",
+        "didnt get cashout code",
+        "sms not coming through",
+        "voucher sms delay"
+      ],
+      "answer": "If your Nedbank MobiMoney voucher SMS hasn’t arrived: Confirm your phone has signal and isn’t in Do Not Disturb Check your number in Profile is correct Wait a few minutes and try resend if available If still missing, cancel and generate a new voucher Note: Some networks can delay SMS delivery. If it persists, contact us with your attempted time and amount. Support: wecare@diginu.com",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-voucher-expired",
+      "question": "My voucher expired — can I still withdraw?",
+      "aliases": [
+        "Cashout Code Expired",
+        "How Long Is Voucher Valid",
+        "My voucher expired can I still withdraw",
+        "Voucher Expired What Now",
+        "Voucher Time Limit",
+        "expired voucher diginuPay"
+      ],
+      "answer": "Expired vouchers can’t be redeemed. Simply generate a new voucher in the app and use it at an eligible ATM or retailer. Check the validity window when you create the voucher Only share codes with trusted cashiers If you’re unsure whether a voucher was used, contact support and we’ll help trace it.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-cash-withdrawal-failed",
+      "question": "My cash withdrawal failed — how do I fix it?",
+      "aliases": [
+        "Cashout Declined",
+        "My cash withdrawal failed how do I fix it",
+        "Voucher Not Working At Store",
+        "Withdrawal Failed At Atm",
+        "cash withdrawal issue",
+        "mobimoney error"
+      ],
+      "answer": "Try these steps: Confirm the voucher code matches your SMS Use a listed Nedbank ATM or supported retailer Check you’re selecting Nedbank MobiMoney at the till/ATM Ensure you’re within the voucher’s validity and your daily limit If it still fails, note the time, store/ATM, and error message, then contact us. Support: wecare@diginu.com",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-update-bank-details",
+      "question": "How do I update my bank details in diginuPay?",
+      "aliases": [
+        "Change My Bank Account",
+        "Edit Bank Info",
+        "Update Beneficiary",
+        "Update Payout Details",
+        "bank details change"
+      ],
+      "answer": "You can update your payout/bank details from your profile or payments section in the app. Open Profile → Bank details Edit account name/number/branch Save and verify if prompted Security note: For your protection, we may request ID verification when changing bank details.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-link-bank-account",
+      "question": "How do I add or link a bank account to diginuPay?",
+      "aliases": [
+        "How To Link Account",
+        "add bank details",
+        "add new bank account",
+        "link my bank",
+        "set up bank beneficiary"
+      ],
+      "answer": "To link a bank account for payouts: Go to Profile → Bank details Enter your bank, account number and branch info Save and complete any verification steps Once linked, you can transfer from your wallet to your bank.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-deposit-into-wallet",
+      "question": "How do I deposit money into my diginuPay wallet?",
+      "aliases": [
+        "Add Funds To Wallet",
+        "Load Money Diginupay",
+        "deposit to diginuPay",
+        "how to fund my wallet",
+        "top up my wallet"
+      ],
+      "answer": "Open your app and choose a top-up option available to you. Methods may include card, EFT, or other providers displayed in-app. Choose your method and amount Follow the prompts to complete payment We’ll notify you when funds arrive Note: Processing times vary by method.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-pending-payments",
+      "question": "Why is my payment pending in diginuPay?",
+      "aliases": [
+        "Why Is My Transaction Still Pending",
+        "delay in payment",
+        "eft pending wallet",
+        "payment pending explanation",
+        "processing payment diginupay"
+      ],
+      "answer": "Pending means your payment is still being processed by the bank or provider. This is normal for EFT and some card methods. Most pendings resolve automatically Times vary by bank/weekend/public holidays If it exceeds the usual window, contact support with your reference",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-reversals-refunds",
+      "question": "How do reversals and refunds work on diginuPay?",
+      "aliases": [
+        "Chargeback Wallet",
+        "Transaction Reversal",
+        "get my money back",
+        "refund request diginupay",
+        "reverse a payment"
+      ],
+      "answer": "Refunds and reversals depend on the original payment method and provider rules. In-app transfers are usually final Card/EFT payments may require a provider dispute We’ll help investigate if funds didn’t arrive or were duplicated Start by sharing the date, amount and reference with support. Contact: wecare@diginu.com",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "diginupay-account-locked-flagged",
+      "question": "Why is my diginuPay account locked or flagged?",
+      "aliases": [
+        "Can’T Transact Diginupay",
+        "Kyc Issue Wallet",
+        "My Account Is Locked",
+        "cant transact diginupay",
+        "compliance hold",
+        "restricted wallet"
+      ],
+      "answer": "Accounts can be temporarily restricted for security or compliance reasons (e.g., unusual activity, incorrect details, or pending KYC checks). Check your email/app notifications for instructions Complete any requested ID verification Contact support if you need help resolving it These checks help keep your money safe and prevent fraud.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "policies-and-terms-overview",
+      "question": "Where can I find diginu’s Privacy Policy and Terms?",
+      "aliases": [
+        "Legal Documents Diginu",
+        "Policies And Terms Links",
+        "Terms And Conditions Link",
+        "Where To Read Your Legal Terms",
+        "Where can I find diginus Privacy Policy and Terms",
+        "customer terms link",
+        "diginu policies",
+        "merchant terms link",
+        "privacy policy and terms",
+        "where are your policies"
+      ],
+      "answer": "You can read all diginu legal documents on our website: Privacy Policy: https://diginu.com/privacy Customer Terms & Conditions: https://diginu.com/terms Merchant Terms & Conditions: https://diginu.com/vendor-terms These pages explain how we handle data, customer use, and merchant responsibilities.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "privacy-policy-link",
+      "question": "Where is diginu’s Privacy Policy?",
+      "aliases": [
+        "How Do You Handle My Data",
+        "Where is diginus Privacy Policy",
+        "data privacy policy",
+        "diginu privacy link",
+        "privacy policy",
+        "privacy statement link"
+      ],
+      "answer": "Our Privacy Policy is available here: https://diginu.com/privacy It explains what data we collect, how it’s used, and your rights.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "customer-terms-link",
+      "question": "Where are the Customer Terms and Conditions?",
+      "aliases": [
+        "App Terms",
+        "Customer Terms",
+        "customer t&cs",
+        "customer tcs",
+        "terms and conditions customers",
+        "user terms Diginu"
+      ],
+      "answer": "You can read the Customer Terms & Conditions here: https://diginu.com/terms This page covers customer use of the diginu app and services.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
+      "id": "merchant-terms-link",
+      "question": "Where are the Merchant Terms and Conditions?",
+      "aliases": [
+        "Store Terms Diginu",
+        "Vendor Terms",
+        "merchant t&cs",
+        "merchant tcs",
+        "merchant terms",
+        "restaurant terms diginu"
+      ],
+      "answer": "Merchant Terms & Conditions are available here: https://diginu.com/vendor-terms They outline partner/merchant obligations, payouts, and platform policies.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": []
+    },
+    {
       "id": "mm-001",
       "question": "What is the difference between a merchant and a merchant marketer?",
       "answer": "A merchant is a business (e.g., restaurant, grocery store, liquor store) that sells on the Diginu app. A merchant marketer is an accredited Diginu partner who onboards merchants to the platform and earns ongoing commission from customer orders placed at the live merchants in their portfolio.",
-      "tags": ["definitions", "business-model", "merchant", "merchant-marketer"],
-      "intents": ["explain_roles"],
-      "followups": ["What is a merchant on Diginu?", "What is a merchant marketer on Diginu?"]
+      "tags": [
+        "definitions",
+        "business-model",
+        "merchant",
+        "merchant-marketer"
+      ],
+      "intents": [
+        "explain_roles"
+      ],
+      "followups": [
+        "What is a merchant on Diginu?",
+        "What is a merchant marketer on Diginu?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-002",
       "question": "What is a merchant on Diginu?",
       "answer": "A merchant is a business that lists products or services on the Diginu marketplace, receives orders from customers, and fulfills those orders via pickup or delivery. Examples include restaurants, grocery stores, liquor stores, bakeries, and specialty retailers.",
-      "tags": ["merchant", "onboarding"],
-      "intents": ["define_merchant"],
-      "followups": ["How do I become a merchant on Diginu?", "Is there a fee to join as a merchant?"]
+      "tags": [
+        "merchant",
+        "onboarding"
+      ],
+      "intents": [
+        "define_merchant"
+      ],
+      "followups": [
+        "How do I become a merchant on Diginu?",
+        "Is there a fee to join as a merchant?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-003",
       "question": "What is a merchant marketer on Diginu?",
       "answer": "A merchant marketer is an individual who has completed Diginu’s accreditation course and is authorized to onboard merchants to the platform. They build a portfolio of merchants and earn commission from every order placed by customers at those live merchants.",
-      "tags": ["merchant-marketer", "accreditation"],
-      "intents": ["define_merchant_marketer"],
-      "followups": ["How do I become a merchant marketer?", "Do merchant marketers earn commission?"]
+      "tags": [
+        "merchant-marketer",
+        "accreditation"
+      ],
+      "intents": [
+        "define_merchant_marketer"
+      ],
+      "followups": [
+        "How do I become a merchant marketer?",
+        "Do merchant marketers earn commission?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-004",
       "question": "How do merchant marketers earn commission?",
       "answer": "Merchant marketers earn commission on every order placed through the Diginu app across all live merchants in their personal portfolio. Earnings grow as your portfolio expands and your merchants succeed.",
-      "tags": ["commission", "earnings"],
-      "intents": ["explain_commission"],
-      "followups": ["How much commission can I earn?", "When and how are commissions paid?"]
+      "tags": [
+        "commission",
+        "earnings"
+      ],
+      "intents": [
+        "explain_commission"
+      ],
+      "followups": [
+        "How much commission can I earn?",
+        "When and how are commissions paid?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-005",
       "question": "What is a merchant portfolio?",
       "answer": "Your merchant portfolio is the list of merchants you personally onboarded to Diginu. Commissions are calculated from orders generated by all live merchants in this portfolio.",
-      "tags": ["portfolio", "commission"],
-      "intents": ["define_portfolio"],
-      "followups": ["How many merchants can I onboard?", "Can I track my portfolio performance?"]
+      "tags": [
+        "portfolio",
+        "commission"
+      ],
+      "intents": [
+        "define_portfolio"
+      ],
+      "followups": [
+        "How many merchants can I onboard?",
+        "Can I track my portfolio performance?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-006",
       "question": "Who can become a merchant marketer?",
       "answer": "Anyone who completes the Diginu Merchant Marketer Accreditation Course and agrees to our partner guidelines can become a merchant marketer. A passion for business development and local commerce helps.",
-      "tags": ["merchant-marketer", "eligibility"],
-      "intents": ["mm_eligibility"],
-      "followups": ["Do I need sales experience?", "Is there an age or location requirement?"]
+      "tags": [
+        "merchant-marketer",
+        "eligibility"
+      ],
+      "intents": [
+        "mm_eligibility"
+      ],
+      "followups": [
+        "Do I need sales experience?",
+        "Is there an age or location requirement?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-007",
       "question": "Is there a cost to become a merchant marketer?",
       "answer": "Accreditation requirements and any associated fees are communicated during enrollment. We keep entry barriers low and focus on equipping you to succeed with real merchants.",
-      "tags": ["accreditation", "costs"],
-      "intents": ["mm_costs"],
-      "followups": ["What does the accreditation include?", "Are there ongoing fees?"]
+      "tags": [
+        "accreditation",
+        "costs"
+      ],
+      "intents": [
+        "mm_costs"
+      ],
+      "followups": [
+        "What does the accreditation include?",
+        "Are there ongoing fees?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-008",
       "question": "How long does accreditation take?",
       "answer": "Most candidates complete the Diginu accreditation course quickly. The timeline depends on your pace—plan for focused learning, a short assessment, and onboarding to our tools.",
-      "tags": ["accreditation", "timeline"],
-      "intents": ["mm_timeline"],
-      "followups": ["What topics are covered?", "How do I schedule my assessment?"]
+      "tags": [
+        "accreditation",
+        "timeline"
+      ],
+      "intents": [
+        "mm_timeline"
+      ],
+      "followups": [
+        "What topics are covered?",
+        "How do I schedule my assessment?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-009",
       "question": "Is the merchant marketer role full-time or part-time?",
       "answer": "It’s flexible. Many start part-time and scale up as their merchant portfolio grows. Your income can expand with the number and performance of your live merchants.",
-      "tags": ["role", "flexibility"],
-      "intents": ["mm_time_commitment"],
-      "followups": ["How many hours should I plan weekly?", "Can I do this alongside my job?"]
+      "tags": [
+        "role",
+        "flexibility"
+      ],
+      "intents": [
+        "mm_time_commitment"
+      ],
+      "followups": [
+        "How many hours should I plan weekly?",
+        "Can I do this alongside my job?"
+      ],
+      "aliases": [
+        "Is the merchant marketer role fulltime or parttime"
+      ],
+      "status": "published"
     },
     {
       "id": "mm-010",
       "question": "Do merchant marketers get support and tools?",
       "answer": "Yes. Accredited marketers receive onboarding resources, outreach templates, a referral/onboarding flow, and access to performance insights to help grow and support their merchant portfolio.",
-      "tags": ["support", "tools"],
-      "intents": ["mm_enablement"],
-      "followups": ["Do you provide sales materials?", "Is there a community or mentorship?"]
+      "tags": [
+        "support",
+        "tools"
+      ],
+      "intents": [
+        "mm_enablement"
+      ],
+      "followups": [
+        "Do you provide sales materials?",
+        "Is there a community or mentorship?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-011",
       "question": "Can merchant marketers onboard merchants in any location?",
       "answer": "You should focus on regions where Diginu is active or launching. We’ll guide you on supported areas and expansion plans so your efforts translate into live, earning merchants.",
-      "tags": ["coverage", "geography"],
-      "intents": ["mm_geo_coverage"],
-      "followups": ["How do I check supported areas?", "Can I request a new area launch?"]
+      "tags": [
+        "coverage",
+        "geography"
+      ],
+      "intents": [
+        "mm_geo_coverage"
+      ],
+      "followups": [
+        "How do I check supported areas?",
+        "Can I request a new area launch?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-012",
       "question": "Do merchant marketers need sales experience?",
       "answer": "Sales experience helps but isn’t required. We provide a practical framework: how to find prospects, present Diginu, handle objections, and get merchants live quickly.",
-      "tags": ["skills", "sales"],
-      "intents": ["mm_requirements"],
-      "followups": ["Do you offer sales training?", "Any best practices for outreach?"]
+      "tags": [
+        "skills",
+        "sales"
+      ],
+      "intents": [
+        "mm_requirements"
+      ],
+      "followups": [
+        "Do you offer sales training?",
+        "Any best practices for outreach?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-013",
       "question": "What is the benefit of becoming a merchant marketer?",
       "answer": "You create value for local businesses, help them grow via the Diginu app, and earn ongoing commissions from customer orders. It’s a scalable, impact-driven opportunity.",
-      "tags": ["benefits", "opportunity"],
-      "intents": ["mm_value_prop"],
-      "followups": ["How fast can I earn?", "What results do top performers see?"]
+      "tags": [
+        "benefits",
+        "opportunity"
+      ],
+      "intents": [
+        "mm_value_prop"
+      ],
+      "followups": [
+        "How fast can I earn?",
+        "What results do top performers see?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-014",
       "question": "Can merchant marketers build teams?",
       "answer": "Your primary focus is onboarding your own merchants. Where applicable, we may pilot programs that recognize collaboration. We’ll share details if a team pathway is available in your region.",
-      "tags": ["teams", "programs"],
-      "intents": ["mm_team_building"],
-      "followups": ["Are there referral bonuses?", "Do you support co-selling?"]
+      "tags": [
+        "teams",
+        "programs"
+      ],
+      "intents": [
+        "mm_team_building"
+      ],
+      "followups": [
+        "Are there referral bonuses?",
+        "Do you support co-selling?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-015",
       "question": "What products do merchants sell on Diginu?",
       "answer": "Common categories include prepared food, groceries, liquor, and specialty goods. Availability varies by merchant and region, and merchants manage their own menus and inventory.",
-      "tags": ["merchant", "catalog"],
-      "intents": ["merchant_categories"],
-      "followups": ["Can services be listed?", "How are menus and prices updated?"]
+      "tags": [
+        "merchant",
+        "catalog"
+      ],
+      "intents": [
+        "merchant_categories"
+      ],
+      "followups": [
+        "Can services be listed?",
+        "How are menus and prices updated?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-016",
       "question": "How do I become a merchant on Diginu?",
       "answer": "Share your business details, catalog, and fulfillment preferences, then complete onboarding so we can activate your store on the app. A merchant marketer can guide you end-to-end.",
-      "tags": ["merchant", "onboarding"],
-      "intents": ["merchant_onboarding"],
-      "followups": ["What documents do I need?", "How long does activation take?"]
+      "tags": [
+        "merchant",
+        "onboarding"
+      ],
+      "intents": [
+        "merchant_onboarding"
+      ],
+      "followups": [
+        "What documents do I need?",
+        "How long does activation take?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-017",
       "question": "How do I become a merchant marketer?",
       "answer": "Apply for the Diginu Merchant Marketer Accreditation, complete the course and assessment, accept our partner terms, and you’ll receive access to onboarding tools and your performance dashboard.",
-      "tags": ["merchant-marketer", "onboarding"],
-      "intents": ["mm_onboarding"],
-      "followups": ["Where do I apply?", "What happens after I pass?"]
+      "tags": [
+        "merchant-marketer",
+        "onboarding"
+      ],
+      "intents": [
+        "mm_onboarding"
+      ],
+      "followups": [
+        "Where do I apply?",
+        "What happens after I pass?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-018",
       "question": "How much commission can I earn as a merchant marketer?",
       "answer": "Your earnings depend on the number of live merchants in your portfolio and their order volumes. We publish commission structures separately and keep them simple and transparent.",
-      "tags": ["commission", "earnings"],
-      "intents": ["mm_compensation_level"],
-      "followups": ["Do rates vary by category?", "Are there performance tiers?"]
+      "tags": [
+        "commission",
+        "earnings"
+      ],
+      "intents": [
+        "mm_compensation_level"
+      ],
+      "followups": [
+        "Do rates vary by category?",
+        "Are there performance tiers?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-019",
       "question": "When and how are commissions paid?",
       "answer": "Commissions are paid on a regular cycle after order activity is reconciled. You’ll receive statements and have visibility into order-level performance for your portfolio.",
-      "tags": ["commission", "payouts"],
-      "intents": ["mm_payouts"],
-      "followups": ["What payment methods are supported?", "Is there a minimum payout threshold?"]
+      "tags": [
+        "commission",
+        "payouts"
+      ],
+      "intents": [
+        "mm_payouts"
+      ],
+      "followups": [
+        "What payment methods are supported?",
+        "Is there a minimum payout threshold?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-020",
       "question": "Is there a contract or NDA for merchant marketers?",
       "answer": "Accredited marketers accept Diginu’s partner terms, which cover brand use, data handling, and compliance. Additional agreements may apply depending on region and program.",
-      "tags": ["legal", "compliance"],
-      "intents": ["mm_terms"],
-      "followups": ["Do I need an NDA with merchants?", "How is data privacy handled?"]
+      "tags": [
+        "legal",
+        "compliance"
+      ],
+      "intents": [
+        "mm_terms"
+      ],
+      "followups": [
+        "Do I need an NDA with merchants?",
+        "How is data privacy handled?"
+      ],
+      "aliases": [],
+      "status": "published"
     },
     {
       "id": "mm-021",
       "question": "What support do merchants receive after going live?",
       "answer": "Merchants get access to menu management, order tools, and support resources. Merchant marketers can help with launch readiness, menu updates, and best practices to drive orders.",
-      "tags": ["merchant", "support"],
-      "intents": ["merchant_post_launch"],
-      "followups": ["How do merchants update menus?", "Do you help with promotions?"]
+      "tags": [
+        "merchant",
+        "support"
+      ],
+      "intents": [
+        "merchant_post_launch"
+      ],
+      "followups": [
+        "How do merchants update menus?",
+        "Do you help with promotions?"
+      ],
+      "aliases": [],
+      "status": "published"
     }
-]
-
-
-
+  ]
+}
