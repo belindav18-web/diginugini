@@ -35,7 +35,7 @@
     .gini-bot{align-self:flex-start;background:#f7f9fb;border:1px solid #e7edf2}
     .gini-foot{display:flex;gap:8px;margin-top:10px}
     .gini-input{flex:1;border:1px solid #d8dee5;border-radius:10px;padding:10px;font:14px/1.2 system-ui}
-    .gini-send{background:var(--gini-accent,#00B0B9);border:none;border-radius:10px;padding:10px 12px;font:700 14px/1 system-ui;color:#001;cursor:pointer}
+    .gini-send{background:var(--gini-accent,#215C73);border:none;border-radius:10px;padding:10px 12px;font:700 14px/1 system-ui;color:#001;cursor:pointer}
     .gini-small{font:12px/1.2 system-ui;color:#555}
   `);
 
