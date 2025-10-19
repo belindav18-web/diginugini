@@ -1584,7 +1584,46 @@
     "mentor contact diginu"
   ],
   "status": "published"
+},
+    {
+  "id": "brand-001",
+  "question": "Is the word diginu a verb?",
+  "answer": "<p>Yes, <b>diginu</b> is intended to be used as a <b>verb</b>. That’s why we always write it with a <b>small “d”</b> — it is becoming a <b>household action word</b>, like <i>google</i>, <i>whatsapp</i> or <i>uber</i>.</p><p>Example: <i>“Let’s diginu dinner tonight.”</i></p><p>Always write it as <b>diginu</b> — never capitalised.</p>",
+  "tags": ["brand", "spelling", "identity"],
+  "intents": ["brand_spelling", "brand_usage"],
+  "followups": [
+    "Why is diginu always written in lowercase?",
+    "Is diginu a brand or a platform?"
+  ],
+  "aliases": [
+    "is diginu a verb",
+    "why small d in diginu",
+    "how to spell diginu",
+    "is diginu lowercase"
+  ],
+  "status": "published"
+},
+    {
+  "id": "brand-002",
+  "question": "What does the word diginu mean?",
+  "answer": "<p>The name <b>diginu</b> comes from combining two words:</p><ul><li><b>digi</b> – from <i>digital</i></li><li><b>nu</b> – from <i>menu</i></li></ul><p>So <b>digi(tal) + (me)nu = diginu</b>. It represents a <b>digital menu and ordering platform</b> designed for the modern world.</p>",
+  "tags": ["brand", "name", "meaning", "identity"],
+  "intents": ["brand_name_meaning"],
+  "followups": [
+    "Is the word diginu a verb? (brand-001)",
+    "Why is diginu always written in lowercase?"
+  ],
+  "aliases": [
+    "meaning of diginu",
+    "diginu meaning",
+    "where does diginu come from",
+    "diginu name origin",
+    "diginu explanation"
+  ],
+  "status": "published"
 }
+
+
 
 
 ]
