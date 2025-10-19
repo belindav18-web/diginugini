@@ -1692,6 +1692,373 @@
         "diginu explanation"
       ],
       "status": "published"
-    }
+    },
+    {
+  "id": "what-is-a-marketer",
+  "question": "What is a marketer?",
+  "aliases": [
+    "What is a diginu marketer",
+    "Marketer meaning",
+    "diginu Marketer",
+    "What does a marketer do",
+    "Explain marketer",
+    "Marketing partner diginu",
+    "What is a promoter"
+  ],
+  "answer": "A diginu marketer is a person who promotes the company, either to customers or to merchants. We provide all the training you need to be an amazing marketer for free.",
+  "status": "published",
+  "tags": ["marketer", "roles", "getting-started"],
+  "intents": ["define_marketer"],
+  "followups": [
+    "How do I become a merchant marketer? (mm-017)",
+    "Does diginu offer monthly training? (training-001)",
+    "Where do I find the online training on diginu? (training-002)",
+    "How do I earn with diginu? (earn)"
+  ]
+},
+    {
+  "id": "ftwc-001",
+  "question": "What is Freedom Through Wealth Creation (FTWC)?",
+  "aliases": [
+    "what is ftwc",
+    "freedom through wealth creation",
+    "marius adams book",
+    "ftwc book details",
+    "tell me about ftwc"
+  ],
+  "answer": "Freedom Through Wealth Creation (FTWC) is a book written by Marius Adams. The FTWC book is available for purchase at https://diginu.com/ftwc.",
+  "status": "published",
+  "tags": ["ftwc", "book", "marius-adams", "resources"],
+  "intents": ["about_ftwc"],
+  "followups": [
+    "How do I buy the FTWC book? (ftwc-002)",
+    "Who is Marius Adams? (about-marius-adams)"
+  ]
+},
+    {
+  "id": "ftwc-002",
+  "question": "How do I buy the FTWC book?",
+  "aliases": [
+    "buy ftwc",
+    "purchase ftwc",
+    "where can i get ftwc",
+    "buy freedom through wealth creation",
+    "ftwc order link"
+  ],
+  "answer": "You can purchase Freedom Through Wealth Creation (FTWC) at https://diginu.com/ftwc.",
+  "status": "published",
+  "tags": ["ftwc", "book", "purchase", "link"],
+  "intents": ["buy_ftwc"],
+  "followups": [
+    "What is Freedom Through Wealth Creation (FTWC)? (ftwc-001)",
+    "Who is Marius Adams? (about-marius-adams)"
+  ]
+},
+    {
+  "id": "about-marius-adams",
+  "question": "Who is Marius Adams?",
+  "aliases": [
+    "who is marius",
+    "marius adams diginu",
+    "head of field marketing diginu",
+    "who is the head of field marketing",
+    "freedom through wealth creation author",
+    "marius adams book"
+  ],
+  "answer": "Marius Adams is diginu head of field marketing. He is also the author of the book, \"Freedom Through Wealth Creation\"",
+  "status": "published",
+  "tags": ["team", "leadership", "field-marketing", "about", "people"],
+  "intents": ["about_team_member"],
+  "followups": [
+    "What is Freedom Through Wealth Creation (FTWC)? (ftwc-001)",
+    "Does diginu offer monthly training? (training-001)",
+    "Where do I find the online training on diginu? (training-002)"
+  ]
+},
+    {
+  "id": "about-belinda-ford",
+  "question": "Who is Belinda Ford?",
+  "aliases": [
+    "who is belinda",
+    "belinda ford diginu",
+    "head of cashback",
+    "diginu cashback leader",
+    "who runs diginu cashback",
+    "who runs diginuCashBack?",
+    "heaad of diginuCashBack"
+  ],
+  "answer": "Belinda Ford is Head of diginuCashBack, our very exciting rewards programme.",
+  "status": "published",
+  "tags": ["team", "leadership", "cashback", "about", "people"],
+  "intents": ["about_team_member"],
+  "followups": [
+    "What is diginuCashBack? (what-is-diginucashback)",
+    "How do I earn with diginuCashBack?"
+  ]
+},
+    {
+  "id": "about-johan-pienaar",
+  "question": "Who is Johan Pienaar?",
+  "aliases": [
+    "who is johan",
+    "johan pienaar diginu",
+    "head of ego marketing",
+    "diginu ego leader",
+    "ego marketing head"
+  ],
+  "answer": "Johan Pienaar is Head of Field Marketing for diginuEgo, our most advanced electric bikes.",
+  "status": "published",
+  "tags": ["team", "leadership", "ego", "field-marketing", "people"],
+  "intents": ["about_team_member"],
+  "followups": [
+    "What is diginuEgo? (ego-overview)",
+    "Where can I find more information about diginuEgo? (ego-001)"
+  ]
+},
+    {
+  "id": "business-revenue-model",
+  "question": "How does diginu make money?",
+  "aliases": [
+    "diginu revenue model",
+    "how does diginu earn",
+    "how does diginu get paid",
+    "diginu business model",
+    "how does diginu make profit",
+    "where does diginu income come from"
+  ],
+  "answer": "diginu makes money by adding a 15% service fee on top of the store's listed price, which is still about 5–15% cheaper than most other food delivery apps in South Africa. We also charge a fixed R8 admin fee per order and a R15 delivery fee.",
+  "status": "published",
+  "tags": ["business", "revenue", "fees"],
+  "intents": ["business_model_revenue"],
+  "followups": [
+    "Why is diginu cheaper than other apps? (business-cheaper-than-others)",
+    "What fees does a customer pay on diginu? (customer-fees)",
+    "Does diginu charge merchants to join? (merchant-fees)"
+  ]
+},
+{
+  "id": "business-cheaper-than-others",
+  "question": "Why is diginu cheaper than other apps?",
+  "aliases": [
+    "why is diginu cheap",
+    "why are diginu fees lower",
+    "diginu cheaper than uber eats",
+    "how is diginu affordable",
+    "diginu vs other delivery apps"
+  ],
+  "answer": "diginu keeps prices lower by giving money to people instead of spending millions on marketing. Instead of paying for traditional advertising, we use the diginuPSP referral system to grow—this reduces costs and allows us to offer cheaper delivery rates to customers.",
+  "status": "published",
+  "tags": ["pricing", "business", "psp"],
+  "intents": ["business_cheaper_reason"],
+  "followups": [
+    "How does diginu make money? (business-revenue-model)",
+    "What is diginuPSP? (psp-001)"
+  ]
+},
+{
+  "id": "customer-fees",
+  "question": "What fees does a customer pay on diginu?",
+  "aliases": [
+    "diginu customer fees",
+    "delivery fee on diginu",
+    "diginu service cost",
+    "diginu pricing",
+    "what do I pay on diginu"
+  ],
+  "answer": "Customers pay:\n- Menu price (includes 15% service fee)\n- R15 delivery fee (if delivery is selected)\n- R8 admin fee\n- Optional tip for the driver",
+  "status": "published",
+  "tags": ["fees", "customer", "payments"],
+  "intents": ["customer_fees_breakdown"],
+  "followups": [
+    "How does diginu make money? (business-revenue-model)",
+    "What is the delivery radius on diginu? (delivery-radius)"
+  ]
+},
+{
+  "id": "merchant-fees",
+  "question": "Does diginu charge merchants to join?",
+  "aliases": [
+    "merchant costs diginu",
+    "merchant fees",
+    "is diginu free for merchants",
+    "do merchants pay to join diginu",
+    "merchant registration diginu"
+  ],
+  "answer": "No, merchants do not pay any registration fees or monthly fees to join diginu—it is completely free. Merchants also receive their full menu price and can earn additional income from the diginu ecosystem.",
+  "status": "published",
+  "tags": ["merchant", "fees", "onboarding"],
+  "intents": ["merchant_joining_cost"],
+  "followups": [
+    "How do I become a merchant on diginu? (mm-016)",
+    "What support do merchants receive after joining? (mm-021)"
+  ]
+},
+{
+  "id": "merchant-001",
+  "question": "How do I join as a merchant on diginu?",
+  "aliases": [
+    "how to sign up as a merchant",
+    "join diginu as a store",
+    "merchant registration diginu",
+    "onboard my restaurant",
+    "how do I become a merchant on diginu"
+  ],
+  "answer": "<p>Joining <b>diginu</b> is easy:</p><ol><li>Visit our website and scroll down to <b>“Join as a Merchant”</b></li><li>Click <b>“Join now”</b> and complete the registration form</li><li>Make sure you have access to your <b>email</b> to receive your <b>OTP</b></li><li>Submit — our team will review your application and set you up</li></ol><p>After you apply, we’ll <b>allocate a merchant marketer</b> in your area as your dedicated contact person.</p>",
+  "status": "published",
+  "tags": ["merchant", "onboarding", "registration"],
+  "intents": ["merchant_join_flow"],
+  "followups": [
+    "What do I need to complete merchant registration? (merchant-002)",
+    "Do I get a dedicated merchant marketer to help me? (merchant-003)",
+    "Is joining diginu as a merchant free? (merchant-004)",
+  ]
+},
+    {
+  "id": "merchant-002",
+  "question": "What do I need to complete merchant registration?",
+  "aliases": [
+    "required documents to join",
+    "merchant onboarding requirements",
+    "what info do I need to sign up",
+    "what documents do merchants need",
+    "otp requirement merchant signup"
+  ],
+  "answer": "<p>When registering, ensure you can access the <b>email address</b> you use to sign up so you can receive your <b>OTP</b>. Complete the online <b>registration form</b> and submit for review.</p>",
+  "status": "published",
+  "tags": ["merchant", "onboarding", "requirements"],
+  "intents": ["merchant_requirements"],
+  "followups": [
+    "How do I join as a merchant on diginu? (merchant-001)",
+    "Do I get a dedicated merchant marketer to help me? (merchant-003)"
+  ]
+},
+    {
+  "id": "merchant-003",
+  "question": "Do I get a dedicated merchant marketer to help me?",
+  "aliases": [
+    "will someone help me onboard",
+    "merchant marketer contact",
+    "who is my merchant marketer",
+    "do I get a dedicated contact",
+    "support person for my store"
+  ],
+  "answer": "<p>Yes. Every registered merchant is <b>assigned an accredited merchant marketer</b> in their area — <b>completely free of charge</b>. Think of them as your personal, no-cost <b>private banker</b> for diginu.</p>",
+  "status": "published",
+  "tags": ["merchant", "support", "onboarding"],
+  "intents": ["merchant_marketer_allocation"],
+  "followups": [
+    "How do I join as a merchant on diginu? (merchant-001)",
+    "What support do merchants receive after going live? (mm-021)"
+  ]
+},
+    {
+  "id": "merchant-004",
+  "question": "Is joining diginu as a merchant free?",
+  "aliases": [
+    "merchant fees to join",
+    "is there a monthly fee for merchants",
+    "device rental fees diginu",
+    "do merchants pay to join",
+    "is diginu free for merchants"
+  ],
+  "answer": "<p>Yes. There are <b>zero signup fees</b>, <b>zero monthly fees</b>, and <b>zero device rental fees</b>. You also <b>receive your full menu-listed price</b>, and payouts are made <b>daily</b>.</p>",
+  "status": "published",
+  "tags": ["merchant", "fees", "pricing", "benefits"],
+  "intents": ["merchant_fee_policy"],
+  "followups": [
+    "How do I join as a merchant on diginu? (merchant-001)",
+    "What support do merchants receive after going live? (mm-021)"
+  ]
+},
+    {
+  "id": "merchant-005",
+  "question": "What are the benefits of joining diginu as a merchant?",
+  "aliases": [
+    "why join as a merchant",
+    "merchant benefits",
+    "advantages for merchants",
+    "what do merchants get",
+    "is diginu worth it for merchants"
+  ],
+  "answer": "<p>Merchants enjoy:</p><ul><li><b>Faster, non-batched deliveries</b> so orders arrive fresh</li><li><b>Zero signup fees, zero monthly fees, zero device rental fees</b></li><li><b>Full menu-listed price</b> on your sales</li><li><b>Daily payouts</b></li><li>Use your merchant login to <b>order from other stores</b> on the platform</li></ul>",
+  "status": "published",
+  "tags": ["merchant", "benefits", "pricing", "deliveries"],
+  "intents": ["merchant_benefits_overview"],
+  "followups": [
+    "Is joining diginu as a merchant free? (merchant-004)",
+    "Does diginu batch orders like other delivery apps? (merchant-006)",
+    "Do merchants get paid daily on diginu? (merchant-007)",
+    "Can I use my merchant login to order from other stores on diginu? (merchant-008)"
+  ]
+},
+    {
+  "id": "merchant-006",
+  "question": "Does diginu batch orders like other delivery apps?",
+  "aliases": [
+    "does diginu batch deliveries",
+    "are orders batched on diginu",
+    "non-batched deliveries",
+    "is delivery batched",
+    "how are deliveries handled"
+  ],
+  "answer": "<p><b>No.</b> diginu offers <b>faster, non-batched deliveries</b> so customers receive their orders fresh.</p>",
+  "status": "published",
+  "tags": ["merchant", "deliveries", "operations"],
+  "intents": ["merchant_delivery_batched_or_not"],
+  "followups": [
+    "What are the benefits of joining diginu as a merchant? (merchant-005)"
+  ]
+},
+    {
+  "id": "merchant-007",
+  "question": "Do merchants get paid daily on diginu?",
+  "aliases": [
+    "daily payouts",
+    "how often do merchants get paid",
+    "merchant payment schedule",
+    "merchant payout frequency",
+    "do I get paid every day"
+  ],
+  "answer": "<p><b>Yes.</b> Merchants receive <b>daily payouts</b>.</p>",
+  "status": "published",
+  "tags": ["merchant", "payouts", "payments"],
+  "intents": ["merchant_payouts_daily"],
+  "followups": [
+    "What are the benefits of joining diginu as a merchant? (merchant-005)",
+    "How do I transfer money from diginuPay to my bank account? (diginupay-transfer-to-bank)"
+  ]
+},
+    {
+  "id": "merchant-008",
+  "question": "Can I use my merchant login to order from other stores on diginu?",
+  "aliases": [
+    "use merchant login to order",
+    "can merchants buy from other stores",
+    "order as a merchant account",
+    "merchant account shopping",
+    "merchant ordering"
+  ],
+  "answer": "<p><b>Yes.</b> As a diginu merchant, you can use your login credentials to <b>order from other stores</b> on the platform.</p>",
+  "status": "published",
+  "tags": ["merchant", "account", "ordering"],
+  "intents": ["merchant_account_usage"],
+  "followups": [
+    "What are the benefits of joining diginu as a merchant? (merchant-005)"
+  ]
+},
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
   ]
 }
