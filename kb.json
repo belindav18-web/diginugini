@@ -15,7 +15,13 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I earn with diginu? (earn)",
+        "What is diginuCashBack? (what-is-diginucashback)",
+        "What is diginuPSP? (psp-001)",
+        "Where can I find more information about diginuEgo? (ego-001)",
+        "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)"
+      ]
     },
     {
       "id": "earn",
@@ -32,7 +38,11 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What is diginuPSP? (psp-001)",
+        "How do I earn with diginuPSP? (psp-002)",
+        "What are the 2 ways to earn in diginuPSP? (psp-007)"
+      ]
     },
     {
       "id": "what-is-diginucashback",
@@ -49,7 +59,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I cancel my diginuCashBack debit order? (cancel-cashback-debit)",
+        "What is diginu? (what-is-diginu)"
+      ]
     },
     {
       "id": "can-someone-be-moved",
@@ -64,7 +77,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I request an enroller change on diginu? (enroller-change-policy)",
+        "What does “linked for life” mean on diginu? (psp-004)"
+      ]
     },
     {
       "id": "cancel-cashback-debit",
@@ -87,13 +103,16 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "Where is diginu’s Privacy Policy? (privacy-policy-link)",
+        "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)"
+      ]
     },
     {
       "id": "ego-overview",
       "question": "What is diginuEgo?",
       "aliases": [
-        "Diginu Ego Overview",
+        "DiginuEgo Overview",
         "Ego Product Overview",
         "What Is The Ego Bike",
         "diginu electric bike info",
@@ -105,7 +124,14 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the key features of diginuEgo? (ego-features)",
+        "What are the technical specifications of diginuEgo? (ego-specs)",
+        "How much does the diginuEgo cost? (ego-price)",
+        "Does the diginuEgo have anti-theft and tracking? (ego-security)",
+        "Where can I see diginuEgo videos and demos? (ego-videos)",
+        "Where can I find more information about diginuEgo? (ego-001)"
+      ]
     },
     {
       "id": "ego-features",
@@ -121,7 +147,12 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the technical specifications of diginuEgo? (ego-specs)",
+        "How much does the diginuEgo cost? (ego-price)",
+        "Does the diginuEgo have anti-theft and tracking? (ego-security)",
+        "Where can I see diginuEgo videos and demos? (ego-videos)"
+      ]
     },
     {
       "id": "ego-specs",
@@ -137,7 +168,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the key features of diginuEgo? (ego-features)",
+        "How much does the diginuEgo cost? (ego-price)"
+      ]
     },
     {
       "id": "ego-battery-range-charging",
@@ -155,7 +189,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the technical specifications of diginuEgo? (ego-specs)",
+        "What are the key features of diginuEgo? (ego-features)"
+      ]
     },
     {
       "id": "ego-price",
@@ -171,7 +208,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the key features of diginuEgo? (ego-features)",
+        "Where can I find more information about diginuEgo? (ego-001)"
+      ]
     },
     {
       "id": "ego-security",
@@ -188,7 +228,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the key features of diginuEgo? (ego-features)",
+        "Where can I see diginuEgo videos and demos? (ego-videos)"
+      ]
     },
     {
       "id": "ego-videos",
@@ -204,7 +247,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the key features of diginuEgo? (ego-features)",
+        "Where can I find more information about diginuEgo? (ego-001)"
+      ]
     },
     {
       "id": "ego-use-cases",
@@ -220,7 +266,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the key features of diginuEgo? (ego-features)",
+        "Does the diginuEgo have anti-theft and tracking? (ego-security)"
+      ]
     },
     {
       "id": "ego-fleet",
@@ -236,7 +285,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the key features of diginuEgo? (ego-features)",
+        "Where can I find more information about diginuEgo? (ego-001)"
+      ]
     },
     {
       "id": "ego-battery-swapping-stations",
@@ -252,7 +304,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the key features of diginuEgo? (ego-features)",
+        "What is the battery, range and charging time for diginuEgo? (ego-battery-range-charging)"
+      ]
     },
     {
       "id": "diginupay-cash-withdrawal",
@@ -272,7 +327,11 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the fees for withdrawing cash from diginuPay? (diginupay-withdrawal-fees)",
+        "What are the daily withdrawal limits on diginuPay? (diginupay-daily-limits)",
+        "I didn’t receive my voucher SMS — what should I do? (diginupay-voucher-sms-not-received)"
+      ]
     },
     {
       "id": "thankyou",
@@ -282,6 +341,7 @@
         "Sharp",
         "Tnx",
         "Tu",
+        "ty",
         "baie dankie",
         "dank",
         "thank",
@@ -308,7 +368,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I withdraw cash from my diginuPay wallet? (diginupay-cash-withdrawal)",
+        "What are the daily withdrawal limits on diginuPay? (diginupay-daily-limits)"
+      ]
     },
     {
       "id": "diginupay-daily-limits",
@@ -324,7 +387,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "What are the fees for withdrawing cash from diginuPay? (diginupay-withdrawal-fees)",
+        "How do I withdraw cash from my diginuPay wallet? (diginupay-cash-withdrawal)"
+      ]
     },
     {
       "id": "diginupay-wallet-to-wallet",
@@ -341,7 +407,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I transfer money from diginuPay to my bank account? (diginupay-transfer-to-bank)",
+        "How do I receive money in my diginuPay wallet? (diginupay-receive-money)"
+      ]
     },
     {
       "id": "diginupay-transfer-to-bank",
@@ -357,7 +426,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I update my bank details in diginuPay? (diginupay-update-bank-details)",
+        "Which banks and cards are supported by diginuPay? (diginupay-supported-banks)"
+      ]
     },
     {
       "id": "diginupay-receive-money",
@@ -373,7 +445,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "Can I transfer money wallet-to-wallet on diginuPay? (diginupay-wallet-to-wallet)",
+        "How do I deposit money into my diginuPay wallet? (diginupay-deposit-into-wallet)"
+      ]
     },
     {
       "id": "diginupay-supported-banks",
@@ -389,7 +464,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I transfer money from diginuPay to my bank account? (diginupay-transfer-to-bank)",
+        "How do I withdraw cash from my diginuPay wallet? (diginupay-cash-withdrawal)"
+      ]
     },
     {
       "id": "diginupay-voucher-sms-not-received",
@@ -407,7 +485,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I withdraw cash from my diginuPay wallet? (diginupay-cash-withdrawal)",
+        "My cash withdrawal failed — how do I fix it? (diginupay-cash-withdrawal-failed)"
+      ]
     },
     {
       "id": "diginupay-voucher-expired",
@@ -424,7 +505,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I withdraw cash from my diginuPay wallet? (diginupay-cash-withdrawal)",
+        "What are the daily withdrawal limits on diginuPay? (diginupay-daily-limits)"
+      ]
     },
     {
       "id": "diginupay-cash-withdrawal-failed",
@@ -441,7 +525,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "I didn’t receive my voucher SMS — what should I do? (diginupay-voucher-sms-not-received)",
+        "What are the fees for withdrawing cash from diginuPay? (diginupay-withdrawal-fees)"
+      ]
     },
     {
       "id": "diginupay-update-bank-details",
@@ -457,7 +544,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I add or link a bank account to diginuPay? (diginupay-link-bank-account)",
+        "How do I transfer money from diginuPay to my bank account? (diginupay-transfer-to-bank)"
+      ]
     },
     {
       "id": "diginupay-link-bank-account",
@@ -473,7 +563,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I transfer money from diginuPay to my bank account? (diginupay-transfer-to-bank)",
+        "How do I update my bank details in diginuPay? (diginupay-update-bank-details)"
+      ]
     },
     {
       "id": "diginupay-deposit-into-wallet",
@@ -489,7 +582,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I receive money in my diginuPay wallet? (diginupay-receive-money)",
+        "Why is my payment pending in diginuPay? (diginupay-pending-payments)"
+      ]
     },
     {
       "id": "diginupay-pending-payments",
@@ -505,7 +601,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I deposit money into my diginuPay wallet? (diginupay-deposit-into-wallet)",
+        "How do reversals and refunds work on diginuPay? (diginupay-reversals-refunds)"
+      ]
     },
     {
       "id": "diginupay-reversals-refunds",
@@ -521,7 +620,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "Why is my payment pending in diginuPay? (diginupay-pending-payments)",
+        "How do I transfer money from diginuPay to my bank account? (diginupay-transfer-to-bank)"
+      ]
     },
     {
       "id": "diginupay-account-locked-flagged",
@@ -538,7 +640,10 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "How do I contact diginu support? (account-email-verify)",
+        "Which banks and cards are supported by diginuPay? (diginupay-supported-banks)"
+      ]
     },
     {
       "id": "policies-and-terms-overview",
@@ -559,7 +664,11 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "Where is diginu’s Privacy Policy? (privacy-policy-link)",
+        "Where are the Customer Terms and Conditions? (customer-terms-link)",
+        "Where are the Merchant Terms and Conditions? (merchant-terms-link)"
+      ]
     },
     {
       "id": "privacy-policy-link",
@@ -576,7 +685,9 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)"
+      ]
     },
     {
       "id": "customer-terms-link",
@@ -593,7 +704,9 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)"
+      ]
     },
     {
       "id": "merchant-terms-link",
@@ -610,7 +723,9 @@
       "status": "published",
       "tags": [],
       "intents": [],
-      "followups": []
+      "followups": [
+        "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)"
+      ]
     },
     {
       "id": "mm-001",
@@ -626,8 +741,8 @@
         "explain_roles"
       ],
       "followups": [
-        "What is a merchant on diginu?",
-        "What is a merchant marketer on diginu?"
+        "What is a merchant on diginu? (mm-002)",
+        "What is a merchant marketer on diginu? (mm-003)"
       ],
       "aliases": [],
       "status": "published"
@@ -644,15 +759,15 @@
         "define_merchant"
       ],
       "followups": [
-        "How do I become a merchant on diginu?",
-        "Is there a fee to join as a merchant?"
+        "How do I become a merchant on diginu? (mm-016)"
       ],
       "aliases": [
         "what is a merchant",
-    "is a merchant a business",
-    "what stores are considered a merchant",
-    "what stores",
-    "what merchants can I onboard?"],
+        "is a merchant a business",
+        "what stores are considered a merchant",
+        "what stores",
+        "what merchants can I onboard?"
+      ],
       "status": "published"
     },
     {
@@ -667,8 +782,8 @@
         "define_merchant_marketer"
       ],
       "followups": [
-        "How do I become a merchant marketer?",
-        "Do merchant marketers earn commission?"
+        "How do I become a merchant marketer? (mm-017)",
+        "Do merchant marketers earn commission? (mm-004)"
       ],
       "aliases": [],
       "status": "published"
@@ -685,8 +800,8 @@
         "explain_commission"
       ],
       "followups": [
-        "How much commission can I earn?",
-        "When and how are commissions paid?"
+        "How much commission can I earn? (mm-018)",
+        "When and how are commissions paid? (mm-019)"
       ],
       "aliases": [],
       "status": "published"
@@ -702,10 +817,7 @@
       "intents": [
         "define_portfolio"
       ],
-      "followups": [
-        "How many merchants can I onboard?",
-        "Can I track my portfolio performance?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
@@ -721,9 +833,7 @@
         "mm_eligibility"
       ],
       "followups": [
-        "Do I need sales experience?",
-        "Is there an age or location requirement?"
-      ],
+        "Do I need sales experience? (mm-012)",],
       "aliases": [],
       "status": "published"
     },
@@ -739,8 +849,7 @@
         "mm_costs"
       ],
       "followups": [
-        "What does the accreditation include?",
-        "Are there ongoing fees?"
+        "What does the accreditation include? (mm-008)"
       ],
       "aliases": [],
       "status": "published"
@@ -756,10 +865,7 @@
       "intents": [
         "mm_timeline"
       ],
-      "followups": [
-        "What topics are covered?",
-        "How do I schedule my assessment?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
@@ -774,10 +880,7 @@
       "intents": [
         "mm_time_commitment"
       ],
-      "followups": [
-        "How many hours should I plan weekly?",
-        "Can I do this alongside my job?"
-      ],
+      "followups": [],
       "aliases": [
         "Is the merchant marketer role fulltime or parttime"
       ],
@@ -794,10 +897,7 @@
       "intents": [
         "mm_enablement"
       ],
-      "followups": [
-        "Do you provide sales materials?",
-        "Is there a community or mentorship?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
@@ -812,10 +912,7 @@
       "intents": [
         "mm_geo_coverage"
       ],
-      "followups": [
-        "How do I check supported areas?",
-        "Can I request a new area launch?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
@@ -831,8 +928,7 @@
         "mm_requirements"
       ],
       "followups": [
-        "Do you offer sales training?",
-        "Any best practices for outreach?"
+        "Do you offer sales training? (training-001)"
       ],
       "aliases": [],
       "status": "published"
@@ -840,7 +936,7 @@
     {
       "id": "mm-013",
       "question": "What is the benefit of becoming a merchant marketer?",
-      "answer": "You create value for local businesses, help them grow via the Diginu app, and earn ongoing commissions from customer orders. It’s a scalable, impact-driven opportunity.",
+      "answer": "You create value for local businesses, help them grow via the diginu app, and earn ongoing commissions from customer orders. It’s a scalable, impact-driven opportunity.",
       "tags": [
         "benefits",
         "opportunity"
@@ -848,11 +944,11 @@
       "intents": [
         "mm_value_prop"
       ],
-      "followups": [
-        "How fast can I earn?",
-        "What results do top performers see?"
+      "followups": [],
+      "aliases": [
+        "benefit of being a merchant marketer",
+        "advantages of being a merchant marketer"
       ],
-      "aliases": [],
       "status": "published"
     },
     {
@@ -866,10 +962,7 @@
       "intents": [
         "mm_team_building"
       ],
-      "followups": [
-        "Are there referral bonuses?",
-        "Do you support co-selling?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
@@ -884,10 +977,7 @@
       "intents": [
         "merchant_categories"
       ],
-      "followups": [
-        "Can services be listed?",
-        "How are menus and prices updated?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
@@ -902,10 +992,7 @@
       "intents": [
         "merchant_onboarding"
       ],
-      "followups": [
-        "What documents do I need?",
-        "How long does activation take?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
@@ -920,10 +1007,7 @@
       "intents": [
         "mm_onboarding"
       ],
-      "followups": [
-        "Where do I apply?",
-        "What happens after I pass?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
@@ -939,8 +1023,7 @@
         "mm_compensation_level"
       ],
       "followups": [
-        "Do rates vary by category?",
-        "Are there performance tiers?"
+        "When and how are commissions paid? (mm-019)"
       ],
       "aliases": [],
       "status": "published"
@@ -957,8 +1040,8 @@
         "mm_payouts"
       ],
       "followups": [
-        "What payment methods are supported?",
-        "Is there a minimum payout threshold?"
+        "How much commission can I earn as a merchant marketer? (mm-018)",
+        "Which banks and cards are supported by diginuPay? (diginupay-supported-banks)"
       ],
       "aliases": [],
       "status": "published"
@@ -974,10 +1057,7 @@
       "intents": [
         "mm_terms"
       ],
-      "followups": [
-        "Do I need an NDA with merchants?",
-        "How is data privacy handled?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
@@ -992,640 +1072,626 @@
       "intents": [
         "merchant_post_launch"
       ],
-      "followups": [
-        "How do merchants update menus?",
-        "Do you help with promotions?"
-      ],
+      "followups": [],
       "aliases": [],
       "status": "published"
     },
     {
-  "id": "delivery-radius",
-  "question": "What is diginu’s delivery radius?",
-  "answer": "diginu offers delivery within a 6km radius of the store the customer orders from. The distance is always calculated from the physical location of the store, not from the customer’s address or city.",
-  "tags": ["delivery", "coverage", "radius"],
-  "intents": ["delivery_radius"],
-  "followups": ["Does diginu plan to increase the delivery radius?", "What happens if I am outside the delivery area?"],
-  "aliases": [
-    "how far does diginu deliver",
-    "delivery distance",
-    "delivery area",
-    "does diginu deliver to me",
-    "delivery km limit",
-    "6km delivery"
-  ],
-  "status": "published"
-},
+      "id": "delivery-radius",
+      "question": "What is diginu’s delivery radius?",
+      "answer": "diginu offers delivery within a 6km radius of the store the customer orders from. The distance is always calculated from the physical location of the store, not from the customer’s address or city.",
+      "tags": ["delivery", "coverage", "radius"],
+      "intents": ["delivery_radius"],
+      "followups": [],
+      "aliases": [
+        "how far does diginu deliver",
+        "delivery distance",
+        "delivery area",
+        "does diginu deliver to me",
+        "delivery km limit",
+        "6km delivery"
+      ],
+      "status": "published"
+    },
     {
-  "id": "enroller-change-policy",
-  "question": "How do I request an enroller change on diginu?",
-  "answer": "diginu allows enroller changes within 7 days of joining. Email enrollerchange@diginu.com and include the original welcome email the user received when they joined. Before sending, verify that the enrollment date on the welcome email is within the last 7 days. If someone joined diginu directly on the website (and not via your referral link), you can request that they be moved under you by following the same process.",
-  "tags": ["enroller-change", "referrals", "policy", "support"],
-  "intents": ["enroller_change_policy"],
-  "followups": [
-    "What if it’s been more than 7 days?",
-    "What details must be in the email to enrollerchange@diginu.com?",
-    "Can I request an enroller change if the user joined under the company?"
-  ],
-  "aliases": [
-    "change my enroller",
-    "move under my referral",
-    "fix wrong upline",
-    "enrollment change request",
-    "joined under the company by mistake",
-    "joined on the website not my link",
-    "how to switch enroller",
-    "update enroller within 7 days"
-  ],
-  "status": "published"
-},
+      "id": "enroller-change-policy",
+      "question": "How do I request an enroller change on diginu?",
+      "answer": "diginu allows enroller changes within 7 days of joining. Email enrollerchange@diginu.com and include the original welcome email the user received when they joined. Before sending, verify that the enrollment date on the welcome email is within the last 7 days. If someone joined diginu directly on the website (and not via your referral link), you can request that they be moved under you by following the same process.",
+      "tags": ["enroller-change", "referrals", "policy", "support"],
+      "intents": ["enroller_change_policy"],
+      "followups": [
+        "Can someone be moved if they signed up wrong? (can-someone-be-moved)",
+        "What does “linked for life” mean on diginu? (psp-004)"
+      ],
+      "aliases": [
+        "change my enroller",
+        "move under my referral",
+        "fix wrong upline",
+        "enrollment change request",
+        "joined under the company by mistake",
+        "joined on the website not my link",
+        "how to switch enroller",
+        "update enroller within 7 days"
+      ],
+      "status": "published"
+    },
     {
-  "id": "about-jessie-bester",
-  "question": "Who is Jessie Bester?",
-  "answer": "Jessie Bester is the CEO and Founder of diginu. He created diginuPSP, a people-focused business model designed to uplift others by sharing profits with the people who help grow the platform. Jessie believes in removing barriers to opportunity and building a business that rewards ordinary people for their contribution.",
-  "tags": ["founder", "about", "leadership", "jessie-bester"],
-  "intents": ["about_founder"],
-  "followups": [
-    "Why did Jessie Bester start diginu?",
-    "What is Jessie Bester’s vision for diginu?",
-    "How does diginu uplift people?"
-  ],
-  "aliases": [
-    "who is jessie",
-    "what is jessie bester role",
-    "diginu founder",
-    "ceo of diginu",
-    "who started diginu"
-  ],
-  "status": "published"
-},
+      "id": "about-jessie-bester",
+      "question": "Who is Jessie Bester?",
+      "answer": "Jessie Bester is the CEO and Founder of diginu. He created diginuPSP, a people-focused business model designed to uplift others by sharing profits with the people who help grow the platform. Jessie believes in removing barriers to opportunity and building a business that rewards ordinary people for their contribution.",
+      "tags": ["founder", "about", "leadership", "jessie-bester"],
+      "intents": ["about_founder"],
+      "followups": [
+        "What is the diginuPSP business model? (psp-business-model)",
+        "What is diginuPSP? (psp-001)"
+      ],
+      "aliases": [
+        "who is jessie",
+        "what is jessie bester role",
+        "diginu founder",
+        "ceo of diginu",
+        "who started diginu"
+      ],
+      "status": "published"
+    },
     {
-  "id": "psp-business-model",
-  "question": "What is the diginuPSP business model?",
-  "answer": "diginuPSP is a people-driven business model created by diginu CEO Jessie Bester to uplift others through shared success. Instead of spending millions on traditional advertising, diginu avoids upfront marketing costs and shares a portion of its profit with the people who help grow the platform by enrolling customers. This means marketing money is only paid **after a sale happens**, not before. As a result, customers get **more affordable products**, and everyday people have the opportunity to **earn income** through the diginuPSP system.",
-  "tags": ["psp", "business-model", "about", "profit-sharing", "earnings"],
-  "intents": ["explain_diginu_psp"],
-  "followups": [
-    "What does PSP stand for?",
-    "How do I earn through diginuPSP?",
-    "Why does diginu share profits with people?"
-  ],
-  "aliases": [
-    "what is psp",
-    "psp model",
-    "psp meaning",
-    "how does diginu psp work",
-    "diginu profit sharing",
-    "diginu marketing model",
-    "why diginu is cheaper",
-    "psp business model explanation"
-  ],
-  "status": "published"
-},
-  {
-    "id": "psp-001",
-    "question": "What is diginuPSP?",
-    "answer": "<p><b>diginuPSP</b> (Profit Share Program) is diginu’s people-first model that rewards the individuals who help grow the platform. Instead of paying for expensive, upfront advertising, diginu shares a portion of profit with the people who <b>enroll new customers</b>. Marketing spend happens <b>after a sale</b>, not before, which helps keep products more affordable for customers.</p><p>See also: <a href=\"#psp-002\">How do I earn with diginuPSP?</a> · <a href=\"#psp-003\">How does the referral link work?</a></p>",
-    "tags": ["psp", "overview", "profit-share", "about"],
-    "intents": ["psp_overview"],
-    "followups": [
-      "How do I earn with diginuPSP? (psp-002)",
-      "How does the referral link work? (psp-003)"
-    ],
-    "aliases": [
-      "what is psp",
-      "psp overview",
-      "explain diginu profit share",
-      "how does diginu psp work",
-      "diginu psp model"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-002",
-    "question": "How do I earn with diginuPSP?",
-    "answer": "<p>You earn by sharing your <b>unique diginu referral link</b> with friends, family, or customers. When someone joins diginu using your link, they’re <b>permanently connected to you</b> in our system. From then on, every qualifying order they place on diginu can generate <b>commission</b> for you.</p><p>See also: <a href=\"#psp-003\">How does the referral link work?</a> · <a href=\"#psp-004\">What does “linked for life” mean?</a></p>",
-    "tags": ["psp", "earnings", "commission", "referrals"],
-    "intents": ["psp_earnings_how"],
-    "followups": [
-      "How does the referral link work? (psp-003)",
-      "What does 'linked for life' mean? (psp-004)",
-      "Do referrals need my link every time? (psp-005)"
-    ],
-    "aliases": [
-      "how to earn with psp",
-      "psp earnings",
-      "how do i make money with diginu",
-      "earn commission referrals",
-      "diginu profit share earnings"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-003",
-    "question": "How does the referral link work on diginu?",
-    "answer": "<p>Your <b>referral link</b> is unique to you. Share it with people you want to enroll. When they <b>join diginu</b> through your link, our system saves that relationship automatically. They don’t need to enter your link again for future orders — the connection is already in place.</p><p>See also: <a href=\"#psp-002\">How do I earn with diginuPSP?</a> · <a href=\"#psp-005\">Do referrals need to use my link every time?</a></p>",
-    "tags": ["psp", "referral-link", "onboarding", "enrollment"],
-    "intents": ["psp_referral_link"],
-    "followups": [
-      "Do referrals need to use my link every time? (psp-005)",
-      "Are referrals linked for life? (psp-004)"
-    ],
-    "aliases": [
-      "referral link diginu",
-      "how to use referral link",
-      "where is my diginu referral link",
-      "how does referral linking work",
-      "diginu invite link"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-004",
-    "question": "What does “linked for life” mean on diginu?",
-    "answer": "<p>“<b>Linked for life</b>” means that once a person joins diginu using your referral link, they remain <b>permanently associated</b> with you in the system. Whenever they place qualifying orders in the future, you can earn commission automatically — no extra action needed from either of you.</p><p>See also: <a href=\"#psp-003\">How does the referral link work?</a> · <a href=\"#psp-006\">Can a user be moved to a different enroller?</a></p>",
-    "tags": ["psp", "lifetime-connection", "policy", "referrals"],
-    "intents": ["psp_lifetime_link"],
-    "followups": [
-      "Can a user be moved to a different enroller? (psp-006)",
-      "Do referrals need to use my link every time? (psp-005)"
-    ],
-    "aliases": [
-      "linked for life",
-      "lifetime link diginu",
-      "are referrals permanent",
-      "are users linked forever",
-      "what happens after they join with my link"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-005",
-    "question": "Do referrals need to use my link every time they order?",
-    "answer": "<p>No. Once someone has <b>joined diginu using your referral link</b>, they are already linked to you. They do <b>not</b> need to reuse your link for future orders — the system remembers you as their original enroller.</p><p>See also: <a href=\"#psp-003\">How does the referral link work?</a> · <a href=\"#psp-004\">What does 'linked for life' mean?</a></p>",
-    "tags": ["psp", "referral-link", "ordering", "clarification"],
-    "intents": ["psp_link_reuse"],
-    "followups": [
-      "How does the referral link work? (psp-003)",
-      "Are referrals linked for life? (psp-004)"
-    ],
-    "aliases": [
-      "must they use my link again",
-      "do they need my link every time",
-      "repeat referral link usage",
-      "ordering without link",
-      "do customers have to enter my link each time"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-006",
-    "question": "Can a user be moved to a different enroller later?",
-    "answer": "<p>Generally <b>no</b>. When someone joins using your referral link, they are <b>permanently connected</b> to you. In special cases where someone accidentally joined directly on the website or under the company, an enroller change may be requested within <b>7 days of joining</b> by emailing <a href=\"mailto:enrollerchange@diginu.com\">enrollerchange@diginu.com</a> with the original welcome email. Please verify the join date first.</p><p>See also: <a href=\"#enroller-change-policy\">How do I request an enroller change?</a></p>",
-    "tags": ["psp", "policy", "enroller-change", "referrals"],
-    "intents": ["psp_enroller_lock"],
-    "followups": [
-      "How do I request an enroller change? (enroller-change-policy)"
-    ],
-    "aliases": [
-      "move a referral",
-      "change enroller after joining",
-      "can users switch enrollers",
-      "transfer a referral",
-      "change my upline"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-007",
-    "question": "What are the 2 ways to earn in diginuPSP?",
-    "answer": "<p><b>diginuPSP</b> (Profit Share Program) offers two earning opportunities:</p><ul><li><b>Customer side:</b> You earn commissions when customers join diginu using your referral link and place orders. These earnings are based on a 5-generation structure.</li><li><b>Merchant side:</b> You can also earn when merchants onboard through your referrals and generate sales.</li></ul><p><i>This section explains the <b>customer (delivery) side</b> only.</i></p><p>See also: <a href=\"#psp-008\">How do I earn from customers?</a> · <a href=\"#psp-009\">What are PSP generations?</a></p>",
-    "tags": ["psp", "overview", "income-streams", "delivery-side"],
-    "intents": ["psp_income_overview"],
-    "followups": [
-      "How do I earn from customers on the delivery side? (psp-008)",
-      "What are generations in diginuPSP? (psp-009)"
-    ],
-    "aliases": [
-      "ways to earn diginu",
-      "income streams psp",
-      "how to earn money with diginu",
-      "psp delivery side overview",
-      "customer vs merchant earnings"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-008",
-    "question": "How do I earn from customers on the delivery side?",
-    "answer": "<p>You earn by referring new customers to diginu through your <b>unique referral link</b>. When they join and place orders, you receive commission from the goods they purchase. These earnings are paid on up to <b>five generations</b> of referrals under you.</p><p><i>This applies to <b>customer-side (delivery)</b> PSP earnings only.</i></p><p>See also: <a href=\"#psp-009\">What are PSP generations?</a> · <a href=\"#psp-010\">How does the 5-generation system work?</a></p>",
-    "tags": ["psp", "delivery-side", "customer-earnings", "referrals"],
-    "intents": ["psp_delivery_earnings"],
-    "followups": [
-      "What are generations in diginuPSP? (psp-009)",
-      "How does the 5-generation earning system work? (psp-010)"
-    ],
-    "aliases": [
-      "how to earn from deliveries",
-      "customer side earnings",
-      "psp delivery earnings",
-      "how to earn commissions on orders",
-      "delivery side profit share"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-009",
-    "question": "What are generations in diginuPSP?",
-    "answer": "<p>In diginuPSP, a <b>generation</b> refers to how far a referral is from you in the earning structure. When you enroll someone, that person is <b>Generation 1</b>. If they enroll someone, that new person becomes <b>Generation 2</b>, and so on — up to <b>Generation 5</b>.</p><p>This allows you to earn from the activity of people you introduced and those they introduce, creating a long-term income stream.</p><p><i>This structure applies to <b>customer-side PSP</b> earnings only.</i></p><p>See also: <a href=\"#psp-010\">How does the 5-generation earning system work?</a> · <a href=\"#psp-011\">What percentage do I earn per generation?</a></p>",
-    "tags": ["psp", "generations", "structure", "delivery-side"],
-    "intents": ["psp_generations_define"],
-    "followups": [
-      "How does the 5-generation earning system work? (psp-010)",
-      "What percentage do I earn per generation? (psp-011)"
-    ],
-    "aliases": [
-      "psp generations explained",
-      "what are levels in psp",
-      "how many generations in diginu",
-      "psp structure",
-      "referral levels diginu"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-010",
-    "question": "How does the 5-generation PSP earning system work?",
-    "answer": "<p>With diginuPSP, you earn commission up to <b>five generations deep</b> from customers who joined using your referral link. When your direct referral orders, you earn from their purchase. You also earn smaller percentages from the orders of people they referred, up to five generations away.</p><p>This ensures that your network’s ongoing activity can create a recurring income stream over time.</p><p><i>These commissions apply to <b>customer-side (delivery)</b> PSP earnings only.</i></p><p>See also: <a href=\"#psp-011\">What percentage commission do I earn per generation?</a> · <a href=\"#psp-012\">What part of the order qualifies for PSP earnings?</a></p>",
-    "tags": ["psp", "5-generations", "delivery-side", "commission-structure"],
-    "intents": ["psp_generations_how"],
-    "followups": [
-      "What percentage commission do I earn per generation? (psp-011)",
-      "What part of the order qualifies for PSP earnings? (psp-012)"
-    ],
-    "aliases": [
-      "how the 5 level system works",
-      "explain psp levels",
-      "diginu 5 generations",
-      "how does generation earning work",
-      "how psp commissions are calculated"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-011",
-    "question": "What percentage commission do I earn per generation?",
-    "answer": "<p>diginuPSP pays out a total of <b>1% commission</b> on the goods purchased (excluding delivery, admin fees, and tips). This 1% is split across <b>five generations</b> as follows:</p><ul><li><b>0.5%</b> on Generation&nbsp;1</li><li><b>0.2%</b> on Generation&nbsp;2</li><li><b>0.15%</b> on Generation&nbsp;3</li><li><b>0.10%</b> on Generation&nbsp;4</li><li><b>0.05%</b> on Generation&nbsp;5</li></ul><p><i>These rates apply to <b>customer-side PSP</b> commissions only.</i></p><p>See also: <a href=\"#psp-010\">How does the 5-generation system work?</a> · <a href=\"#psp-012\">What part of the order qualifies for PSP earnings?</a></p>",
-    "tags": ["psp", "commission", "percentages", "delivery-side"],
-    "intents": ["psp_commission_percentages"],
-    "followups": [
-      "How does the 5-generation system work? (psp-010)",
-      "What part of a customer order qualifies for PSP commission? (psp-012)"
-    ],
-    "aliases": [
-      "psp percentage split",
-      "commission per generation",
-      "psp level percentages",
-      "how much per generation",
-      "diginu psp 1 percent breakdown"
-    ],
-    "status": "published"
-  },
-  {
-    "id": "psp-012",
-    "question": "What part of a customer order qualifies for PSP commission?",
-    "answer": "<p>PSP commission is calculated only on the <b>total value of goods purchased</b> by the customer. The following charges are <b>excluded</b> from commission calculations:</p><ul><li>Delivery fees</li><li>Admin fees</li><li>Tips</li></ul><p><i>This rule applies to <b>customer-side PSP</b> commissions only.</i></p><p>See also: <a href=\"#psp-011\">What percentage commission do I earn per generation?</a></p>",
-    "tags": ["psp", "qualifying-orders", "delivery-side", "commission-policy"],
-    "intents": ["psp_commission_scope"],
-    "followups": [
-      "What percentage commission do I earn per generation? (psp-011)"
-    ],
-    "aliases": [
-      "which part of order pays commission",
-      "do delivery fees count for psp",
-      "are tips included in psp commission",
-      "psp eligible order value",
-      "what purchases qualify for psp"
-    ],
-    "status": "published"
-  },
+      "id": "psp-business-model",
+      "question": "What is the diginuPSP business model?",
+      "answer": "diginuPSP is a people-driven business model created by diginu CEO Jessie Bester to uplift others through shared success. Instead of spending millions on traditional advertising, diginu avoids upfront marketing costs and shares a portion of its profit with the people who help grow the platform by enrolling customers. This means marketing money is only paid **after a sale happens**, not before. As a result, customers get **more affordable products**, and everyday people have the opportunity to **earn income** through the diginuPSP system.",
+      "tags": ["psp", "business-model", "about", "profit-sharing", "earnings"],
+      "intents": ["explain_diginu_psp"],
+      "followups": [
+        "What is diginuPSP? (psp-001)",
+        "How do I earn with diginuPSP? (psp-002)",
+        "How does the 5-generation PSP earning system work? (psp-010)"
+      ],
+      "aliases": [
+        "what is psp",
+        "psp model",
+        "psp meaning",
+        "how does diginu psp work",
+        "diginu profit sharing",
+        "diginu marketing model",
+        "why diginu is cheaper",
+        "psp business model explanation"
+      ],
+      "status": "published"
+    },
     {
-  "id": "psp-013",
-  "question": "Where do I find my diginu referral link?",
-  "answer": "<p>You can find your <b>diginu referral link</b> inside the <b>diginu Food Delivery</b> app:</p><ol><li>Open the diginu Food app and <b>log in</b></li><li>Tap on <b>Profile</b></li><li>Select <b>Income Opportunity</b></li><li>Tap <b>Share my referral link</b></li></ol><p>Your referral link is unique to you and is used to enroll new customers under you.</p>",
-  "tags": ["psp", "referral-link", "delivery-side", "onboarding"],
-  "intents": ["psp_find_referral_link"],
-  "followups": [
-    "How do I use my referral link? (psp-003)",
-    "Do referrals need to use my link every time? (psp-005)",
-    "What are generations in diginuPSP? (psp-009)"
-  ],
-  "aliases": [
-    "where is my referral link",
-    "referral link location",
-    "find referral link",
-    "referral number",
-    "referral code",
-    "customer number",
-    "affiliate link",
-    "affiliate number",
-    "invite link",
-    "how to get my diginu link"
-  ],
-  "status": "published"
-},
+      "id": "psp-001",
+      "question": "What is diginuPSP?",
+      "answer": "<p><b>diginuPSP</b> (Profit Share Program) is diginu’s people-first model that rewards the individuals who help grow the platform. Instead of paying for expensive, upfront advertising, diginu shares a portion of profit with the people who <b>enroll new customers</b>. Marketing spend happens <b>after a sale</b>, not before, which helps keep products more affordable for customers.</p><p>See also: <a href=\"#psp-002\">How do I earn with diginuPSP?</a> · <a href=\"#psp-003\">How does the referral link work?</a></p>",
+      "tags": ["psp", "overview", "profit-share", "about"],
+      "intents": ["psp_overview"],
+      "followups": [
+        "How do I earn with diginuPSP? (psp-002)",
+        "How does the referral link work? (psp-003)"
+      ],
+      "aliases": [
+        "what is psp",
+        "psp overview",
+        "explain diginu profit share",
+        "how does diginu psp work",
+        "diginu psp model"
+      ],
+      "status": "published"
+    },
     {
-  "id": "training-001",
-  "question": "Does diginu offer monthly training?",
-  "answer": "<p>Yes, diginu hosts <b>monthly live training</b> on the <b>first Saturday of every month</b> from <b>10:00 to 13:00</b> via <b>Zoom Webinar</b>. Training is presented by a <b>panel of experts</b> who cover practical topics to help you grow faster and succeed in the diginu opportunity.</p><p><b>✅ Training is completely free</b></p><p>To reserve your seat:</p><ol><li>Log in to your diginu account</li><li>Go to <b>My Academy</b></li><li>Open <b>Step 2</b></li><li>Click <b>Book</b> to register</li></ol>",
-  "tags": ["training", "academy", "events", "education", "support"],
-  "intents": ["diginu_training_overview"],
-  "followups": [
-    "How do I book training on diginu? (training-002)",
-    "Is training recorded if I miss it? (training-003)"
-  ],
-  "aliases": [
-    "monthly training",
-    "zoom training diginu",
-    "does diginu offer training",
-    "training schedule diginu",
-    "how to attend diginu training",
-    "free training diginu",
-    "team training diginu"
-  ],
-  "status": "published"
-},
+      "id": "psp-002",
+      "question": "How do I earn with diginuPSP?",
+      "answer": "<p>You earn by sharing your <b>unique diginu referral link</b> with friends, family, or customers. When someone joins diginu using your link, they’re <b>permanently connected to you</b> in our system. From then on, every qualifying order they place on diginu can generate <b>commission</b> for you.</p><p>See also: <a href=\"#psp-003\">How does the referral link work?</a> · <a href=\"#psp-004\">What does “linked for life” mean?</a></p>",
+      "tags": ["psp", "earnings", "commission", "referrals"],
+      "intents": ["psp_earnings_how"],
+      "followups": [
+        "How does the referral link work? (psp-003)",
+        "What does 'linked for life' mean? (psp-004)",
+        "Do referrals need my link every time? (psp-005)"
+      ],
+      "aliases": [
+        "how to earn with psp",
+        "psp earnings",
+        "how do i make money with diginu",
+        "earn commission referrals",
+        "diginu profit share earnings"
+      ],
+      "status": "published"
+    },
     {
-  "id": "psp-014",
-  "question": "What is the difference between diginu and network marketing or MLM?",
-  "answer": "<p><b>diginu is not an MLM or network marketing company.</b> Traditional MLMs usually require people to:</p><ul><li>Buy starter packages to join</li><li>Make monthly product purchases to stay active</li><li>Pay annual renewal or membership fees</li></ul><p><b>diginu is different.</b> With diginu:</p><ul><li><b>Signup is 100% free</b></li><li><b>No monthly purchases</b> are required to qualify for commission</li><li><b>No renewal fees</b> or joining kits</li></ul><p>Think of diginu as a <b>referral program on steroids</b>. Instead of giving customers small discounts, we share real <b>cash earnings</b> when you refer people. We also split <b>1% of all turnover</b> back into the community as referral commission, paid over <b>5 generations</b> to allow teamwork and shared growth.</p>",
-  "tags": ["psp", "difference", "mlm", "network-marketing", "about"],
-  "intents": ["psp_not_mlm"],
-  "followups": [
-    "How do I earn with diginu if it's not MLM? (psp-008)",
-    "How does the 5-generation system work? (psp-010)",
-    "Is signup really free on diginu?"
-  ],
-  "aliases": [
-    "is diginu an mlm",
-    "mlm vs diginu",
-    "is diginu network marketing",
-    "difference between diginu and mlm"
-  ],
-  "status": "published"
-},
+      "id": "psp-003",
+      "question": "How does the referral link work on diginu?",
+      "answer": "<p>Your <b>referral link</b> is unique to you. Share it with people you want to enroll. When they <b>join diginu</b> through your link, our system saves that relationship automatically. They don’t need to enter your link again for future orders — the connection is already in place.</p><p>See also: <a href=\"#psp-002\">How do I earn with diginuPSP?</a> · <a href=\"#psp-005\">Do referrals need to use my link every time?</a></p>",
+      "tags": ["psp", "referral-link", "onboarding", "enrollment"],
+      "intents": ["psp_referral_link"],
+      "followups": [
+        "Do referrals need to use my link every time? (psp-005)",
+        "Are referrals linked for life? (psp-004)"
+      ],
+      "aliases": [
+        "referral link diginu",
+        "how to use referral link",
+        "where is my diginu referral link",
+        "how does referral linking work",
+        "diginu invite link"
+      ],
+      "status": "published"
+    },
     {
-  "id": "psp-015",
-  "question": "Is diginu a pyramid scheme?",
-  "answer": "<p><b>No — diginu is not a pyramid scheme.</b> Pyramid and chain distribution schemes are <b>illegal</b> in South Africa under the <b>Consumer Protection Act (CPA) No. 68 of 2008, Section 43</b>. diginu fully complies with South African law.</p><p>Here’s why diginu is <b>legal and legitimate</b>:</p><ul><li><b>We provide real products & services:</b> diginu is a live delivery platform for food, groceries and essentials. Revenue comes from real customer orders — not recruitment fees.</li><li><b>No joining fees:</b> It is 100% free to join diginu and earn from referrals. This complies with Section 43(2) of the CPA.</li><li><b>No compulsory purchases:</b> You don’t need to buy products monthly or pay to qualify for earnings.</li><li><b>Commission is paid from real revenue:</b> Earnings come from actual sales, not sign-up fees.</li><li><b>Referring is optional:</b> Anyone can use diginu just as a customer, with no obligation to refer others.</li></ul><p>diginu simply chooses to share marketing profit with its users through the <b>diginuPSP (Profit Share Program)</b>, instead of paying big corporations for advertising. Think of it as a <b>referral program on steroids — with jet fuel added</b> 🚀.</p>",
-  "tags": ["psp", "legal", "compliance", "pyramid-scheme", "about"],
-  "intents": ["psp_legal_validation"],
-  "followups": [
-    "What is the difference between diginu and MLM? (psp-014)",
-    "How does diginuPSP work? (psp-001)",
-    "How do I earn with diginuPSP? (psp-002)"
-  ],
-  "aliases": [
-    "is diginu legal",
-    "is diginu safe",
-    "is diginu a scam",
-    "diginu pyramid scheme",
-    "is diginu legit",
-    "diginu consumer protection act"
-  ],
-  "status": "published"
-},
+      "id": "psp-004",
+      "question": "What does “linked for life” mean on diginu?",
+      "answer": "<p>“<b>Linked for life</b>” means that once a person joins diginu using your referral link, they remain <b>permanently associated</b> with you in the system. Whenever they place qualifying orders in the future, you can earn commission automatically — no extra action needed from either of you.</p><p>See also: <a href=\"#psp-003\">How does the referral link work?</a> · <a href=\"#psp-006\">Can a user be moved to a different enroller?</a></p>",
+      "tags": ["psp", "lifetime-connection", "policy", "referrals"],
+      "intents": ["psp_lifetime_link"],
+      "followups": [
+        "Can a user be moved to a different enroller? (psp-006)",
+        "Do referrals need to use my link every time? (psp-005)"
+      ],
+      "aliases": [
+        "linked for life",
+        "lifetime link diginu",
+        "are referrals permanent",
+        "are users linked forever",
+        "what happens after they join with my link"
+      ],
+      "status": "published"
+    },
     {
-  "id": "ego-001",
-  "question": "Where can I find more information about diginuEgo?",
-  "answer": "<p>For full information about <b>diginuEgo</b>, visit the official diginuEgo page here:</p><p><a href=\"https://diginu.com/ego\" target=\"_blank\" rel=\"noopener\">https://diginu.com/ego</a></p><p>This page includes full details on features, pricing, specs, battery info, videos and ordering options.</p>",
-  "tags": ["ego", "electric-bike", "info", "link"],
-  "intents": ["ego_more_info"],
-  "followups": [
-    "What is diginuEgo? (ego-overview)",
-    "What are the features of diginuEgo? (ego-features)"
-  ],
-  "aliases": [
-    "ego info",
-    "ego details",
-    "learn about diginuEgo",
-    "ego website",
-    "diginuego website",
-    "diginuego link",
-    "where can I learn about ego"
-  ],
-  "status": "published"
-},
+      "id": "psp-005",
+      "question": "Do referrals need to use my link every time they order?",
+      "answer": "<p>No. Once someone has <b>joined diginu using your referral link</b>, they are already linked to you. They do <b>not</b> need to reuse your link for future orders — the system remembers you as their original enroller.</p><p>See also: <a href=\"#psp-003\">How does the referral link work?</a> · <a href=\"#psp-004\">What does 'linked for life' mean?</a></p>",
+      "tags": ["psp", "referral-link", "ordering", "clarification"],
+      "intents": ["psp_link_reuse"],
+      "followups": [
+        "How does the referral link work? (psp-003)",
+        "Are referrals linked for life? (psp-004)"
+      ],
+      "aliases": [
+        "must they use my link again",
+        "do they need my link every time",
+        "repeat referral link usage",
+        "ordering without link",
+        "do customers have to enter my link each time"
+      ],
+      "status": "published"
+    },
     {
-  "id": "account-email-verify",
-  "question": "Can you check if my email is in the diginu system?",
-  "answer": "<p>I'm not able to verify accounts directly. Please email <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a> to confirm whether your email is in the system. You can also ask the admins on the official WhatsApp groups for help.</p><p><b>Tip:</b> Include your full name, phone number and the email address you want us to check to speed things up.</p>",
-  "tags": ["support", "account", "verification", "email"],
-  "intents": ["check_email_in_system"],
-  "followups": [
-    "How do I update my email on diginu?",
-    "How do I contact diginu support?",
-    "What information should I include when emailing support?"
-  ],
-  "aliases": [
-    "check my email on diginu",
-    "is my email on the system",
-    "verify my diginu account",
-    "confirm my email",
-    "find this email",
-    "is this email on the system",
-    "who is this person registered under?",
-    "can you see my email",
-    "find my account",
-    "is my email registered"
-  ],
-  "status": "published"
-},
+      "id": "psp-006",
+      "question": "Can a user be moved to a different enroller later?",
+      "answer": "<p>Generally <b>no</b>. When someone joins using your referral link, they are <b>permanently connected</b> to you. In special cases where someone accidentally joined directly on the website or under the company, an enroller change may be requested within <b>7 days of joining</b> by emailing <a href=\"mailto:enrollerchange@diginu.com\">enrollerchange@diginu.com</a> with the original welcome email. Please verify the join date first.</p><p>See also: <a href=\"#enroller-change-policy\">How do I request an enroller change?</a></p>",
+      "tags": ["psp", "policy", "enroller-change", "referrals"],
+      "intents": ["psp_enroller_lock"],
+      "followups": [
+        "How do I request an enroller change? (enroller-change-policy)"
+      ],
+      "aliases": [
+        "move a referral",
+        "change enroller after joining",
+        "can users switch enrollers",
+        "transfer a referral",
+        "change my upline"
+      ],
+      "status": "published"
+    },
     {
-  "id": "work-remote-policy",
-  "question": "What is diginu's policy on remote work?",
-  "answer": "<p>diginu operates <b>100% remotely</b>. If you have a smartphone or computer with internet access, you can work from <b>anywhere</b>. There are no office attendance requirements.</p>",
-  "tags": ["work", "remote", "policy", "flexibility"],
-  "intents": ["remote_work_policy"],
-  "followups": [
-    "Do I need experience to work with diginu?",
-    "How do I start earning with diginu?"
-  ],
-  "aliases": [
-    "does diginu work remotely",
-    "remote work diginu",
-    "work from anywhere diginu",
-    "home based work diginu",
-    "can I work online with diginu",
-    "work policy diginu"
-  ],
-  "status": "published"
-},
+      "id": "psp-007",
+      "question": "What are the 2 ways to earn in diginuPSP?",
+      "answer": "<p><b>diginuPSP</b> (Profit Share Program) offers two earning opportunities:</p><ul><li><b>Customer side:</b> You earn commissions when customers join diginu using your referral link and place orders. These earnings are based on a 5-generation structure.</li><li><b>Merchant side:</b> You can also earn when merchants onboard through your referrals and generate sales.</li></ul><p><i>This section explains the <b>customer (delivery) side</b> only.</i></p><p>See also: <a href=\"#psp-008\">How do I earn from customers?</a> · <a href=\"#psp-009\">What are PSP generations?</a></p>",
+      "tags": ["psp", "overview", "income-streams", "delivery-side"],
+      "intents": ["psp_income_overview"],
+      "followups": [
+        "How do I earn from customers on the delivery side? (psp-008)",
+        "What are generations in diginuPSP? (psp-009)"
+      ],
+      "aliases": [
+        "ways to earn diginu",
+        "income streams psp",
+        "how to earn money with diginu",
+        "psp delivery side overview",
+        "customer vs merchant earnings"
+      ],
+      "status": "published"
+    },
     {
-  "id": "training-002",
-  "question": "Where do I find the online training on diginu?",
-  "answer": "<p>You can access all <b>online training</b> inside the <b>diginu Academy</b>. Here's how:</p><ol><li>Go to <a href=\"https://diginu.com\" target=\"_blank\">diginu.com</a> and <b>log in</b></li><li>Click on <b>My Academy</b> in the menu</li><li>Go to <b>Step 5</b></li><li>Select the <b>training course</b> you want to complete</li></ol><p>✅ All training is <b>100% free</b><br>✅ Each course includes a <b>quick test</b><br>✅ When you pass, you receive a <b>beautiful digital certificate</b> 🎓</p>",
-  "tags": ["training", "academy", "education", "support", "learning"],
-  "intents": ["find_online_training"],
-  "followups": [
-    "Does diginu offer certificates? (training-003)",
-    "Is the training free? (training-004)",
-    "How do I book live training? (training-001)"
-  ],
-  "aliases": [
-    "online training diginu",
-    "how to access diginu academy",
-    "where is my academy",
-    "find diginu training",
-    "diginu training videos",
-    "academy step 5",
-    "learn diginu online"
-  ],
-  "status": "published"
-},
+      "id": "psp-008",
+      "question": "How do I earn from customers on the delivery side?",
+      "answer": "<p>You earn by referring new customers to diginu through your <b>unique referral link</b>. When they join and place orders, you receive commission from the goods they purchase. These earnings are paid on up to <b>five generations</b> of referrals under you.</p><p><i>This applies to <b>customer-side (delivery)</b> PSP earnings only.</i></p><p>See also: <a href=\"#psp-009\">What are PSP generations?</a> · <a href=\"#psp-010\">How does the 5-generation system work?</a></p>",
+      "tags": ["psp", "delivery-side", "customer-earnings", "referrals"],
+      "intents": ["psp_delivery_earnings"],
+      "followups": [
+        "What are generations in diginuPSP? (psp-009)",
+        "How does the 5-generation earning system work? (psp-010)"
+      ],
+      "aliases": [
+        "how to earn from deliveries",
+        "customer side earnings",
+        "psp delivery earnings",
+        "how to earn commissions on orders",
+        "delivery side profit share"
+      ],
+      "status": "published"
+    },
     {
-  "id": "training-003",
-  "question": "Does diginu offer certificates for training?",
-  "answer": "<p>Yes! 🎓 When you complete a training course inside <b>My Academy</b> and pass the short test at the end, you will receive an official <b>diginu completion certificate</b>.</p><p>Your certificate will be issued automatically and can be downloaded and shared as proof of your achievement.</p><p>✅ Free training<br>✅ Quick assessments<br>✅ Professional certificates</p>",
-  "tags": ["training", "academy", "certification", "learning"],
-  "intents": ["training_certificates"],
-  "followups": [
-    "Where do I find the online training? (training-002)",
-    "Is the training free? (training-004)"
-  ],
-  "aliases": [
-    "do I get a certificate",
-    "training certificate",
-    "does diginu give certificates",
-    "academy certificate",
-    "how to get certificate diginu",
-    "proof of training diginu"
-  ],
-  "status": "published"
-}, 
+      "id": "psp-009",
+      "question": "What are generations in diginuPSP?",
+      "answer": "<p>In diginuPSP, a <b>generation</b> refers to how far a referral is from you in the earning structure. When you enroll someone, that person is <b>Generation 1</b>. If they enroll someone, that new person becomes <b>Generation 2</b>, and so on — up to <b>Generation 5</b>.</p><p>This allows you to earn from the activity of people you introduced and those they introduce, creating a long-term income stream.</p><p><i>This structure applies to <b>customer-side PSP</b> earnings only.</i></p><p>See also: <a href=\"#psp-010\">How does the 5-generation earning system work?</a> · <a href=\"#psp-011\">What percentage do I earn per generation?</a></p>",
+      "tags": ["psp", "generations", "structure", "delivery-side"],
+      "intents": ["psp_generations_define"],
+      "followups": [
+        "How does the 5-generation PSP earning system work? (psp-010)",
+        "What percentage commission do I earn per generation? (psp-011)"
+      ],
+      "aliases": [
+        "psp generations explained",
+        "what are levels in psp",
+        "how many generations in diginu",
+        "psp structure",
+        "referral levels diginu"
+      ],
+      "status": "published"
+    },
     {
-  "id": "training-004",
-  "question": "Can I redo a training test if I fail?",
-  "answer": "<p>Yes, you can retry a training test if you don’t pass the first time. However, you only get <b>2 chances</b> to pass each test in <b>My Academy</b>. After 2 failed attempts, you will <b>not</b> be allowed to try again for that course so make sure you study hard.</p>",
-  "tags": ["training", "academy", "test", "assessment"],
-  "intents": ["training_test_retries"],
-  "followups": [
-    "Where do I find the online training? (training-002)",
-    "Does diginu offer certificates for training? (training-003)"
-  ],
-  "aliases": [
-    "can I redo a test",
-    "retry academy test",
-    "fail diginu test",
-    "how many attempts do I get",
-    "retake training test",
-    "try again academy test"
-  ],
-  "status": "published"
-},
+      "id": "psp-010",
+      "question": "How does the 5-generation PSP earning system work?",
+      "answer": "<p>With diginuPSP, you earn commission up to <b>five generations deep</b> from customers who joined using your referral link. When your direct referral orders, you earn from their purchase. You also earn smaller percentages from the orders of people they referred, up to five generations away.</p><p>This ensures that your network’s ongoing activity can create a recurring income stream over time.</p><p><i>These commissions apply to <b>customer-side (delivery)</b> PSP earnings only.</i></p><p>See also: <a href=\"#psp-011\">What percentage commission do I earn per generation?</a> · <a href=\"#psp-012\">What part of the order qualifies for PSP earnings?</a></p>",
+      "tags": ["psp", "5-generations", "delivery-side", "commission-structure"],
+      "intents": ["psp_generations_how"],
+      "followups": [
+        "What percentage commission do I earn per generation? (psp-011)",
+        "What part of a customer order qualifies for PSP commission? (psp-012)"
+      ],
+      "aliases": [
+        "how the 5 level system works",
+        "explain psp levels",
+        "diginu 5 generations",
+        "how does generation earning work",
+        "how psp commissions are calculated"
+      ],
+      "status": "published"
+    },
     {
-  "id": "training-005",
-  "question": "Is the Tuesday evening Zoom call an information session?",
-  "answer": "<p>Yes. Every <b>Tuesday</b> from <b>20:00–21:00</b> we host an <b>informative Zoom session</b>. Anyone may join, and we strongly recommend that every marketer attends weekly for product and program updates, tips, and announcements.</p>",
-  "tags": ["training", "webinar", "events", "updates", "community"],
-  "intents": ["weekly_info_session"],
-  "followups": [
-    "How do I get the Zoom link for the Tuesday session?",
-    "Is the Tuesday info session recorded?",
-    "What topics are covered in the weekly session?"
-  ],
-  "aliases": [
-    "tuesday zoom call",
-    "weekly info session",
-    "tuesday webinar diginu",
-    "marketing call tuesday",
-    "tuesday 20:00 zoom",
-    "weekly updates call"
-  ],
-  "status": "published"
-},
+      "id": "psp-011",
+      "question": "What percentage commission do I earn per generation?",
+      "answer": "<p>diginuPSP pays out a total of <b>1% commission</b> on the goods purchased (excluding delivery, admin fees, and tips). This 1% is split across <b>five generations</b> as follows:</p><ul><li><b>0.5%</b> on Generation&nbsp;1</li><li><b>0.2%</b> on Generation&nbsp;2</li><li><b>0.15%</b> on Generation&nbsp;3</li><li><b>0.10%</b> on Generation&nbsp;4</li><li><b>0.05%</b> on Generation&nbsp;5</li></ul><p><i>These rates apply to <b>customer-side PSP</b> commissions only.</i></p><p>See also: <a href=\"#psp-010\">How does the 5-generation system work?</a> · <a href=\"#psp-012\">What part of the order qualifies for PSP earnings?</a></p>",
+      "tags": ["psp", "commission", "percentages", "delivery-side"],
+      "intents": ["psp_commission_percentages"],
+      "followups": [
+        "How does the 5-generation system work? (psp-010)",
+        "What part of a customer order qualifies for PSP commission? (psp-012)"
+      ],
+      "aliases": [
+        "psp percentage split",
+        "commission per generation",
+        "psp level percentages",
+        "how much per generation",
+        "diginu psp 1 percent breakdown"
+      ],
+      "status": "published"
+    },
     {
-  "id": "training-006",
-  "question": "Where can I find the link for the Tuesday Zoom call?",
-  "answer": "<p>You can get the link for the <b>Tuesday Zoom call</b> inside your diginu account:</p><ol><li>Go to <a href=\"https://diginu.com\" target=\"_blank\">diginu.com</a> and <b>log in</b></li><li>Click on <b>My Academy</b></li><li>Open <b>Step 2</b></li><li>You will see the link for the Tuesday session there</li></ol><p>The call takes place every <b>Tuesday from 20:00–21:00</b> and is open to everyone.</p>",
-  "tags": ["training", "webinar", "zoom-link", "academy"],
-  "intents": ["find_tuesday_zoom_link"],
-  "followups": [
-    "Is the Tuesday Zoom call recorded?",
-    "What is the Tuesday Zoom call about? (training-005)"
-  ],
-  "aliases": [
-    "tuesday zoom link",
-    "where is the zoom link",
-    "join tuesday call",
-    "weekly call link",
-    "find tuesday webinar link",
-    "zoom link diginu"
-  ],
-  "status": "published"
-},
+      "id": "psp-012",
+      "question": "What part of a customer order qualifies for PSP commission?",
+      "answer": "<p>PSP commission is calculated only on the <b>total value of goods purchased</b> by the customer. The following charges are <b>excluded</b> from commission calculations:</p><ul><li>Delivery fees</li><li>Admin fees</li><li>Tips</li></ul><p><i>This rule applies to <b>customer-side PSP</b> commissions only.</i></p><p>See also: <a href=\"#psp-011\">What percentage commission do I earn per generation?</a></p>",
+      "tags": ["psp", "qualifying-orders", "delivery-side", "commission-policy"],
+      "intents": ["psp_commission_scope"],
+      "followups": [
+        "What percentage commission do I earn per generation? (psp-011)"
+      ],
+      "aliases": [
+        "which part of order pays commission",
+        "do delivery fees count for psp",
+        "are tips included in psp commission",
+        "psp eligible order value",
+        "what purchases qualify for psp"
+      ],
+      "status": "published"
+    },
     {
-  "id": "upline-001",
-  "question": "Who is my upline and where can I find their contact details?",
-  "answer": "<p>You can find your <b>upline</b> inside your diginu account. Here’s how:</p><ol><li>Go to <a href=\"https://diginu.com\" target=\"_blank\">diginu.com</a> and <b>log in</b></li><li>Click on <b>Referrals</b> in the menu</li><li>Select the <b>My Upline</b> tab</li></ol><p>There you will see the contact details of:</p><ul><li>Your <b>Direct Upline</b> (the person who enrolled you)</li><li>Your <b>Diamond Upline</b> (senior support leader)</li></ul><p>We recommend contacting <b>both</b> — they will be excited to support you and help you grow.</p>",
-  "tags": ["upline", "support", "referrals", "team"],
-  "intents": ["find_my_upline"],
-  "followups": [
-    "How do I contact my upline?",
-    "What does an upline do?",
-    "Can I change my upline?"
-  ],
-  "aliases": [
-    "who is my sponsor",
-    "find my upline",
-    "upline details",
-    "contact my upline",
-    "where is my upline",
-    "mentor contact diginu"
-  ],
-  "status": "published"
-},
+      "id": "psp-013",
+      "question": "Where do I find my diginu referral link?",
+      "answer": "<p>You can find your <b>diginu referral link</b> inside the <b>diginu Food Delivery</b> app:</p><ol><li>Open the diginu Food app and <b>log in</b></li><li>Tap on <b>Profile</b></li><li>Select <b>Income Opportunity</b></li><li>Tap <b>Share my referral link</b></li></ol><p>Your referral link is unique to you and is used to enroll new customers under you.</p>",
+      "tags": ["psp", "referral-link", "delivery-side", "onboarding"],
+      "intents": ["psp_find_referral_link"],
+      "followups": [
+        "How does the referral link work? (psp-003)",
+        "Do referrals need to use my link every time? (psp-005)",
+        "What are generations in diginuPSP? (psp-009)"
+      ],
+      "aliases": [
+        "where is my referral link",
+        "referral link location",
+        "find referral link",
+        "referral number",
+        "referral code",
+        "customer number",
+        "affiliate link",
+        "affiliate number",
+        "invite link",
+        "how to get my diginu link"
+      ],
+      "status": "published"
+    },
     {
-  "id": "brand-001",
-  "question": "Is the word diginu a verb?",
-  "answer": "<p>Yes, <b>diginu</b> is intended to be used as a <b>verb</b>. That’s why we always write it with a <b>small “d”</b> — it is becoming a <b>household action word</b>, like <i>google</i>, <i>whatsapp</i> or <i>uber</i>.</p><p>Example: <i>“Let’s diginu dinner tonight.”</i></p><p>Always write it as <b>diginu</b> — never capitalised.</p>",
-  "tags": ["brand", "spelling", "identity"],
-  "intents": ["brand_spelling", "brand_usage"],
-  "followups": [
-    "Why is diginu always written in lowercase?",
-    "Is diginu a brand or a platform?"
-  ],
-  "aliases": [
-    "is diginu a verb",
-    "why small d in diginu",
-    "how to spell diginu",
-    "is diginu lowercase"
-  ],
-  "status": "published"
-},
+      "id": "training-001",
+      "question": "Does diginu offer monthly training?",
+      "answer": "<p>Yes, diginu hosts <b>monthly live training</b> on the <b>first Saturday of every month</b> from <b>10:00 to 13:00</b> via <b>Zoom Webinar</b>. Training is presented by a <b>panel of experts</b> who cover practical topics to help you grow faster and succeed in the diginu opportunity.</p><p><b>✅ Training is completely free</b></p><p>To reserve your seat:</p><ol><li>Log in to your diginu account</li><li>Go to <b>My Academy</b></li><li>Open <b>Step 2</b></li><li>Click <b>Book</b> to register</li></ol>",
+      "tags": ["training", "academy", "events", "education", "support"],
+      "intents": ["diginu_training_overview"],
+      "followups": [
+        "Where do I find the online training on diginu? (training-002)",
+        "Does diginu offer certificates for training? (training-003)"
+      ],
+      "aliases": [
+        "monthly training",
+        "zoom training diginu",
+        "does diginu offer training",
+        "training schedule diginu",
+        "how to attend diginu training",
+        "free training diginu",
+        "team training diginu"
+      ],
+      "status": "published"
+    },
     {
-  "id": "brand-002",
-  "question": "What does the word diginu mean?",
-  "answer": "<p>The name <b>diginu</b> comes from combining two words:</p><ul><li><b>digi</b> – from <i>digital</i></li><li><b>nu</b> – from <i>menu</i></li></ul><p>So <b>digi(tal) + (me)nu = diginu</b>. It represents a <b>digital menu and ordering platform</b> designed for the modern world.</p>",
-  "tags": ["brand", "name", "meaning", "identity"],
-  "intents": ["brand_name_meaning"],
-  "followups": [
-    "Is the word diginu a verb? (brand-001)",
-    "Why is diginu always written in lowercase?"
-  ],
-  "aliases": [
-    "meaning of diginu",
-    "diginu meaning",
-    "where does diginu come from",
-    "diginu name origin",
-    "diginu explanation"
-  ],
-  "status": "published"
-}
-
-
-
-
-]
-
+      "id": "psp-014",
+      "question": "What is the difference between diginu and network marketing or MLM?",
+      "answer": "<p><b>diginu is not an MLM or network marketing company.</b> Traditional MLMs usually require people to:</p><ul><li>Buy starter packages to join</li><li>Make monthly product purchases to stay active</li><li>Pay annual renewal or membership fees</li></ul><p><b>diginu is different.</b> With diginu:</p><ul><li><b>Signup is 100% free</b></li><li><b>No monthly purchases</b> are required to qualify for commission</li><li><b>No renewal fees</b> or joining kits</li></ul><p>Think of diginu as a <b>referral program on steroids</b>. Instead of giving customers small discounts, we share real <b>cash earnings</b> when you refer people. We also split <b>1% of all turnover</b> back into the community as referral commission, paid over <b>5 generations</b> to allow teamwork and shared growth.</p>",
+      "tags": ["psp", "difference", "mlm", "network-marketing", "about"],
+      "intents": ["psp_not_mlm"],
+      "followups": [
+        "Is diginu a pyramid scheme? (psp-015)",
+        "How do I earn with diginuPSP? (psp-002)",
+        "How does the 5-generation PSP earning system work? (psp-010)"
+      ],
+      "aliases": [
+        "is diginu an mlm",
+        "mlm vs diginu",
+        "is diginu network marketing",
+        "difference between diginu and mlm"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "psp-015",
+      "question": "Is diginu a pyramid scheme?",
+      "answer": "<p><b>No — diginu is not a pyramid scheme.</b> Pyramid and chain distribution schemes are <b>illegal</b> in South Africa under the <b>Consumer Protection Act (CPA) No. 68 of 2008, Section 43</b>. diginu fully complies with South African law.</p><p>Here’s why diginu is <b>legal and legitimate</b>:</p><ul><li><b>We provide real products & services:</b> diginu is a live delivery platform for food, groceries and essentials. Revenue comes from real customer orders — not recruitment fees.</li><li><b>No joining fees:</b> It is 100% free to join diginu and earn from referrals. This complies with Section 43(2) of the CPA.</li><li><b>No compulsory purchases:</b> You don’t need to buy products monthly or pay to qualify for earnings.</li><li><b>Commission is paid from real revenue:</b> Earnings come from actual sales, not sign-up fees.</li><li><b>Referring is optional:</b> Anyone can use diginu just as a customer, with no obligation to refer others.</li></ul><p>diginu simply chooses to share marketing profit with its users through the <b>diginuPSP (Profit Share Program)</b>, instead of paying big corporations for advertising. Think of it as a <b>referral program on steroids — with jet fuel added</b> 🚀.</p>",
+      "tags": ["psp", "legal", "compliance", "pyramid-scheme", "about"],
+      "intents": ["psp_legal_validation"],
+      "followups": [
+        "What is the difference between diginu and network marketing or MLM? (psp-014)",
+        "What is diginuPSP? (psp-001)",
+        "How do I earn with diginuPSP? (psp-002)"
+      ],
+      "aliases": [
+        "is diginu legal",
+        "is diginu safe",
+        "is diginu a scam",
+        "diginu pyramid scheme",
+        "is diginu legit",
+        "diginu consumer protection act"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "ego-001",
+      "question": "Where can I find more information about diginuEgo?",
+      "answer": "<p>For full information about <b>diginuEgo</b>, visit the official diginuEgo page here:</p><p><a href=\"https://diginu.com/ego\" target=\"_blank\" rel=\"noopener\">https://diginu.com/ego</a></p><p>This page includes full details on features, pricing, specs, battery info, videos and ordering options.</p>",
+      "tags": ["ego", "electric-bike", "info", "link"],
+      "intents": ["ego_more_info"],
+      "followups": [
+        "What is diginuEgo? (ego-overview)",
+        "What are the key features of diginuEgo? (ego-features)"
+      ],
+      "aliases": [
+        "ego info",
+        "ego details",
+        "ego",
+        "learn about diginuEgo",
+        "ego website",
+        "diginuego website",
+        "diginuego link",
+        "where can I learn about ego"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "account-email-verify",
+      "question": "Can you check if my email is in the diginu system?",
+      "answer": "<p>I'm not able to verify accounts directly. Please email <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a> to confirm whether your email is in the system. You can also ask the admins on the official WhatsApp groups for help.</p><p><b>Tip:</b> Include your full name, phone number and the email address you want us to check to speed things up.</p>",
+      "tags": ["support", "account", "verification", "email"],
+      "intents": ["check_email_in_system"],
+      "followups": [
+        "How do I update my email on diginu?",
+        "How do I contact diginu support?",
+        "What information should I include when emailing support?"
+      ],
+      "aliases": [
+        "check my email on diginu",
+        "is my email on the system",
+        "verify my diginu account",
+        "confirm my email",
+        "find this email",
+        "is this email on the system",
+        "who is this person registered under?",
+        "can you see my email",
+        "find my account",
+        "is my email registered"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "work-remote-policy",
+      "question": "What is diginu's policy on remote work?",
+      "answer": "<p>diginu operates <b>100% remotely</b>. If you have a smartphone or computer with internet access, you can work from <b>anywhere</b>. There are no office attendance requirements.</p>",
+      "tags": ["work", "remote", "policy", "flexibility"],
+      "intents": ["remote_work_policy"],
+      "followups": [
+        "Do I need experience to work with diginu? (mm-012)",
+        "How do I start earning with diginu? (earn)"
+      ],
+      "aliases": [
+        "does diginu work remotely",
+        "remote work diginu",
+        "work from anywhere diginu",
+        "home based work diginu",
+        "can I work online with diginu",
+        "work policy diginu"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "training-002",
+      "question": "Where do I find the online training on diginu?",
+      "answer": "<p>You can access all <b>online training</b> inside the <b>diginu Academy</b>. Here's how:</p><ol><li>Go to <a href=\"https://diginu.com\" target=\"_blank\">diginu.com</a> and <b>log in</b></li><li>Click on <b>My Academy</b> in the menu</li><li>Go to <b>Step 5</b></li><li>Select the <b>training course</b> you want to complete</li></ol><p>✅ All training is <b>100% free</b><br>✅ Each course includes a <b>quick test</b><br>✅ When you pass, you receive a <b>beautiful digital certificate</b> 🎓</p>",
+      "tags": ["training", "academy", "education", "support", "learning"],
+      "intents": ["find_online_training"],
+      "followups": [
+        "Does diginu offer certificates for training? (training-003)",
+        "Can I redo a training test if I fail? (training-004)",
+        "Does diginu offer monthly training? (training-001)"
+      ],
+      "aliases": [
+        "online training diginu",
+        "how to access diginu academy",
+        "where is my academy",
+        "find diginu training",
+        "diginu training videos",
+        "academy step 5",
+        "learn diginu online"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "training-003",
+      "question": "Does diginu offer certificates for training?",
+      "answer": "<p>Yes! 🎓 When you complete a training course inside <b>My Academy</b> and pass the short test at the end, you will receive an official <b>diginu completion certificate</b>.</p><p>Your certificate will be issued automatically and can be downloaded and shared as proof of your achievement.</p><p>✅ Free training<br>✅ Quick assessments<br>✅ Professional certificates</p>",
+      "tags": ["training", "academy", "certification", "learning"],
+      "intents": ["training_certificates"],
+      "followups": [
+        "Where do I find the online training on diginu? (training-002)",
+        "Is the training free? (training-004)"
+      ],
+      "aliases": [
+        "do I get a certificate",
+        "training certificate",
+        "does diginu give certificates",
+        "academy certificate",
+        "how to get certificate diginu",
+        "proof of training diginu"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "training-004",
+      "question": "Can I redo a training test if I fail?",
+      "answer": "<p>Yes, you can retry a training test if you don’t pass the first time. However, you only get <b>2 chances</b> to pass each test in <b>My Academy</b>. After 2 failed attempts, you will <b>not</b> be allowed to try again for that course so make sure you study hard.</p>",
+      "tags": ["training", "academy", "test", "assessment"],
+      "intents": ["training_test_retries"],
+      "followups": [
+        "Where do I find the online training on diginu? (training-002)",
+        "Does diginu offer certificates for training? (training-003)"
+      ],
+      "aliases": [
+        "can I redo a test",
+        "retry academy test",
+        "fail diginu test",
+        "how many attempts do I get",
+        "retake training test",
+        "try again academy test"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "training-005",
+      "question": "Is the Tuesday evening Zoom call an information session?",
+      "answer": "<p>Yes. Every <b>Tuesday</b> from <b>20:00–21:00</b> we host an <b>informative Zoom session</b>. Anyone may join, and we strongly recommend that every marketer attends weekly for product and program updates, tips, and announcements.</p>",
+      "tags": ["training", "webinar", "events", "updates", "community"],
+      "intents": ["weekly_info_session"],
+      "followups": [
+        "Where can I find the link for the Tuesday Zoom call? (training-006)",
+        "What topics are covered in the weekly session?"
+      ],
+      "aliases": [
+        "tuesday zoom call",
+        "weekly info session",
+        "tuesday webinar diginu",
+        "marketing call tuesday",
+        "tuesday 20:00 zoom",
+        "weekly updates call"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "training-006",
+      "question": "Where can I find the link for the Tuesday Zoom call?",
+      "answer": "<p>You can get the link for the <b>Tuesday Zoom call</b> inside your diginu account:</p><ol><li>Go to <a href=\"https://diginu.com\" target=\"_blank\">diginu.com</a> and <b>log in</b></li><li>Click on <b>My Academy</b></li><li>Open <b>Step 2</b></li><li>You will see the link for the Tuesday session there</li></ol><p>The call takes place every <b>Tuesday from 20:00–21:00</b> and is open to everyone.</p>",
+      "tags": ["training", "webinar", "zoom-link", "academy"],
+      "intents": ["find_tuesday_zoom_link"],
+      "followups": [
+        "Is the Tuesday evening Zoom call an information session? (training-005)"
+      ],
+      "aliases": [
+        "tuesday zoom link",
+        "where is the zoom link",
+        "join tuesday call",
+        "weekly call link",
+        "find tuesday webinar link",
+        "zoom link diginu"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "upline-001",
+      "question": "Who is my upline and where can I find their contact details?",
+      "answer": "<p>You can find your <b>upline</b> inside your diginu account. Here’s how:</p><ol><li>Go to <a href=\"https://diginu.com\" target=\"_blank\">diginu.com</a> and <b>log in</b></li><li>Click on <b>Referrals</b> in the menu</li><li>Select the <b>My Upline</b> tab</li></ol><p>There you will see the contact details of:</p><ul><li>Your <b>Direct Upline</b> (the person who enrolled you)</li><li>Your <b>Diamond Upline</b> (senior support leader)</li></ul><p>We recommend contacting <b>both</b> — they will be excited to support you and help you grow.</p>",
+      "tags": ["upline", "support", "referrals", "team"],
+      "intents": ["find_my_upline"],
+      "followups": [
+        "Can someone be moved if they signed up wrong? (can-someone-be-moved)",
+        "How do I request an enroller change on diginu? (enroller-change-policy)"
+      ],
+      "aliases": [
+        "who is my sponsor",
+        "find my upline",
+        "upline details",
+        "contact my upline",
+        "where is my upline",
+        "mentor contact diginu"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "brand-001",
+      "question": "Is the word diginu a verb?",
+      "answer": "<p>Yes, <b>diginu</b> is intended to be used as a <b>verb</b>. That’s why we always write it with a <b>small “d”</b> — it is becoming a <b>household action word</b>, like <i>google</i>, <i>whatsapp</i> or <i>uber</i>.</p><p>Example: <i>“Let’s diginu dinner tonight.”</i></p><p>Always write it as <b>diginu</b> — never capitalised.</p>",
+      "tags": ["brand", "spelling", "identity"],
+      "intents": ["brand_spelling", "brand_usage"],
+      "followups": [
+        "What does the word diginu mean? (brand-002)"
+      ],
+      "aliases": [
+        "is diginu a verb",
+        "why small d in diginu",
+        "how to spell diginu",
+        "is diginu lowercase"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "brand-002",
+      "question": "What does the word diginu mean?",
+      "answer": "<p>The name <b>diginu</b> comes from combining two words:</p><ul><li><b>digi</b> – from <i>digital</i></li><li><b>nu</b> – from <i>menu</i></li></ul><p>So <b>digi(tal) + (me)nu = diginu</b>. It represents a <b>digital menu and ordering platform</b> designed for the modern world.</p>",
+      "tags": ["brand", "name", "meaning", "identity"],
+      "intents": ["brand_name_meaning"],
+      "followups": [
+        "Is the word diginu a verb? (brand-001)"
+      ],
+      "aliases": [
+        "meaning of diginu",
+        "diginu meaning",
+        "where does diginu come from",
+        "diginu name origin",
+        "diginu explanation"
+      ],
+      "status": "published"
+    }
+  ]
 }
