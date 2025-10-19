@@ -46,11 +46,50 @@
     return r.json();
   }
 
-  // simple word-overlap matcher
-  function score(q,kq){
-    const norm=s=>s.toLowerCase().replace(/[^a-z0-9\s]/g,' ').split(/\s+/).filter(w=>w.length>2);
-    const A=new Set(norm(q)), B=norm(kq); let hits=0; for(const w of B) if(A.has(w)) hits++;
-    return hits/Math.max(3,B.length);
+  // ---- robust matcher (normalization + aliases + scoring) ----
+  const DEFAULT_CONF_THRESHOLD = 0.28; // tune 0.25–0.35
+
+  const norm = s => (s || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g,' ')
+    .replace(/\s+/g,' ')
+    .trim();
+
+  const tokens = s => new Set(norm(s).split(' ').filter(Boolean));
+
+  function jaccard(aSet, bSet){
+    if (!aSet.size || !bSet.size) return 0;
+    let inter = 0;
+    for (const t of aSet) if (bSet.has(t)) inter++;
+    return inter / (aSet.size + bSet.size - inter);
+  }
+
+  function scoreAgainstItem(qTokens, item){
+    let best = jaccard(qTokens, tokens(item.question || ""));
+    const aliases = Array.isArray(item.aliases) ? item.aliases : [];
+    for (const a of aliases){
+      const s = jaccard(qTokens, tokens(a));
+      if (s > best) best = s;
+    }
+    return best;
+  }
+
+  function findKbAnswer(q, items, threshold){
+    const qTokens = tokens(q);
+    let best = { score: 0, item: null };
+    for (const it of items){
+      const s = scoreAgainstItem(qTokens, it);
+      if (s > best.score) best = { score: s, item: it };
+    }
+
+    // Optional lightweight fallback (substring) only if close but just under threshold
+    if ((!best.item || best.score < threshold) && items.length){
+      const qn = norm(q);
+      const hit = items.find(it => qn.includes(norm(it.question || "")));
+      if (hit) return { item: hit, score: best.score };
+    }
+
+    return (best.item && best.score >= threshold) ? best : null;
   }
 
   // ---- public API ----
@@ -81,22 +120,45 @@
 
       document.body.appendChild(launcher);
 
-      let kb=[], ready=false, loadErr=null;
+      // ---- KB state ----
+      let kbItems = [];  // always an array of entries
+      let kbMeta  = {};  // optional { source, generated }
+      let ready=false, loadErr=null;
 
       async function loadKB(){
         console.time('kb-load');
         try{
+          let raw;
           if (Array.isArray(config.kbData) && config.kbData.length){
-            kb = config.kbData;
-            log(`inline KB ready (${kb.length}) ✅`);
+            raw = config.kbData;
+            log(`inline KB provided (${raw.length})`);
           } else if (config.kbUrl){
-            kb = await fetchJSON(config.kbUrl);
-            log(`loaded JSON KB (${kb.length}) ✅`);
+            raw = await fetchJSON(config.kbUrl);
+            log(`fetched KB from ${config.kbUrl}`);
           } else {
             throw new Error('No kbUrl / kbData provided (JSON-only build)');
           }
-          kb = kb.filter(r => String(r.status||'').toLowerCase() !== 'draft');
+
+          // Support both shapes:
+          // 1) legacy: [ {id,question,aliases,answer,...}, ... ]
+          // 2) modern: { generated, source, items: [ ... ] }
+          if (Array.isArray(raw)) {
+            kbItems = raw;
+            kbMeta = { source: 'legacy-array' };
+          } else if (raw && Array.isArray(raw.items)) {
+            kbItems = raw.items;
+            kbMeta = { source: raw.source || 'kb', generated: raw.generated || '' };
+          } else {
+            throw new Error('KB JSON shape not recognized (expect array or {items:[]})');
+          }
+
+          // Filter drafts + normalize aliases field to array
+          kbItems = kbItems
+            .filter(r => String(r.status||'').toLowerCase() !== 'draft')
+            .map(r => ({ ...r, aliases: Array.isArray(r.aliases) ? r.aliases : [] }));
+
           ready=true; loadErr=null;
+          log(`KB ready: items=${kbItems.length}`, kbMeta);
         }catch(e){
           loadErr=e; ready=false; err('KB load error ❌', e);
         }finally{
@@ -126,29 +188,4 @@
         const msgs=panel.querySelector('.gini-msgs'), input=panel.querySelector('.gini-input'), sendB=panel.querySelector('.gini-send');
         function say(html,who='bot'){ const d=document.createElement('div'); d.className=`gini-msg gini-${who}`; d.innerHTML=html; msgs.appendChild(d); msgs.scrollTop=msgs.scrollHeight; }
 
-        say(`<div>${config.welcomeMessage||'Hi! How can I help you today?'}</div><div class="gini-small" style="margin-top:6px">Loading knowledge base…</div>`);
-        await load;
-        if(ready){ say(`<div class="gini-small">Knowledge base ready (${kb.length}) ✅</div>`); }
-        else { say(`<div>Couldn’t load the knowledge base. Try again or email <b>${config.handoff?.email||'wecare@diginu.com'}</b>.</div><div class="gini-small">${loadErr ? (loadErr.message||String(loadErr)) : 'Unknown error'}</div>`); }
-
-        function send(){
-          const q=(input.value||'').trim(); if(!q) return;
-          say(q,'user'); input.value='';
-          if(!ready || !kb.length){ say(`<div>Still preparing the KB. If this persists, email <b>${config.handoff?.email||'wecare@diginu.com'}</b>.</div>`); return; }
-          let best=null, bestScore=0; for(const row of kb){ const s=score(q,row.question||''); if(s>bestScore){ bestScore=s; best=row; } }
-          if(best && best.answer && bestScore>=0.34){
-            let html=best.answer;
-            if(best.source_url) html += `<div class="gini-small">Source: <a href="${best.source_url}" target="_blank" rel="noopener">link</a></div>`;
-            say(html);
-          } else {
-            say(`<div>I'm not fully sure yet. Want me to email our team at <b>${config.handoff?.email||'wecare@diginu.com'}</b>?</div>`);
-          }
-        }
-        input.addEventListener('keydown', e=>{ if(e.key==='Enter') send(); });
-        sendB.onclick = send;
-      };
-
-      log('widget mounted ✅ (JSON-only, logo launcher)');
-    }
-  };
-})();
+        say(`<div>${config.welcomeMessage||
