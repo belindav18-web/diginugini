@@ -1714,8 +1714,7 @@
       "tags": ["training", "webinar", "events", "updates", "community"],
       "intents": ["weekly_info_session"],
       "followups": [
-        "Where can I find the link for the Tuesday Zoom call? (training-006)",
-        "What topics are covered in the weekly session?"
+        "Where can I find the link for the Tuesday Zoom call? (training-006)"
       ],
       "aliases": [
         "tuesday zoom call",
@@ -2200,6 +2199,33 @@
   "tags": ["app", "food", "ordering"],
   "intents": ["customer_account_usage"],
   "followups": []
+},
+    {
+  "id": "Welcome",
+  "question": "Hi",
+  "aliases": [
+    "Hello",
+    "Wazzup",
+    "howzit",
+    "hi hi",
+    "hello hello",
+    "morning",
+    "afternoon",
+    "evening",
+    "good evening",
+    "good morning",
+    "good afternoon",
+    "hey",
+    "hey hey"
+  ],
+  "answer": "Hello, how can I can help you? Ask away and I will do my best to answer all your questions",
+  "status": "published",
+  "tags": ["hi", "hello", "hey"],
+  "intents": ["customer_welcome"],
+  "followups": [
+    "How do I order food on diginu? (diginuapp-ordering)",
+    "Where do I find the online training on diginu? (training-002)"
+  ]
 }
 
   ]
