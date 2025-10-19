@@ -930,7 +930,10 @@
       "followups": [
         "Do you offer sales training? (training-001)"
       ],
-      "aliases": [],
+      "aliases": [
+        "do I need sales experience?",
+        "sales experience?"
+      ],
       "status": "published"
     },
     {
