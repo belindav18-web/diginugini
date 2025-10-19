@@ -1849,7 +1849,7 @@
     "how is diginu affordable",
     "diginu vs other delivery apps"
   ],
-  "answer": "diginu keeps prices lower by giving money to people instead of spending millions on marketing. Instead of paying for traditional advertising, we use the diginuPSP referral system to grow—this reduces costs and allows us to offer cheaper delivery rates to customers.",
+  "answer": "diginu keeps prices lower by giving money to marketers instead of spending millions on marketing. Instead of paying for traditional advertising, we use the diginuPSP referral system to grow—this reduces costs and allows us to offer cheaper delivery rates to customers.",
   "status": "published",
   "tags": ["pricing", "business", "psp"],
   "intents": ["business_cheaper_reason"],
