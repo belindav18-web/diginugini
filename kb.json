@@ -433,6 +433,64 @@
   ],
   "answer": "<p>Accounts can be temporarily restricted for <b>security</b> or <b>compliance</b> reasons (e.g., unusual activity, incorrect details, or pending KYC checks).</p><ul><li>Check your email/app notifications for instructions</li><li>Complete any requested <b>ID verification</b></li><li>Contact support if you need help resolving it</li></ul><p>These checks help keep your money safe and prevent fraud.</p>",
   "status": "published"
-}
-
+},
+  {
+    "id": "policies-and-terms-overview",
+    "question": "Where can I find diginu’s Privacy Policy and Terms?",
+    "aliases": [
+      "where are your policies",
+      "policies and terms links",
+      "privacy policy and terms",
+      "terms and conditions link",
+      "merchant terms link",
+      "customer terms link",
+      "diginu policies",
+      "legal documents diginu",
+      "where to read your legal terms"
+    ],
+    "answer": "<p>You can read all diginu legal documents on our website:</p><ul><li><b>Privacy Policy:</b> <a href=\"https://diginu.com/privacy\" target=\"_blank\" rel=\"noopener\">diginu.com/privacy</a></li><li><b>Customer Terms & Conditions:</b> <a href=\"https://diginu.com/terms\" target=\"_blank\" rel=\"noopener\">diginu.com/terms</a></li><li><b>Merchant Terms & Conditions:</b> <a href=\"https://diginu.com/vendor-terms\" target=\"_blank\" rel=\"noopener\">diginu.com/vendor-terms</a></li></ul><p>These pages explain how we handle data, customer use, and merchant responsibilities.</p>",
+    "status": "published"
+  },
+  {
+    "id": "privacy-policy-link",
+    "question": "Where is diginu’s Privacy Policy?",
+    "aliases": [
+      "privacy policy",
+      "data privacy policy",
+      "how do you handle my data",
+      "privacy statement link",
+      "diginu privacy link"
+    ],
+    "answer": "<p>Our Privacy Policy is available here:</p><ul><li><a href=\"https://diginu.com/privacy\" target=\"_blank\" rel=\"noopener\">https://diginu.com/privacy</a></li></ul><p>It explains what data we collect, how it’s used, and your rights.</p>",
+    "status": "published"
+  },
+  {
+    "id": "customer-terms-link",
+    "question": "Where are the Customer Terms and Conditions?",
+    "aliases": [
+      "customer terms",
+      "customer t&cs",
+      "terms and conditions customers",
+      "app terms",
+      "user terms diginu"
+    ],
+    "answer": "<p>You can read the Customer Terms & Conditions here:</p><ul><li><a href=\"https://diginu.com/terms\" target=\"_blank\" rel=\"noopener\">https://diginu.com/terms</a></li></ul><p>This page covers customer use of the diginu app and services.</p>",
+    "status": "published"
+  },
+  {
+    "id": "merchant-terms-link",
+    "question": "Where are the Merchant Terms and Conditions?",
+    "aliases": [
+      "merchant terms",
+      "vendor terms",
+      "merchant t&cs",
+      "restaurant terms diginu",
+      "store terms diginu"
+    ],
+    "answer": "<p>Merchant Terms & Conditions are available here:</p><ul><li><a href=\"https://diginu.com/vendor-terms\" target=\"_blank\" rel=\"noopener\">https://diginu.com/vendor-terms</a></li></ul><p>They outline partner/merchant obligations, payouts, and platform policies.</p>",
+    "status": "published"
+  }
 ]
+
+
+
