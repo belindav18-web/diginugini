@@ -133,6 +133,27 @@
         "Where can I find more information about diginuEgo? (ego-001)"
       ]
     },
+     {
+      "id": "ego-sell",
+      "question": "Can I sell the diginuEgo bikes?",
+      "aliases": [
+        "Sell diginuEgo bikes",
+        "Sell bikes",
+        "How can I sell the bikes",
+        "How can I sell diginuEgo bikes",
+        "Where do I get the training to sell the bikes",
+        "Steps to sell the bike",
+        "Can anyone sell the bikes"
+      ],
+      "answer": "Anyone who passed the diginuEgo accreditation course can sell the bikes, you can start by applying for the training at diginu.com/egosales. Once you have filled out the application form, you will need to wait for approval and you will get the training sent to you.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": [
+        "What are the key features of diginuEgo? (ego-features)",
+        "How much does the diginuEgo cost? (ego-price)"
+      ]
+    },
     {
       "id": "ego-features",
       "question": "What are the key features of diginuEgo?",
@@ -149,6 +170,27 @@
       "intents": [],
       "followups": [
         "What are the technical specifications of diginuEgo? (ego-specs)",
+        "How much does the diginuEgo cost? (ego-price)",
+        "Does the diginuEgo have anti-theft and tracking? (ego-security)",
+        "Where can I see diginuEgo videos and demos? (ego-videos)"
+      ]
+    },
+        {
+      "id": "ego-buy",
+      "question": "Where can I buy a diginuEgo bike?",
+      "aliases": [
+        "Where to buy the bikes",
+        "How to buy a bike",
+        "Can anyone buy a bike",
+        "Where can I buy a bike",
+        "who can buy a bike?",
+        "how can I buy a bike?"
+      ],
+      "answer": "Anyone can buy a bike, whether its for self use or business. You can go to diginu.com/ego and fill in the form and we will contact you with details to purchase a bike",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": [
         "How much does the diginuEgo cost? (ego-price)",
         "Does the diginuEgo have anti-theft and tracking? (ego-security)",
         "Where can I see diginuEgo videos and demos? (ego-videos)"
@@ -744,7 +786,12 @@
         "What is a merchant on diginu? (mm-002)",
         "What is a merchant marketer on diginu? (mm-003)"
       ],
-      "aliases": [],
+      "aliases": [
+        "merchant vs merchant marketer?",
+        "difference between a merchant and merchant marketer",
+        "is there a difference between a merchant and a merchant marketer?",
+        "tell me the difference between a merchant and merchant marketer?"
+      ],
       "status": "published"
     },
     {
@@ -785,7 +832,12 @@
         "How do I become a merchant marketer? (mm-017)",
         "Do merchant marketers earn commission? (mm-004)"
       ],
-      "aliases": [],
+      "aliases": [
+        "what is a merchant marketer?",
+        "merchant marketer?",
+        "what is a marketer for shops?",
+        "what is a marketer for a merchant?"
+      ],
       "status": "published"
     },
     {
@@ -803,7 +855,13 @@
         "How much commission can I earn? (mm-018)",
         "When and how are commissions paid? (mm-019)"
       ],
-      "aliases": [],
+      "aliases": [
+        "How does a merchant marketer earn?",
+        "Do merchant marketers earn from stores?",
+        "how do marketers earn from stores?",
+        "how do marketers earn from merchants?",
+        "how do marketers earn from restaurants?"
+      ],
       "status": "published"
     },
     {
@@ -818,13 +876,15 @@
         "define_portfolio"
       ],
       "followups": [],
-      "aliases": [],
+      "aliases": [
+        "Merchant portfolio?"
+      ],
       "status": "published"
     },
     {
       "id": "mm-006",
       "question": "Who can become a merchant marketer?",
-      "answer": "Anyone who completes the diginu Merchant Marketer Accreditation Course and agrees to our partner guidelines can become a merchant marketer. A passion for business development and local commerce helps.",
+      "answer": "Anyone who completes the diginu Merchant Marketer Accreditation Course and agrees to our partner guidelines can become a merchant marketer. A passion for business development and local commerce helps. You will need to complete the merchant marketer course and pass the test",
       "tags": [
         "merchant-marketer",
         "eligibility"
@@ -833,8 +893,11 @@
         "mm_eligibility"
       ],
       "followups": [
-        "Do I need sales experience? (mm-012)"],
-      "aliases": [],
+        "Do I need sales experience? (mm-012)",
+      "How to do my merchant marketer accreditation? (mm-017)"],
+      "aliases": [
+        "Can anyone by a merchant marketer?"
+      ],
       "status": "published"
     },
     {
@@ -857,7 +920,7 @@
     {
       "id": "mm-008",
       "question": "How long does accreditation take?",
-      "answer": "Most candidates complete the diginu accreditation course quickly. The timeline depends on your pace—plan for focused learning, a short assessment, and onboarding to our tools.",
+      "answer": "Most candidates complete the diginu accreditation course quickly. The timeline depends on your pace—plan for focused learning (roughly 6 to 8 hours), a practical and a short assessment, and once passed we help you with our tools.",
       "tags": [
         "accreditation",
         "timeline"
@@ -882,7 +945,8 @@
       ],
       "followups": [],
       "aliases": [
-        "Is the merchant marketer role fulltime or parttime"
+        "Is the merchant marketer role fulltime or parttime",
+        "do I work fulltime or parttime to be a merchant marketer?"
       ],
       "status": "published"
     },
@@ -898,13 +962,16 @@
         "mm_enablement"
       ],
       "followups": [],
-      "aliases": [],
+      "aliases": [
+        "do I get help once accredited?",
+        "will I get guidence when I've completed my merchant markter course?"
+      ],
       "status": "published"
     },
     {
       "id": "mm-011",
       "question": "Can merchant marketers onboard merchants in any location?",
-      "answer": "You should focus on regions where Diginu is active or launching. We’ll guide you on supported areas and expansion plans so your efforts translate into live, earning merchants.",
+      "answer": "You should focus on your region so you can service your merchants properly. We’ll guide you on supported areas and expansion plans so your efforts translate into live, earning merchants.",
       "tags": [
         "coverage",
         "geography"
@@ -913,7 +980,11 @@
         "mm_geo_coverage"
       ],
       "followups": [],
-      "aliases": [],
+      "aliases": [
+        "can I only onboard merchants in my area?",
+        "which area can I onboard merchants?",
+        "can I onboard merchants in other areas?"
+      ],
       "status": "published"
     },
     {
@@ -957,7 +1028,7 @@
     {
       "id": "mm-014",
       "question": "Can merchant marketers build teams?",
-      "answer": "Your primary focus is onboarding your own merchants. Where applicable, we may pilot programs that recognize collaboration. We’ll share details if a team pathway is available in your region.",
+      "answer": "Yes, you can build teams that can onboard more merchants in your organisation. You are free to get as many customers to join diginu using your unique referral link. Let's go build an empire!",
       "tags": [
         "teams",
         "programs"
@@ -966,13 +1037,18 @@
         "mm_team_building"
       ],
       "followups": [],
-      "aliases": [],
+      "aliases": [
+        "can a merchant marketer get customers on board?",
+        "can a merchant marketer get customers to signup?",
+        "can I signup customers if I'm a merchant marketer?",
+        "Can I register customers if I'm a merchant marketer?"
+      ],
       "status": "published"
     },
     {
       "id": "mm-015",
-      "question": "What products do merchants sell on Diginu?",
-      "answer": "Common categories include prepared food, groceries, liquor, and specialty goods. Availability varies by merchant and region, and merchants manage their own menus and inventory.",
+      "question": "What products do merchants sell on diginu?",
+      "answer": "The merchants we onboard sell food products. Merchants are restaurants, takeaways, bottle stores and convenience stores",
       "tags": [
         "merchant",
         "catalog"
@@ -986,7 +1062,7 @@
     },
     {
       "id": "mm-016",
-      "question": "How do I become a merchant on Diginu?",
+      "question": "How do I become a merchant on diginu?",
       "answer": "Go to diginu.com and scroll down the page till you see a button to become a merchant, you can then complete onboarding so we can activate your store on the app. A merchant marketer can guide you end-to-end, if you do not have a marketer who helped you...don't worry, we will assign one to you.",
       "tags": [
         "merchant",
@@ -1014,7 +1090,7 @@
     {
       "id": "mm-017",
       "question": "How do I become a merchant marketer?",
-      "answer": "Apply for the diginu Merchant Marketer Accreditation, complete the course and assessment, accept our partner terms, and you’ll receive access to onboarding tools and your performance dashboard.",
+      "answer": "Login on diginu.com, go to 'my academy' and scroll down to step 5, choose merchant marketer training, accept terms, complete the course and assessment, and you’ll receive access to onboarding tools.",
       "tags": [
         "merchant-marketer",
         "onboarding"
@@ -1023,7 +1099,9 @@
         "mm_onboarding"
       ],
       "followups": [],
-      "aliases": [],
+      "aliases": [
+        "How to become a merchant marketer"
+      ],
       "status": "published"
     },
     {
@@ -1040,7 +1118,11 @@
       "followups": [
         "When and how are commissions paid? (mm-019)"
       ],
-      "aliases": [],
+      "aliases": [
+        "what does a merchant marketer earn?",
+        "how much does a merchant marketer earn",
+        "how much commission does a merchant marketer earn?"
+      ],
       "status": "published"
     },
     {
@@ -1058,13 +1140,20 @@
         "How much commission can I earn as a merchant marketer? (mm-018)",
         "Which banks and cards are supported by diginuPay? (diginupay-supported-banks)"
       ],
-      "aliases": [],
+      "aliases": [
+        "When do we get paid?",
+        "how do we get paid?",
+        "how does a marketer get paid?",
+        "when does a marketer get paid?",
+        "on which day do we get paid?",
+        "when do i get paid?"
+      ],
       "status": "published"
     },
     {
       "id": "mm-020",
       "question": "Is there a contract or NDA for merchant marketers?",
-      "answer": "Accredited marketers accept diginu’s partner terms, which cover brand use, data handling, and compliance. Additional agreements may apply depending on program.",
+      "answer": "Accredited marketers accept diginu’s terms and conditions, which cover brand use, data handling, and compliance. Additional agreements will apply depending on your rank.",
       "tags": [
         "legal",
         "compliance"
@@ -1145,7 +1234,9 @@
         "what is jessie bester role",
         "diginu founder",
         "ceo of diginu",
-        "who started diginu"
+        "who started diginu",
+        "who founded diginu",
+        "who is the founder of diginu"
       ],
       "status": "published"
     },
@@ -1441,7 +1532,8 @@
         "training schedule diginu",
         "how to attend diginu training",
         "free training diginu",
-        "team training diginu"
+        "team training diginu",
+        "is there training"
       ],
       "status": "published"
     },
@@ -1570,7 +1662,8 @@
         "find diginu training",
         "diginu training videos",
         "academy step 5",
-        "learn diginu online"
+        "learn diginu online",
+        "how do i do the training"
       ],
       "status": "published"
     },
@@ -1617,7 +1710,7 @@
     {
       "id": "training-005",
       "question": "Is the Tuesday evening Zoom call an information session?",
-      "answer": "<p>Yes. Every <b>Tuesday</b> from <b>20:00–21:00</b> we host an <b>informative Zoom session</b>. Anyone may join, and we strongly recommend that every marketer attends weekly for product and program updates, tips, and announcements.</p>",
+      "answer": "<p>Yes. Every <b>Tuesday</b> from <b>20:00–21:00</b> we host an <b>informative Zoom session</b>. Anyone may join, and we strongly recommend that every marketer attends weekly for product and program updates, tips, and announcements.</p>. You can go to 'My Academy' once logged in on diginu.com and go to step 2 to book for our Tuesday calls.",
       "tags": ["training", "webinar", "events", "updates", "community"],
       "intents": ["weekly_info_session"],
       "followups": [
@@ -1630,7 +1723,9 @@
         "tuesday webinar diginu",
         "marketing call tuesday",
         "tuesday 20:00 zoom",
-        "weekly updates call"
+        "weekly updates call",
+        "when is there a call",
+        "when is the next call"
       ],
       "status": "published"
     },
@@ -2060,8 +2155,52 @@
   "followups": [
     "What are the benefits of joining diginu as a merchant? (merchant-005)"
   ]
-}
+},
+
+
+
+
+
+
+
+
     
+    {
+  "id": "diginuapp",
+  "question": "What apps do I need with diginu",
+  "aliases": [
+    "What app must i download",
+    "are there a few apps for diginu",
+    "is the app on istore",
+    "is the app on play store",
+    "where is the app avaialable?",
+    "how many apps are there?",
+    "how many apps are needed with diginu?"
+  ],
+  "answer": "We currently have 4 apps that are available on Android and Apple. diginu Food delivery App which is used for customers to order food and it is required for all marketers. diginuPay which is where all commissions are paid. diginu Merchant app which is for the merchants to receive the customers orders. Then lastly we have our diginuCashBack app which is the app for our very exciting rewards program",
+  "status": "published",
+  "tags": ["app", "food", "ordering"],
+  "intents": ["customer_account_usage"],
+  "followups": []
+},
+      {
+  "id": "diginuapp-ordering",
+  "question": "How do I order food on diginu",
+  "aliases": [
+    "which app do i download to order food",
+    "how can i order food",
+    "is there an app to order food",
+    "where can i order food",
+    "my app is showing coming soon",
+    "where to add address",
+    "how to see stores on diginu"
+  ],
+  "answer": "You can order food from our diginu Food delivery app which is available for Android and Apple phones. Once downloaded, login with your login details, click on the top to add your address. Once your address has been added, you will see the stores around you. You can then select a store and put through an order.",
+  "status": "published",
+  "tags": ["app", "food", "ordering"],
+  "intents": ["customer_account_usage"],
+  "followups": []
+}
 
   ]
 }
