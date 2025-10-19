@@ -1,5 +1,5 @@
 // Load once at boot
-import kb from "./diginu_kb_clean.json"; // path to the cleaned file
+import kb from "./kb.json"; // path to the cleaned file
 
 const ITEMS = kb.items || [];
 const norm = s => (s || "")
