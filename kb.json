@@ -987,7 +987,7 @@
     {
       "id": "mm-016",
       "question": "How do I become a merchant on Diginu?",
-      "answer": "Share your business details, catalog, and fulfillment preferences, then complete onboarding so we can activate your store on the app. A merchant marketer can guide you end-to-end.",
+      "answer": "Go to diginu.com and scroll down the page till you see a button to become a merchant, you can then complete onboarding so we can activate your store on the app. A merchant marketer can guide you end-to-end, if you do not have a marketer who helped you...don't worry, we will assign one to you.",
       "tags": [
         "merchant",
         "onboarding"
@@ -996,7 +996,19 @@
         "merchant_onboarding"
       ],
       "followups": [],
-      "aliases": [],
+      "aliases": [
+        "how to become a merchant",
+        "become a merchant",
+        "merchant signup",
+        "merchant registration",
+        "where to register as a merchant",
+        "I want to register as a merchant",
+        "Please show me where to register my store",
+        "how can I register my store",
+        "how can i regstier my restaurant",
+        "Where can I register my shop",
+        "How do I register my takeaway on diginu"
+      ],
       "status": "published"
     },
     {
