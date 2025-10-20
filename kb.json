@@ -140,7 +140,10 @@
         "diginu electric bike",
         "diginuego motorcycle",
         "is the ego bike electric",
-        "tell me about the diginuEgo bike"
+        "tell me about the diginuEgo bike",
+        "ego",
+        "ego info",
+        "more info on ego"
       ],
       "answer": "diginuEgo is an AI-powered electric motorbike designed for modern mobility in Africa. It pairs smart security and live tracking with practical daily performance, making it ideal for commuting, delivery work, and fleet use. Electric, mid-drive motor Live tracking dashboard Remote power-off (anti-theft) Swappable lithium-ion batteries Fleet management ready It’s built for reliability, affordability and real-world convenience.",
       "status": "published",
@@ -244,7 +247,7 @@
         "How Long To Charge Ego Bike",
         "What is the battery range and charging time for diginuEgo",
         "diginu ego range",
-        "ego battery info"
+        "ego battery info",
         "ego battery"
       ],
       "answer": "Battery: lithium-ion, swappable packs Charging: ~80% in Range (Eco): ~105–120 km* Range (Normal): ~75–90 km* Range (Sport): ~65–70 km* *Actual range varies with load, terrain and riding style.",
