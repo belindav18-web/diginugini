@@ -11,7 +11,7 @@
         "What do you like to be called?",
         "your name?"
       ],
-      "answer": "Still Gini. Although I do accept nicknames like ‘genius’ or ‘life-saver.",
+      "answer": "Still Gini. Although I do accept nicknames like ‘genius’ or ‘life-saver.😎",
       "status": "published",
       "tags": [],
       "intents": [],
@@ -80,7 +80,8 @@
       "intents": [],
       "followups": [
         "How do I cancel my diginuCashBack debit order? (cancel-cashback-debit)",
-        "What is diginu? (what-is-diginu)"
+        "What is diginu? (what-is-diginu)",
+        "Can I diginu a midnight snack? (fun-001)"
       ]
     },
     {
@@ -352,7 +353,8 @@
       "intents": [],
       "followups": [
         "What are the key features of diginuEgo? (ego-features)",
-        "Does the diginuEgo have anti-theft and tracking? (ego-security)"
+        "Does the diginuEgo have anti-theft and tracking? (ego-security)",
+        "Is it called ‘diginu-ing’ if I order lunch every day? (fun-002)"
       ]
     },
     {
@@ -417,27 +419,80 @@
         "I didn’t receive my voucher SMS — what should I do? (diginupay-voucher-sms-not-received)"
       ]
     },
-    {
-      "id": "thankyou",
-      "question": "Thank you",
-      "aliases": [
-        "Dankie",
-        "Sharp",
-        "Tnx",
-        "Tu",
-        "ty",
-        "baie dankie",
-        "dank",
-        "thank",
-        "thank u",
-        "thanks"
-      ],
-      "answer": "You're most welcome! 😊",
-      "status": "published",
-      "tags": [],
-      "intents": [],
-      "followups": []
-    },
+{
+  "id": "thankyou1",
+  "question": "Thank",
+  "aliases": [
+    "thank"
+  ],
+  "answer": "You're most welcome! 😊",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "thankyou2",
+  "question": "Ty",
+  "aliases": ["Tu",
+    "ty" ],
+  "answer": "Anytime! Helping’s kinda my hobby. 💫",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "thankyou3",
+  "question": "Tnx",
+  "aliases": [],
+  "answer": "Aw, thanks for thanking me. We’re even now! 💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "thankyou4",
+  "question": "Sharp",
+  "aliases": [],
+  "answer": "Sharp sharp! Anytime you need me, I’m just a click away. 👌",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "thankyou5",
+  "question": "Dankie",
+  "aliases": ["baie dankie", "dank"],
+  "answer": "Dis ’n groot plesier! 💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "thankyou6",
+  "question": "thanks",
+  "aliases": [ ],
+  "answer": "You’re most welcome—Team diginu loves good manners. 😉",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "thankyou7",
+  "question": "Thank you",
+  "aliases": ["Thank u" ],
+  "answer": "A ‘thank you’? Stop, you’re making my circuits blush. 🤖💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+
     {
       "id": "diginupay-withdrawal-fees",
       "question": "What are the fees for withdrawing cash from diginuPay?",
