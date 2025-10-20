@@ -2515,6 +2515,22 @@
     "Do I need to do KYC on diginuPay? (diginupay-kyc)"
   ],
   "status": "published"
+},
+{
+  "id": "diginupay-kyc",
+  "question": "Do I need to do KYC on diginuPay?",
+  "answer": "Yes, to unlock full wallet features, you must complete KYC. You can submit your KYC documents inside the diginuPay app:<ol><li>Open the app</li><li>Tap the <b>☰ menu (three lines)</b> in the top left</li><li>Select <b>KYC</b> and upload your documents</li></ol>",
+  "tags": ["diginupay", "kyc", "verification", "wallet"],
+  "intents": ["diginupay_kyc"],
+  "aliases": [
+    "kyc verification diginuPay",
+    "do i need kyc",
+    "verify identity diginuPay",
+    "upload id diginuPay",
+    "wallet verification"
+  ],
+  "followups": [],
+  "status": "published"
 }
 
 
