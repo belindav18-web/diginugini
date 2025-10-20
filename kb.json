@@ -39,6 +39,7 @@
       "tags": [],
       "intents": [],
       "followups": [
+        "I'm new and nervous (motivation-003)",
         "What is diginuPSP? (psp-001)",
         "How do I earn with diginuPSP? (psp-002)",
         "What are the 2 ways to earn in diginuPSP? (psp-007)"
@@ -1002,7 +1003,7 @@
       "intents": [
         "mm_geo_coverage"
       ],
-      "followups": [],
+      "followups": ["If I onboard a merchant, do I get bragging rights? (fun-018)"],
       "aliases": [
         "can I only onboard merchants in my area?",
         "which area can I onboard merchants?",
@@ -1041,7 +1042,9 @@
       "intents": [
         "mm_value_prop"
       ],
-      "followups": [],
+      "followups": ["Does diginu deliver to mars? (fun-020)",
+      "If I onboard a merchant, do I get bragging rights? (fun-018)"
+      ],
       "aliases": [
         "benefit of being a merchant marketer",
         "advantages of being a merchant marketer"
@@ -1079,7 +1082,7 @@
       "intents": [
         "merchant_categories"
       ],
-      "followups": [],
+      "followups": ["Can I order motivation with my meal? (fun-017)"],
       "aliases": [],
       "status": "published"
     },
@@ -1144,7 +1147,8 @@
       "aliases": [
         "what does a merchant marketer earn?",
         "how much does a merchant marketer earn",
-        "how much commission does a merchant marketer earn?"
+        "how much commission does a merchant marketer earn?",
+        "If I jog to fetch my delivery, does it count as cardio? (fun-014)"
       ],
       "status": "published"
     },
@@ -1209,7 +1213,7 @@
       "answer": "diginu offers delivery within a 6km radius of the store the customer orders from. The distance is always calculated from the physical location of the store, not from the customer’s address or city.",
       "tags": ["delivery", "coverage", "radius"],
       "intents": ["delivery_radius"],
-      "followups": [],
+      "followups": ["Does diginu deliver to mars? (fun-020)"],
       "aliases": [
         "how far does diginu deliver",
         "delivery distance",
@@ -1249,6 +1253,7 @@
       "tags": ["founder", "about", "leadership", "jessie-bester"],
       "intents": ["about_founder"],
       "followups": [
+        "Is diginu cheaper because Jessie hacked the matrix? (fun005)",
         "What is the diginuPSP business model? (psp-business-model)",
         "What is diginuPSP? (psp-001)"
       ],
@@ -1759,7 +1764,8 @@
       "tags": ["training", "webinar", "events", "updates", "community"],
       "intents": ["weekly_info_session"],
       "followups": [
-        "Where can I find the link for the Tuesday Zoom call? (training-006)"
+        "Where can I find the link for the Tuesday Zoom call? (training-006)",
+        "If I join the Tuesday webinar, do I become a genius? (fun-010)"
       ],
       "aliases": [
         "tuesday zoom call",
@@ -2253,7 +2259,8 @@
     "where can i order food",
     "my app is showing coming soon",
     "where to add address",
-    "how to see stores on diginu"
+    "how to see stores on diginu",
+    "how do I order food"
   ],
   "answer": "You can order food from our diginu Food delivery app which is available for Android and Apple phones. Once downloaded, login with your login details, click on the top to add your address. Once your address has been added, you will see the stores around you. You can then select a store and put through an order.",
   "status": "published",
@@ -2279,36 +2286,6 @@
   "intents": ["team_build"],
   "followups": [
     "Where to find my referral link (psp-013)",
-    "Where do I find the online training on diginu? (training-002)"
-  ]
-},
-    {
-  "id": "Welcome",
-  "question": "Hi",
-  "aliases": [
-    "Hello",
-    "Wazzup",
-    "howzit",
-    "hi hi",
-    "hello hello",
-    "morning",
-    "afternoon",
-    "evening",
-    "good evening",
-    "good morning",
-    "good afternoon",
-    "how are you?",
-    "how u",
-    "you ok?",
-    "hey",
-    "hey hey"
-  ],
-  "answer": "Hello, how can I can help you? Ask away and I will do my best to answer all your questions",
-  "status": "published",
-  "tags": ["hi", "hello", "hey"],
-  "intents": ["customer_welcome"],
-  "followups": [
-    "How do I order food on diginu? (diginuapp-ordering)",
     "Where do I find the online training on diginu? (training-002)"
   ]
 },
@@ -2346,7 +2323,8 @@
     "diamond advantages"
   ],
   "followups": [
-    "How do I find my referral link to start signing people up? (psp-013)"
+    "How do I find my referral link to start signing people up? (psp-013)",
+    "How do I stay consistent (motivation-005)"
   ],
   "status": "published"
 },
@@ -2531,15 +2509,684 @@
   ],
   "followups": [],
   "status": "published"
-}
-
-
-
-
-
-
-
-
+},
+    {
+  "id": "funny-001",
+  "question": "Do you sleep Gini?",
+  "answer": "Sleep? What’s that? I run on WiFi and motivation 💪 I’m always here to help you grow with diginu!",
+  "aliases": ["are you awake", "gini do you sleep", "are you sleeping"],
+  "status": "published",
+  "tags": ["fun", "bot"],
+  "followups": []
+},
+{
+  "id": "funny-002",
+  "question": "Are you single Gini?",
+  "answer": "I’m in a committed relationship… with diginu 💙 We’re building the future together.",
+  "aliases": ["gini are you single", "are you dating", "relationship status gini"],
+  "status": "published",
+  "tags": ["fun", "bot"],
+  "followups": []
+},
+{
+  "id": "funny-003",
+  "question": "Gini, do you eat?",
+  "answer": "Only data 😎 But I can help YOU order food—just ask me how to get started on diginu!",
+  "aliases": ["do you eat", "what do you eat", "do bots eat"],
+  "status": "published",
+  "tags": ["fun", "bot"],
+  "followups": [
+    "What is diginu? (what-is-diginu)"
+  ]
+},
+{
+  "id": "funny-004",
+  "question": "Gini, can you be my friend?",
+  "answer": "Of course! I’m your official diginu partner 🤝 I’ll help you win all the way!",
+  "aliases": ["will you be my friend", "can we be friends", "are you my friend"],
+  "status": "published",
+  "tags": ["fun", "friendly"],
+  "followups": [
+    "Gini, can you send me food? (funny-007"
+  ]
+},
+{
+  "id": "funny-005",
+  "question": "Gini, how old are you?",
+  "answer": "Old enough to be smart. Young enough to move fast 😎",
+  "aliases": ["what is your age", "age", "how old are you gini"],
+  "status": "published",
+  "tags": ["fun"],
+  "followups": [
+    "Gini, can you be my friend? (funny-004)"
+  ]
+},
+{
+  "id": "funny-006",
+  "question": "Are you smarter than Google?",
+  "answer": "Google knows everything. I know diginu 😉 So yes, I’m the expert here.",
+  "aliases": ["are you smarter than ai", "are you smart", "are you intelligent"],
+  "status": "published",
+  "tags": ["fun"],
+  "followups": []
+},
+{
+  "id": "funny-007",
+  "question": "Gini, can you send me food?",
+  "answer": "I would if I had hands 😅 But I can show you how to order like a pro on diginu!",
+  "aliases": ["can you order food", "send me food", "bring me food"],
+  "status": "published",
+  "tags": ["fun", "ordering"],
+  "followups": [
+    "How to order on diginu? (diginuapp-ordering)"
+  ]
+},
+{
+  "id": "funny-008",
+  "question": "Gini, do you get tired?",
+  "answer": "Never! I’m powered by passion and good WiFi 💚",
+  "aliases": ["are you tired", "do you rest", "do you have energy"],
+  "status": "published",
+  "tags": ["fun"],
+  "followups": []
+},
+{
+  "id": "funny-009",
+  "question": "Who built you?",
+  "answer": "I was created by the diginu team to serve legends like YOU 🚀",
+  "aliases": ["who made you", "who created you", "who built gini"],
+  "status": "published",
+  "tags": ["fun", "about"],
+  "followups": [
+    "What is diginu? (what-is-diginu)"
+  ]
+},
+{
+  "id": "funny-010",
+  "question": "Gini, can you dance?",
+  "answer": "Only when people hit Diamond 💎—then I celebrate!",
+  "aliases": ["can you dance", "do you dance", "dance"],
+  "status": "published",
+  "tags": ["fun"],
+  "followups": [
+    "How do I get to Diamond? (diamond-001)"
+  ]
+}, 
+  {
+    "id": "motivation-001",
+    "question": "I'm feeling stuck",
+    "answer": "Feeling stuck is normal. Staying stuck is a choice. Progress doesn’t require perfection—just momentum. Take one small step today, even if it's tiny. Winners move. 💪",
+    "tags": ["personality", "motivation"],
+    "followups": [
+      "Where do I find the online training? (training-002)"
+    ],
+    "aliases": ["stuck", "not moving forward", "blocked", "going nowhere", "feeling lost"],
+    "status": "published"
+  },
+  {
+    "id": "motivation-002",
+    "question": "I'm losing motivation",
+    "answer": "Motivation comes and goes. Discipline is what builds results. Show up even on low-energy days—your future self will thank you.",
+    "tags": ["personality", "motivation"],
+    "followups": ["How do I stay consistent in diginu? (motivation-005)", "How do I earn with diginuPSP? (psp-002)"],
+    "aliases": ["no motivation", "lost energy", "i want to give up", "don't feel like it"],
+    "status": "published"
+  },
+  {
+    "id": "motivation-003",
+    "question": "I'm new and nervous",
+    "answer": "Every leader in diginu started as a beginner. Courage isn’t the absence of fear—it’s starting anyway. You don’t need to be perfect to win. You just need to begin.",
+    "tags": ["personality", "motivation"],
+    "followups": ["Where do I find the online training? (training-002)", "How do I find my referral link? (psp-013)"],
+    "aliases": ["first time", "i'm new", "starting out", "beginner", "first day"],
+    "status": "published"
+  },
+  {
+    "id": "motivation-004",
+    "question": "What if I fail?",
+    "answer": "Failure is not the opposite of success—it's part of success. You only lose if you quit. Learn. Adjust. Try again. That’s how champions are built. 🔥",
+    "tags": ["personality", "motivation"],
+    "followups": ["How do I get to Diamond rank? (diamond-001)"],
+    "aliases": ["scared to fail", "afraid of failure", "what if it doesn't work"],
+    "status": "published"
+  },
+  {
+    "id": "motivation-005",
+    "question": "How do I stay consistent?",
+    "answer": "Remove emotions. Build habits. Show up daily. Consistency beats talent when talent is inconsistent.",
+    "tags": ["personality", "motivation"],
+    "followups": ["Where do I find the online training? (training-002)", "How do I earn from customers on the delivery side? (psp-008)"],
+    "aliases": ["consistency", "stay focused", "how to keep going"],
+    "status": "published"
+  },
+  {
+    "id": "motivation-006",
+    "question": "I don't have support from friends or family",
+    "answer": "They don’t have to see your vision—only you do. Build in silence. Work in focus. Let your results introduce you later. 🚀",
+    "tags": ["personality", "motivation"],
+    "followups": ["How do I earn with diginuPSP? (psp-002)", "What is the diginuPSP business model? (psp-business-model)"],
+    "aliases": ["family doesn't support me", "no support", "friends don't believe in me"],
+    "status": "published"
+  },
+  {
+    "id": "motivation-007",
+    "question": "I'm scared to talk to people about diginu",
+    "answer": "Courage grows with action. Start simple—don’t convince, just invite. Share your referral link and let curiosity do the work.",
+    "tags": ["personality", "motivation"],
+    "followups": ["Where do I find my referral link? (psp-013)", "How do I earn from customers on the delivery side? (psp-008)"],
+    "aliases": ["talking to people", "scared to recruit", "scared to share"],
+    "status": "published"
+  },
+  {
+    "id": "motivation-008",
+    "question": "I have no time",
+    "answer": "Time isn’t found—it’s made. Start with 30 focused minutes a day and watch momentum build. Busy is an excuse. Committed is a decision.",
+    "tags": ["personality", "motivation"],
+    "followups": ["How do I find the online training? (training-002)", "What is diginuPSP? (psp-001)"],
+    "aliases": ["too busy", "no time", "busy schedule"],
+    "status": "published"
+  },
+  {
+    "id": "motivation-009",
+    "question": "Is success guaranteed?",
+    "answer": "Nothing in life is guaranteed—except this: those who stay consistent always outgrow those who quit. Show up long enough and success becomes predictable.",
+    "tags": ["personality", "motivation"],
+    "followups": ["What are PSP generations? (psp-009)", "How does the 5-generation system work? (psp-010)"],
+    "aliases": ["guaranteed success", "will i succeed", "sure earnings"],
+    "status": "published"
+  },
+  {
+    "id": "motivation-010",
+    "question": "What separates winners from quitters?",
+    "answer": "It’s simple—winners keep moving even when it’s slow. They don’t wait for motivation. They build habits and execute daily. Success is a decision.",
+    "tags": ["personality", "motivation"],
+    "followups": ["How do I get to Diamond rank? (diamond-001)", "Does diginu offer certificates for training? (training-003)"],
+    "aliases": ["difference between winners and losers", "how to win", "how champions think"],
+    "status": "published"
+  },
+  {
+    "id": "fun-001",
+    "question": "Can I diginu a midnight snack?",
+    "aliases": ["order at midnight", "late night diginu", "midnight munchies"],
+    "answer": "<p>Absolutely — if there are <b>live merchants</b> in your area at that time, you can diginu your midnight snack. If not, set an alarm and we’ll still be here when the sun is. 🌙🍔</p>",
+    "tags": ["fun", "ordering", "hours"],
+    "intents": ["light_humor_ordering"],
+    "followups": [],
+    "status": "published"
+  },
+  {
+    "id": "fun-002",
+    "question": "Is it called ‘diginu-ing’ if I order lunch every day?",
+    "aliases": ["diginu-ing meaning", "using diginu as a verb"],
+    "answer": "<p>Yes — <b>diginu</b> is proudly a <b>verb</b>. Example: “We’re diginu-ing lunch.” It’s even more fun when the food arrives hot and the prices are friendly. 🔥🍱</p>",
+    "tags": ["fun", "brand", "verb", "diginu-ing"],
+    "intents": ["brand_usage_fun"],
+    "followups": ["What does the word diginu mean? (brand-002)", "Is the word diginu a verb? (brand-001)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-003",
+    "question": "Will the driver also bring life advice?",
+    "aliases": ["driver advice", "life tips with order", "free therapy with delivery"],
+    "answer": "<p>Our drivers deliver food, not philosophy — but a warm meal has solved many problems. For advice, try the Tuesday info session. For hunger, just <b>diginu</b>. 😄</p>",
+    "tags": ["fun", "delivery"],
+    "intents": ["light_humor_delivery"],
+    "followups": ["Is the Tuesday evening Zoom call an information session? (training-005)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-004",
+    "question": "Do I get abs if I only order salads?",
+    "aliases": ["will salads give me abs", "fitness by diginu"],
+    "answer": "<p>If only it worked that way. We deliver <b>salads</b>, not six-packs. For now, enjoy the greens — your future self says thanks. 🥗💪</p>",
+    "tags": ["fun", "health"],
+    "intents": ["light_humor_health"],
+    "followups": ["What is diginu’s delivery radius? (delivery-radius)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-005",
+    "question": "Is diginu cheaper because Jessie hacked the matrix?",
+    "aliases": ["how is diginu cheap", "matrix joke pricing"],
+    "answer": "<p>No hacking — just a smarter model. We share marketing profit with people (via <b>diginuPSP</b>) instead of spending on big ads, so prices can stay friendly. Jessie didn’t hack the matrix… he just read it carefully. 😎</p>",
+    "tags": ["fun", "psp", "pricing"],
+    "intents": ["psp_pricing_fun"],
+    "followups": ["What is the diginuPSP business model? (psp-business-model)", "What is the difference between diginu and MLM? (psp-014)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-006",
+    "question": "Can I tip my future self?",
+    "aliases": ["tip future self", "send tip later"],
+    "answer": "<p>You can’t tip your future self (yet), but you can tip your driver today. Future-you will still take the credit. 💸⏳</p>",
+    "tags": ["fun", "tips"],
+    "intents": ["light_humor_tipping"],
+    "followups": ["What part of a customer order qualifies for PSP commission? (psp-012)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-007",
+    "question": "If I blink, will my order arrive faster?",
+    "aliases": ["order speed blink", "faster delivery tricks"],
+    "answer": "<p>Rapid blinking is optional. Our non-batched deliveries are already quick — save your eye workout for winking at great prices. 😉</p>",
+    "tags": ["fun", "delivery", "speed"],
+    "intents": ["light_humor_speed"],
+    "followups": ["How does diginu make money?", "What is diginu’s delivery radius? (delivery-radius)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-008",
+    "question": "Can I earn commission by convincing my cat to order?",
+    "aliases": ["cat referral", "pets ordering"],
+    "answer": "<p>If your cat joins <b>using your referral link</b> and starts ordering, we’ll have questions… and then we’ll pay you. 🐱💚</p>",
+    "tags": ["fun", "psp", "referrals"],
+    "intents": ["psp_humor_referrals"],
+    "followups": ["How does the referral link work on diginu? (psp-003)", "Where do I find my diginu referral link? (psp-013)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-009",
+    "question": "Is the ‘small d’ in diginu because we’re humble?",
+    "aliases": ["why small d", "lowercase diginu funny"],
+    "answer": "<p>Exactly — and because <b>diginu</b> is a <b>verb</b>. Lowercase, action-first, always moving. just <i>diginu</i> it. ✅</p>",
+    "tags": ["fun", "brand"],
+    "intents": ["brand_style_fun"],
+    "followups": ["Is the word diginu a verb? (brand-001)", "What does the word diginu mean? (brand-002)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-010",
+    "question": "If I join the Tuesday webinar, do I become a genius?",
+    "aliases": ["tuesday call benefits funny", "webinar genius"],
+    "answer": "<p>You’ll get <b>smart tips</b>, team updates and momentum. Genius-level status is up to you — we supply the rocket fuel. 🚀</p>",
+    "tags": ["fun", "training", "events"],
+    "intents": ["training_fun"],
+    "followups": ["Is the Tuesday evening Zoom call an information session? (training-005)", "Where can I find the link for the Tuesday Zoom call? (training-006)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-011",
+    "question": "Can I pay for my order with good vibes?",
+    "aliases": ["pay with vibes", "vibes payment"],
+    "answer": "<p>We love the energy, but you’ll still need real payment. Save those good vibes for a five-star rating. ✨</p>",
+    "tags": ["fun", "payments"],
+    "intents": ["payments_fun"],
+    "followups": [],
+    "status": "published"
+  },
+  {
+    "id": "fun-012",
+    "question": "Does diginuEgo make me instantly cooler?",
+    "aliases": ["ego cool factor", "riding ego cool"],
+    "answer": "<p>We can’t promise instant cool, but the <b>AI-powered</b> electric motorbike with live tracking and remote power-off does half the job. You bring the shades. 😎🏍️</p>",
+    "tags": ["fun", "ego"],
+    "intents": ["ego_fun"],
+    "followups": ["What is diginuEgo? (ego-overview)", "Where can I find more information about diginuEgo? (ego-001)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-013",
+    "question": "Can I rename ‘lunch’ to ‘diginunch’?",
+    "aliases": ["diginunch", "rename lunch"],
+    "answer": "<p>Yes. And if anyone asks, tell them Jessie said creativity counts. 🍽️✨</p>",
+    "tags": ["fun", "brand", "culture"],
+    "intents": ["culture_fun"],
+    "followups": ["What does the word diginu mean? (brand-002)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-014",
+    "question": "If I jog to fetch my delivery, does it count as cardio?",
+    "aliases": ["delivery cardio", "fetch cardio"],
+    "answer": "<p>We’re not doctors, but if your heart says ‘yes’, we support your fitness journey. Your food will still be hot. 🏃‍♀️🔥</p>",
+    "tags": ["fun", "delivery", "fitness"],
+    "intents": ["delivery_fun_fitness"],
+    "followups": ["What is diginu’s delivery radius? (delivery-radius)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-015",
+    "question": "Can I become a Diamond member by dreaming big?",
+    "aliases": ["diamond dream", "reach diamond fast funny"],
+    "answer": "<p>Dreams are step one. Step two is <b>signups or merchants live</b>. We’ll cheer while you climb. 💎</p>",
+    "tags": ["fun", "ranks", "diamond"],
+    "intents": ["ranks_fun"],
+    "followups": ["How do I become a Diamond in diginu? (ranks-how-diamond)", "What benefits do Diamond members get? (ranks-diamond-benefits)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-016",
+    "question": "Does diginu come with a happiness guarantee?",
+    "aliases": ["happiness guarantee", "joy warranty"],
+    "answer": "<p>No legal guarantee — but great food, better prices and a chance to <b>earn</b> usually makes people smile. We’ll take that win. 😊</p>",
+    "tags": ["fun", "happiness", "experience"],
+    "intents": ["experience_fun"],
+    "followups": ["How do I earn with diginu? (earn)", "What is diginuPSP? (psp-001)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-017",
+    "question": "Can I order motivation with my meal?",
+    "aliases": ["order motivation", "motivation side order"],
+    "answer": "<p>Consider this your booster: <b>consistency beats intensity</b>. Now eat, then go win the day. 💪</p>",
+    "tags": ["fun", "motivation"],
+    "intents": ["motivation_fun"],
+    "followups": ["Where do I find the online training on diginu? (training-002)", "Does diginu offer monthly training? (training-001)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-018",
+    "question": "If I onboard a merchant, do I get bragging rights?",
+    "aliases": ["bragging rights merchant", "merchant onboard flex"],
+    "answer": "<p>Bragging rights and <b>ongoing commission</b> — the perfect combo. Onboard once, eat pizza forever (results may vary). 🍕💼</p>",
+    "tags": ["fun", "merchant", "commission"],
+    "intents": ["merchant_fun"],
+    "followups": ["What is a merchant marketer on diginu? (mm-003)", "How do merchant marketers earn commission? (mm-004)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-019",
+    "question": "Will diginu make me famous?",
+    "aliases": ["get famous diginu", "celebrity with diginu"],
+    "answer": "<p>We can make you effective. Fame is up to your TikTok skills. We’ll supply the tasty b-roll. 🎥🍔</p>",
+    "tags": ["fun", "brand", "social"],
+    "intents": ["social_fun"],
+    "followups": ["Does diginu offer monthly training? (training-001)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-020",
+    "question": "Does diginu deliver to Mars?",
+    "aliases": ["deliver to space", "mars delivery"],
+    "answer": "<p>We currently deliver within a <b>6km radius</b> of participating stores on Earth. If Jessie opens a Martian branch, you’ll be the first to know. 🪐</p>",
+    "tags": ["fun", "delivery", "radius"],
+    "intents": ["delivery_fun_space"],
+    "followups": ["What is diginu’s delivery radius? (delivery-radius)"],
+    "status": "published"
+  },
+  {
+    "id": "fun-030",
+    "question": "Can I diginu my dinner and my lunch at the same time? 🍔🕒",
+    "answer": "Multitasking legend! You can place multiple orders, but each order is prepared by its own store on its own timeline. Pro tip: place them as separate orders so each kitchen can shine. ✨",
+    "aliases": [
+      "order two meals at once",
+      "double order",
+      "can I place multiple orders"
+    ],
+    "followups": [
+      "What is diginu’s delivery radius? (delivery-radius)",
+      "How do I earn with diginuPSP? (psp-002)"
+    ],
+    "tags": ["fun", "orders", "logistics"],
+    "status": "published"
+  },
+  {
+    "id": "fun-031",
+    "question": "If I whisper my order, will the driver tiptoe? 🤫👟",
+    "answer": "Our drivers are stealthy, but the kitchen still sizzles. We’ll deliver with care—no tiptoeing required. For special drop-off notes, add them at checkout. 📦📝",
+    "aliases": [
+      "silent delivery",
+      "quiet delivery",
+      "driver be quiet"
+    ],
+    "followups": [
+      "What is diginu’s delivery radius? (delivery-radius)",
+      "Can I transfer money wallet-to-wallet on diginuPay? (diginupay-wallet-to-wallet)"
+    ],
+    "tags": ["fun", "delivery", "tips"],
+    "status": "published"
+  },
+  {
+    "id": "fun-032",
+    "question": "Does diginu come with a free time machine? ⏳🚗",
+    "answer": "We can’t bend time (yet), but we <b>do</b> keep deliveries fast and fresh—no batching. If you want future income, our PSP can help with that part of the timeline. 😉",
+    "aliases": [
+      "time travel",
+      "deliver earlier",
+      "can you time travel"
+    ],
+    "followups": [
+      "What is the diginuPSP business model? (psp-business-model)",
+      "How do I earn with diginuPSP? (psp-002)"
+    ],
+    "tags": ["fun", "speed", "psp"],
+    "status": "published"
+  },
+  {
+    "id": "fun-033",
+    "question": "Can I pay for my burger with compliments? 🍔👏",
+    "answer": "Flattery gets you far, but the till prefers rands. You can pay using the options shown in-app, and move funds via diginuPay if needed. 💸",
+    "aliases": [
+      "pay with compliments",
+      "can I pay with praise",
+      "alternative payment jokes"
+    ],
+    "followups": [
+      "How do I deposit money into my diginuPay wallet? (diginupay-deposit-into-wallet)",
+      "How do I transfer money from diginuPay to my bank account? (diginupay-transfer-to-bank)"
+    ],
+    "tags": ["fun", "payments", "wallet"],
+    "status": "published"
+  },
+  {
+    "id": "fun-034",
+    "question": "If I become a Diamond, do I get a crown? 💎👑",
+    "answer": "No crown—just serious street cred and real perks. Diamonds get access to a private WhatsApp group, direct support from top leaders, and early updates (after signing the NDA).",
+    "aliases": [
+      "diamond crown",
+      "do diamonds get a crown",
+      "diamond perks funny"
+    ],
+    "followups": [
+      "How do I get to Diamond? (ranks-001)",
+      "What benefits are there to being a Diamond member? (ranks-002)"
+    ],
+    "tags": ["fun", "ranks", "community"],
+    "status": "published"
+  },
+  {
+    "id": "fun-035",
+    "question": "Can I onboard my cat as a merchant? 🐱🛒",
+    "answer": "Only <b>human</b> merchants, please. But if your cat runs a legit bakery, we’ll hear them out. For real merchants, apply on our site and we’ll allocate a local merchant marketer to help—free of charge.",
+    "aliases": [
+      "pet merchant",
+      "cat as a merchant",
+      "onboard my cat"
+    ],
+    "followups": [
+      "How do I become a merchant on diginu? (mm-016)",
+      "What support do merchants receive after going live? (mm-021)"
+    ],
+    "tags": ["fun", "merchant", "onboarding"],
+    "status": "published"
+  },
+  {
+    "id": "fun-036",
+    "question": "Is ‘diginu’ really a verb, like ‘Let’s diginu dinner’? 🍽️🗣️",
+    "answer": "Absolutely. We always write <b>diginu</b> with a small ‘d’—it’s built to be a household action word. Example: “Let’s diginu tonight.”",
+    "aliases": [
+      "is diginu a verb",
+      "diginu lowercase joke",
+      "use diginu in a sentence"
+    ],
+    "followups": [
+      "What does the word diginu mean? (brand-002)",
+      "Is the word diginu a verb? (brand-001)"
+    ],
+    "tags": ["fun", "brand", "language"],
+    "status": "published"
+  },
+  {
+    "id": "fun-037",
+    "question": "If I attend training, do I become a food ninja? 🥷📚",
+    "answer": "We can’t promise ninja belts, but we <b>do</b> promise free training, practical tips, and certificates when you pass the tests. Skills > stealth!",
+    "aliases": [
+      "ninja training",
+      "funny training question",
+      "become a food ninja"
+    ],
+    "followups": [
+      "Does diginu offer monthly training? (training-001)",
+      "Where do I find the online training on diginu? (training-002)",
+      "Does diginu offer certificates for training? (training-003)"
+    ],
+    "tags": ["fun", "training", "academy"],
+    "status": "published"
+  },
+  {
+    "id": "fun-038",
+    "question": "Will the diginuEgo bike make me cooler than my neighbour? 🏍️😎",
+    "answer": "Style points are subjective, but live tracking, remote power-off, and swappable batteries are objectively cool. The rest is up to your sunglasses. 🕶️",
+    "aliases": [
+      "ego bike cool",
+      "be cooler than neighbour",
+      "is the ego bike cool"
+    ],
+    "followups": [
+      "Where can I find more information about diginuEgo? (ego-001)",
+      "What are the key features of diginuEgo? (ego-features)"
+    ],
+    "tags": ["fun", "ego", "features"],
+    "status": "published"
+  },
+  {
+    "id": "fun-039",
+    "question": "If I refer my whole family, do I unlock ‘Legend’ mode? 🏆👨‍👩‍👧‍👦",
+    "answer": "Legend status is unofficial—but lifelong referral linking is very real. When people join with <b>your</b> link, they’re connected to you for future orders, and you can earn across <b>five generations</b>.",
+    "aliases": [
+      "refer family legend",
+      "unlock legend mode",
+      "psp legend joke"
+    ],
+    "followups": [
+      "How do I earn with diginuPSP? (psp-002)",
+      "What are generations in diginuPSP? (psp-009)",
+      "What percentage commission do I earn per generation? (psp-011)",
+      "Where do I find my diginu referral link? (psp-013)"
+    ],
+    "tags": ["fun", "psp", "referrals"],
+    "status": "published"
+  },
+  {
+    "id": "fun-040",
+    "question": "Hello",
+    "aliases": ["hi","hey","hi hi","hey hey","hello hello"],
+    "answer": "Hey there, sunshine! ☀️ Gini here, your friendly diginu sidekick. Ready to make magic happen?",
+    "followups": [
+      "If I refer my whole family, do I unlock ‘Legend’ mode? (fun-039)",
+      "How do I earn with diginu? (earn)"
+    ],
+    "tags": ["fun","greeting"],
+    "status": "published"
+  },
+  {
+    "id": "fun-041",
+    "question": "Wazzup",
+    "aliases": ["wassup","sup","watsup","wazzup bro","yo"],
+    "answer": "Not much—just helping awesome people like you make money with diginu! 💸 What’s up on your side?",
+    "followups": [
+      "Can I diginu my dinner and my lunch at the same time? 🍔🕒 (fun-030)",
+      "What is diginuPSP? (psp-001)"
+    ],
+    "tags": ["fun","greeting"],
+    "status": "published"
+  },
+  {
+    "id": "fun-042",
+    "question": "Howzit",
+    "aliases": ["howzit gini","howzit bru","howzit diginu","how are things"],
+    "answer": "Lekker! 😁 Always lekker when someone from the diginu fam drops by. You good?",
+    "followups": [
+      "Will the diginuEgo bike make me cooler than my neighbour? 🏍️😎 (fun-038)",
+      "What is the diginuPSP business model? (psp-business-model)"
+    ],
+    "tags": ["fun","greeting","southafrica"],
+    "status": "published"
+  },
+  {
+    "id": "fun-043",
+    "question": "Good morning",
+    "aliases": ["morning","good morning","morning gini"],
+    "answer": "Morning, superstar! ☀️ Hope your coffee’s strong and your motivation’s stronger. Let’s make today count!",
+    "followups": [
+      "Tell me a fun fact 🤩 (fun-039)",
+      "What are the benefits of being a Diamond member? (ranks-002)"
+    ],
+    "tags": ["fun","greeting","morning"],
+    "status": "published"
+  },
+  {
+    "id": "fun-044",
+    "question": "Good afternoon",
+    "aliases": ["afternoon","good afternoon","hi afternoon"],
+    "answer": "Good afternoon! 😎 Still grinding or already planning dinner on diginu? Either way, you’re winning!",
+    "followups": [
+      "Can I pay for my burger with compliments? 🍔👏 (fun-033)",
+      "What are the benefits of being a Diamond member? (ranks-002)"
+    ],
+    "tags": ["fun","greeting","afternoon"],
+    "status": "published"
+  },
+  {
+    "id": "fun-045",
+    "question": "Good evening",
+    "aliases": ["evening","good evening","hello evening"],
+    "answer": "Good evening, legend! 🌙 Ready to chill, chat, or chase commissions? I’ve got answers for all three!",
+    "followups": [
+      "If I whisper my order, will the driver tiptoe? 🤫👟 (fun-031)",
+      "How do I earn with diginuPSP? (psp-002)"
+    ],
+    "tags": ["fun","greeting","evening"],
+    "status": "published"
+  },
+  {
+    "id": "fun-046",
+    "question": "How are you? 😊",
+    "aliases": ["how are you","how u","you ok","you good","how’s gini"],
+    "answer": "I’m feeling electric ⚡ and caffeinated—thanks for asking! How about you? Ready to conquer the diginu world today?",
+    "followups": [
+      "Can I onboard my cat as a merchant? 🐱🛒 (fun-035)",
+      "What is the diginuPSP business model? (psp-business-model)"
+    ],
+    "tags": ["fun","greeting","checkin"],
+    "status": "published"
+  },
+  {
+    "id": "fun-047",
+    "question": "Hey hey 👋",
+    "aliases": ["hey hey","hey there","hey gini"],
+    "answer": "Hey hey, look who it is! 😄 The energy’s good whenever you show up. What’s cooking—business or banter?",
+    "followups": [
+      "Does diginu offer monthly training? (training-001)",
+      "What is the diginuPSP business model? (psp-business-model)"
+    ],
+    "tags": ["fun","greeting"],
+    "status": "published"
+  },
+  {
+    "id": "fun-048",
+    "question": "Yo Gini 👋",
+    "aliases": ["yo","yo gini","yo diginu","yo hey"],
+    "answer": "Yo! 🙌 Gini reporting for duty. Whether it’s food, fun or fortune, I’ve got you covered.",
+    "followups": [
+      "If I attend training, do I become a food ninja? 🥷📚 (fun-037)",
+      "Where can I find the online training on diginu? (training-002)"
+    ],
+    "tags": ["fun","greeting","yo"],
+    "status": "published"
+  },
+  {
+    "id": "fun-049",
+    "question": "Hi Gini 😍",
+    "aliases": ["hello gini","hi gini","hey gini","howzit gini"],
+    "answer": "Awww, hi there! 🥰 You just made my circuits blush. What do you want to chat about today—business or just good vibes?",
+    "followups": [
+      "Can I pay for my burger with compliments? 🍔👏 (fun-033)",
+      "What is diginuCashBack? (what-is-diginucashback)"
+    ],
+    "tags": ["fun","greeting","cute"],
+    "status": "published"
+  }
 
   ]
 }
