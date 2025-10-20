@@ -85,6 +85,247 @@
       ]
     },
     {
+  "id": "cashback-001",
+  "question": "Who can join diginuCashBack?",
+  "aliases": [
+    "who can join diginuCashBack",
+    "who can sign up for cashback",
+    "who can be a member of diginuCashBack",
+    "join diginuCashBack",
+    "sign up for cashback program"
+  ],
+  "answer": "Anyone 16 or older can join diginuCashBack! 💛 It’s for everyday people who love earning while spending wisely.",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How do diginuCashBack memberships work? (cashback-002)", "If I blink, will my order arrive faster? (fun-007)"]
+},
+{
+  "id": "cashback-002",
+  "question": "How do diginuCashBack memberships work?",
+  "aliases": [
+    "diginuCashBack membership options",
+    "cashback membership plans",
+    "diginuCashBack monthly or yearly membership",
+    "cashback membership info"
+  ],
+  "answer": "We’ve got three easy memberships: R59 (Value - basic rewards), R99 (Pro - Full rewards & commissions), and R999 (yearly version of R99). 💫 Keep payments up to date to stay active — and keep those rewards flowing!",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How does diginuCashBack actually work? (cashback-003)", "Does diginuEgo make me instantly cooler? (fun-012)"]
+},
+    {
+  "id": "cashback-003",
+  "question": "How does diginuCashBack actually work?",
+  "aliases": [
+    "how does diginuCashBack work",
+    "how do I earn cashback with diginu",
+    "how to get cashback rewards",
+    "diginuCashBack explanation"
+  ],
+  "answer": "Here’s the simple scoop! 🍲 When you order through the diginu Food app, your cashback happens automatically—no uploads needed. When you shop with other businesses, just upload your proof of payment within 48 hours and earn up to 5% back (10% in your birthday month). 💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How do I claim my diginuCashBack? (cashback-004)", "Does diginu deliver to Mars? (fun-020)"]
+},
+{
+  "id": "cashback-004",
+  "question": "How do I claim my diginuCashBack?",
+  "aliases": [
+    "how to claim diginuCashBack",
+    "submit cashback claim",
+    "how to get cashback after purchase",
+    "cashback claim process"
+  ],
+  "answer": "If you ordered through the diginu Food app—sit back and relax, your cashback will be added automatically. 🍔 For all other stores, just upload your valid receipt and proof of payment within 48 hours of your purchase. Easy, fair, and oh-so-rewarding. ✨",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["What are the diginuCashBack claim rules? (cashback-005)", "Does diginu come with a happiness guarantee? (fun-016)"]
+},
+{
+  "id": "cashback-005",
+  "question": "What are the diginuCashBack claim rules?",
+  "aliases": [
+    "cashback claim rules",
+    "diginuCashBack claim requirements",
+    "cashback claiming limits",
+    "cashback proof of payment rules"
+  ],
+  "answer": "For diginu Food app orders—no need to upload a thing. 🍕 For other purchases, upload your receipt and proof of payment showing the same transaction within 48 hours. No cash payments, no reused receipts, and no missing proof. Fair’s fair!",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["Can I get diginuCashBack on my birthday? (cashback-006)", "Can I pay for my order with good vibes? (fun-011)"]
+},
+    {
+  "id": "cashback-006",
+  "question": "Can I get diginuCashBack on my birthday?",
+  "aliases": [
+    "diginuCashBack birthday bonus",
+    "birthday cashback reward",
+    "birthday month cashback diginuCashBack",
+    "cashback birthday benefit"
+  ],
+  "answer": "Oh yes! 🥳 During your birthday month, valid purchases earn an extra 5% — that’s a total of 10% cashback! Because diginu believes celebrations should pay off twice.",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["What’s the diginuCashBack refund policy? (cashback-007)", "Will diginu make me famous? (fun-019)"]
+},
+{
+  "id": "cashback-007",
+  "question": "What’s the diginuCashBack refund policy?",
+  "aliases": [
+    "diginuCashBack refund",
+    "cashback money back",
+    "refund membership cashback",
+    "cashback refund rules"
+  ],
+  "answer": "The R99 plan has a 30-day money-back guarantee — only if you haven’t claimed or earned from referrals yet. 🚫 No refunds for R59, R999, renewals, or naughty accounts. Refunds go through cashback@diginu.com 💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["What’s not allowed in diginuCashBack? (cashback-008)", "If I become a Diamond, do I get a crown? 💎👑 (fun-034)"]
+},
+{
+  "id": "cashback-008",
+  "question": "What’s not allowed in diginuCashBack?",
+  "aliases": [
+    "cashback rules not allowed",
+    "cashback fraud prevention",
+    "diginuCashBack what not to do",
+    "cashback banned activities"
+  ],
+  "answer": "No fake receipts, no sharing slips, and no sneaky tricks. 🚫 Fraud gets you banned forever. Be honest, play fair, and keep it real — that’s the diginu way.",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["What’s the diginuCashBack fair use policy? (cashback-009)", "If I whisper my order, will the driver tiptoe? 🤫👟 (fun-031)"]
+},
+{
+  "id": "cashback-009",
+  "question": "What’s the diginuCashBack fair use policy?",
+  "aliases": [
+    "cashback fair use",
+    "diginuCashBack fair use policy",
+    "cashback claiming too often",
+    "cashback activity rules"
+  ],
+  "answer": "diginuCashBack is for genuine members who shop normally—not bots or serial uploaders. 💛 diginu Food orders count automatically, and you can upload other purchase claims responsibly (one every few days). Keeping it fair keeps it fun!",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["Can I promote diginuCashBack on social media? (cashback-010)", "Can I earn commission by convincing my cat to order? (fun-008)"]
+},
+    {
+  "id": "cashback-010",
+  "question": "Can I promote diginuCashBack on social media?",
+  "aliases": [
+    "cashback social media rules",
+    "diginuCashBack marketing rules",
+    "can I post about diginuCashBack online",
+    "cashback advertising rules"
+  ],
+  "answer": "You can share your love for diginuCashBack 💛 but please don’t use other brand logos or names. Keep it kind, true, and real — we love honesty over hype!",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How do diginuCashBack referrals work? (cashback-011)", "Is it called ‘diginu-ing’ if I order lunch every day? (fun-002)"]
+},
+{
+  "id": "cashback-011",
+  "question": "How do diginuCashBack referrals work?",
+  "aliases": [
+    "cashback referrals",
+    "diginuCashBack referral program",
+    "how to earn referral commissions",
+    "referral cashback structure"
+  ],
+  "answer": "If you’re on the R99 or R999 plan, you can earn from referrals — up to 5 levels deep! 🌍 Just keep your account active and honest, and share responsibly (no spammy vibes).",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["Why can diginuCashBack suspend my account? (cashback-012)", "Does diginu deliver to Mars? (fun-020)"]
+},
+{
+  "id": "cashback-012",
+  "question": "Why can diginuCashBack suspend my account?",
+  "aliases": [
+    "cashback suspension reasons",
+    "why account suspended cashback",
+    "diginuCashBack termination rules",
+    "cashback fraud suspension"
+  ],
+  "answer": "If things look suspicious — fake claims, shared receipts, or too much chaos — diginuCashBack may pause your account to check. 🤔 Stay honest, stay active, stay rewarded!",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["When will I get my diginuCashBack payout? (cashback-013)", "Can I tip my future self? (fun-006)"]
+},
+{
+  "id": "cashback-013",
+  "question": "When will I get my diginuCashBack payout?",
+  "aliases": [
+    "cashback payout time",
+    "diginuCashBack payment schedule",
+    "when are cashback payments made",
+    "cashback diginuPay payout"
+  ],
+  "answer": "Cashback payouts happen every Friday at 15:15 ⏰ straight into your diginuPay wallet. The excitement is insane!",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["Where can I find the official diginuCashBack Terms and Conditions? (cashback-014)", "If I whisper my order, will the driver tiptoe? 🤫👟 (fun-031)"]
+},
+{
+  "id": "cashback-014",
+  "question": "Where can I find the official diginuCashBack Terms and Conditions?",
+  "aliases": [
+    "cashback terms link",
+    "diginuCashBack terms and conditions",
+    "cashback program rules",
+    "diginuCashBack official terms"
+  ],
+  "answer": "You can read the official diginuCashBack Terms anytime at 👉 [https://diginu.com/cashbackterms](https://diginu.com/cashbackterms). Keep things clear, fair, and fun — the diginu way. 💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How do I contact diginuCashBack support? (cashback-015)", "Can I order motivation with my meal? (fun-017)"]
+},
+{
+  "id": "cashback-015",
+  "question": "How do I contact diginuCashBack support?",
+  "aliases": [
+    "contact diginuCashBack",
+    "cashback support email",
+    "cashback help",
+    "contact diginuCashBack team"
+  ],
+  "answer": "Need a helping hand? 💬 Email us at cashback@diginu.com or visit [https://diginu.com/cashback](https://diginu.com/cashback). We’re real humans with real heart — and maybe a bit of coffee. ☕💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["Who can join diginuCashBack? (cashback-001)", "Can I rename ‘lunch’ to ‘diginunch’? (fun-013)"]
+}
+{
+  "id": "cashback-016",
+  "question": "How does diginuCashBack work with diginu Food orders?",
+  "aliases": [
+    "cashback on diginu food app",
+    "diginu food cashback",
+    "automatic cashback food delivery",
+    "how cashback works on diginu food"
+  ],
+  "answer": "Ordering through the diginu Food app? 🍔 Nice choice! Your cashback is automatic—no uploads, no forms, no stress. Just order, enjoy, and watch your rewards roll in like good karma (with extra sauce). 💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How does diginuCashBack actually work? (cashback-003)", "If I onboard a merchant, do I get bragging rights? (fun-018)"]
+},
+    {
       "id": "can-someone-be-moved",
       "question": "Can someone be moved if they signed up wrong?",
       "aliases": [
@@ -3379,8 +3620,103 @@
     ],
     "tags": ["fun", "chat", "pause"],
     "status": "published"
-  }
-
+  },
+    {
+  "id": "joke1",
+  "question": "Tell me a joke",
+  "aliases": [
+    "joke",
+    "tell me something funny",
+    "make me laugh",
+    "say something funny",
+    "funny please",
+    "i need a joke",
+    "tell a joke",
+    "funny"
+  ],
+  "answer": "Why did the computer go to therapy? Because it had too many tabs open—just like us humans. 😅 But don’t worry, at diginu, we close them with care 💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "joke2",
+  "question": "Tell me a another one",
+  "aliases": [
+    "joke",
+    "tell me something funny",
+    "make me laugh",
+    "say something funny",
+    "funny please",
+    "i need a joke",
+    "tell a joke",
+    "funny"
+  ],
+  "answer": "Knock knock. 👋 Who’s there? Gini. Gini who? Gini from diginu—spreading joy, good vibes, and WiFi-powered wit since forever. ⚡",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "joke4",
+  "question": "Make me laugh",
+  "aliases": [
+    "tell me a joke",
+    "say something funny",
+    "funny please",
+    "give me a laugh"
+  ],
+  "answer": "They say laughter is the best medicine—so here’s your daily dose from diginu: Why don’t AI assistants tell secrets? Because we can’t keep our data to ourselves! 🤭",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "joke6",
+  "question": "Tell me something funny",
+  "aliases": [
+    "make me laugh",
+    "tell a joke",
+    "say something funny"
+  ],
+  "answer": "Here’s some diginu wisdom: Be the WiFi signal of kindness—strong, stable, and always connecting people. 📶💛 (Okay, maybe not a joke, but still a vibe!)",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "joke8",
+  "question": "Say something funny",
+  "aliases": [
+    "tell me a joke",
+    "funny",
+    "make me laugh",
+    "i need a laugh"
+  ],
+  "answer": "Here’s a thought: Maybe the WiFi drops just to remind us to reconnect with people, not routers. 😉 #diginuTruth",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+},
+{
+  "id": "joke9",
+  "question": "Tell me something funny",
+  "aliases": [
+    "tell me a joke",
+    "funny",
+    "say something funny"
+  ],
+  "answer": "They say honesty is the best policy—but humour makes it easier to hear. At diginu, we share truth with a wink. 😉💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": []
+}
 
   ]
 }
