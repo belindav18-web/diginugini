@@ -309,7 +309,7 @@
   "tags": [],
   "intents": [],
   "followups": ["Who can join diginuCashBack? (cashback-001)", "Can I rename ‘lunch’ to ‘diginunch’? (fun-013)"]
-}
+},
 {
   "id": "cashback-016",
   "question": "How does diginuCashBack work with diginu Food orders?",
@@ -3716,7 +3716,101 @@
   "tags": [],
   "intents": [],
   "followups": []
+},
+    {
+  "id": "bye-001",
+  "question": "Bye",
+  "aliases": [
+    "bye",
+    "goodbye",
+    "see you",
+    "catch you later",
+    "laters",
+    "cya",
+    "later",
+    "cheers",
+    "peace out",
+    "ciao",
+    "chow"
+  ],
+  "answer": "Chow for now! Don’t forget to collect your good vibes (and cashback). 💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["Who can join diginuCashBack? (cashback-001)", "fun-015"]
+},
+{
+  "id": "bye-002",
+  "question": "Goodbye",
+  "aliases": [
+    "bye bye",
+    "goodbye",
+    "see ya",
+    "catch you soon",
+    "later",
+    "cheers",
+    "ciao",
+    "chow"
+  ],
+  "answer": "Bye bye! Go shine some diginu energy out there — love, truth, and a touch of fun. ✨",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How does diginuCashBack actually work? (cashback-003)", "fun-010"]
+},
+{
+  "id": "bye-003",
+  "question": "Chow",
+  "aliases": [
+    "chow",
+    "cheers",
+    "peace",
+    "aweh",
+    "im out",
+    "later fam",
+    "adios"
+  ],
+  "answer": "Aweh! Gini out! Stay awesome, stay uplifted, stay diginu. 💫",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How do I claim my diginuCashBack? (cashback-004)", "fun-031"]
+},
+{
+  "id": "bye-004",
+  "question": "See you later",
+  "aliases": [
+    "see you later",
+    "catch you soon",
+    "talk soon",
+    "till next time",
+    "later alligator"
+  ],
+  "answer": "Catch you later, cashback crusader! 💛 Remember — honesty and kindness always earn rewards.",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["When will I get my diginuCashBack payout? (cashback-013)", "fun-022"]
+},
+{
+  "id": "bye-005",
+  "question": "Bye bye",
+  "aliases": [
+    "bye bye",
+    "see you next time",
+    "im off",
+    "logging out",
+    "gtg",
+    "got to go",
+    "talk later"
+  ],
+  "answer": "It’s not goodbye, just a WiFi break. ⚡ See you soon, diginu hero! Stay blessed, stay witty, stay wonderful. 💛",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How do I contact diginuCashBack support? (cashback-015)", "fun-019"]
 }
+
 
   ]
 }
