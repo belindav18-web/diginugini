@@ -108,6 +108,28 @@
         "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)"
       ]
     },
+     {
+      "id": "ego-001",
+      "question": "Where can I find more information about diginuEgo?",
+      "answer": "<p>For full information about <b>diginuEgo</b>, visit the official diginuEgo page here:</p><p><a href=\"https://diginu.com/ego\" target=\"_blank\" rel=\"noopener\">https://diginu.com/ego</a></p><p>This page includes full details on features, pricing, specs, battery info, videos and ordering options.</p>",
+      "tags": ["ego", "electric-bike", "info", "link"],
+      "intents": ["ego_more_info"],
+      "followups": [
+        "What is diginuEgo? (ego-overview)",
+        "What are the key features of diginuEgo? (ego-features)"
+      ],
+      "aliases": [
+        "ego info",
+        "ego details",
+        "ego",
+        "learn about diginuEgo",
+        "ego website",
+        "diginuego website",
+        "diginuego link",
+        "where can I learn about ego"
+      ],
+      "status": "published"
+    },
     {
       "id": "ego-overview",
       "question": "What is diginuEgo?",
@@ -115,8 +137,8 @@
         "DiginuEgo Overview",
         "Ego Product Overview",
         "What Is The Ego Bike",
-        "diginu electric bike info",
-        "diginuego motorcycle details",
+        "diginu electric bike",
+        "diginuego motorcycle",
         "is the ego bike electric",
         "tell me about the diginuEgo bike"
       ],
@@ -145,7 +167,7 @@
         "Steps to sell the bike",
         "Can anyone sell the bikes"
       ],
-      "answer": "Anyone who passed the diginuEgo accreditation course can sell the bikes, you can start by applying for the training at diginu.com/egosales. Once you have filled out the application form, you will need to wait for approval and you will get the training sent to you.",
+      "answer": "Anyone who passed the diginuEgo accreditation course can sell the bikes, you can start by applying for the training at </p><p><a href=\"https://diginu.com/egosales\" target=\"_blank\" rel=\"noopener\">https://diginu.com/egosales</a></p><p>. Once you have filled out the application form, you will need to wait for approval and you will get the training sent to you.",
       "status": "published",
       "tags": [],
       "intents": [],
@@ -157,12 +179,9 @@
     {
       "id": "ego-features",
       "question": "What are the key features of diginuEgo?",
-      "aliases": [
-        "Ai Features Ego Bike",
-        "Diginuego Features",
-        "Ego Bike Main Features",
-        "Top Features Of Diginu Ego",
-        "What Makes The Ego Bike Special"
+      "aliases
+        "What Makes The Ego Bike Special",
+      "Key features on ego"
       ],
       "answer": "AI & Telematics: live tracking dashboard for visibility and control Remote Power-Off: disable the bike remotely if stolen Swappable Batteries: keep riding by swapping packs (no long downtime) Strong Braking: front & rear disc brakes (240mm) Comfort & Handling: upside-down front fork + rear monoshock Built for Work: fleet management functionality Everyday Practicality: suitable for commuting, school or work",
       "status": "published",
@@ -186,7 +205,7 @@
         "who can buy a bike?",
         "how can I buy a bike?"
       ],
-      "answer": "Anyone can buy a bike, whether its for self use or business. You can go to diginu.com/ego and fill in the form and we will contact you with details to purchase a bike",
+      "answer": "Anyone can buy a bike, whether its for self use or business. You can go to </p><p><a href=\"https://diginu.com/ego\" target=\"_blank\" rel=\"noopener\">https://diginu.com/ego</a></p><p> and fill in the form and we will contact you with details to purchase a bike",
       "status": "published",
       "tags": [],
       "intents": [],
@@ -226,10 +245,11 @@
         "What is the battery range and charging time for diginuEgo",
         "diginu ego range",
         "ego battery info"
+        "ego battery"
       ],
       "answer": "Battery: lithium-ion, swappable packs Charging: ~80% in Range (Eco): ~105–120 km* Range (Normal): ~75–90 km* Range (Sport): ~65–70 km* *Actual range varies with load, terrain and riding style.",
       "status": "published",
-      "tags": [],
+      "tags": ["battery", "ego range"],
       "intents": [],
       "followups": [
         "What are the technical specifications of diginuEgo? (ego-specs)",
@@ -248,7 +268,7 @@
       ],
       "answer": "The diginuEgo bike is priced at R89,900 (incl. VAT) . Licensing and admin fees are excluded. Interested in ordering or a quote? Contact us and we’ll assist.",
       "status": "published",
-      "tags": [],
+      "tags": ["ego cost", "price of ego"],
       "intents": [],
       "followups": [
         "What are the key features of diginuEgo? (ego-features)",
@@ -268,7 +288,7 @@
       ],
       "answer": "Remote power-off: disable the bike over the internet if stolen Live tracking dashboard: monitor location and status in real-time Fleet visibility: centralised oversight for multiple bikes These features are part of diginu’s focus on secure, reliable mobility.",
       "status": "published",
-      "tags": [],
+      "tags": ["ego security", "bike safety"],
       "intents": [],
       "followups": [
         "What are the key features of diginuEgo? (ego-features)",
@@ -285,7 +305,7 @@
         "Show Me The Screen Panel",
         "diginu ego youtube"
       ],
-      "answer": "Bike screen / panel: https://youtu.be/gh79U9_4ihg Battery swap demo: https://youtu.be/EUOo8SXl6sU How the bike looks: https://youtu.be/NBtCJRi35jk",
+      "answer": "Bike screen / panel: </p><p><a href=\"https://youtu.be/gh79U9_4ihg\" target=\"_blank\" rel=\"noopener\">https://youtu.be/gh79U9_4ihg</a></p><p>, <br>Battery swap demo: </p><p><a href=\"https://youtu.be/EUOo8SXl6sU\" target=\"_blank\" rel=\"noopener\">https://youtu.be/EUOo8SXl6sU</a></p><p>, <br>How the bike looks: </p><p><a href=\"https://https://youtu.be/NBtCJRi35jk\" target=\"_blank\" rel=\"noopener\">https://youtu.be/NBtCJRi35jk</a></p><p>",
       "status": "published",
       "tags": [],
       "intents": [],
@@ -325,7 +345,7 @@
       ],
       "answer": "Yes. The platform includes fleet management functionality with a live dashboard for location, usage and control. This helps teams optimise deployment, monitor security, and reduce downtime.",
       "status": "published",
-      "tags": [],
+      "tags": ["fleet", "telematics"],
       "intents": [],
       "followups": [
         "What are the key features of diginuEgo? (ego-features)",
@@ -344,7 +364,7 @@
       ],
       "answer": "Yes. From 2026 , diginu plans to roll out battery swapping and charging stations across the country, with solar and wind generation at many sites. This supports faster turnarounds and lower operating costs for riders and fleets.",
       "status": "published",
-      "tags": [],
+      "tags": ["battery swapping stations", "charging"],
       "intents": [],
       "followups": [
         "What are the key features of diginuEgo? (ego-features)",
@@ -1298,7 +1318,8 @@
         "psp earnings",
         "how do i make money with diginu",
         "earn commission referrals",
-        "diginu profit share earnings"
+        "diginu profit share earnings",
+        "commissions"
       ],
       "status": "published"
     },
@@ -1578,24 +1599,44 @@
       "status": "published"
     },
     {
-      "id": "ego-001",
-      "question": "Where can I find more information about diginuEgo?",
-      "answer": "<p>For full information about <b>diginuEgo</b>, visit the official diginuEgo page here:</p><p><a href=\"https://diginu.com/ego\" target=\"_blank\" rel=\"noopener\">https://diginu.com/ego</a></p><p>This page includes full details on features, pricing, specs, battery info, videos and ordering options.</p>",
-      "tags": ["ego", "electric-bike", "info", "link"],
-      "intents": ["ego_more_info"],
+      "id": "account-support",
+      "question": "How do I contact diginu support?",
+      "answer": "For support, Please email <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a>, for diginuCashBack support, Please email <a href=\"mailto:cashback@diginu.com\">cashback@diginu.com</a>. You can also ask the admins on the official WhatsApp groups for help.</p><p><b>Tip:</b> Include your full name, your email address and issue when contacting support.</p>",
+      "tags": ["support", "account", "help"],
+      "intents": ["check_email_in_system"],
       "followups": [
-        "What is diginuEgo? (ego-overview)",
-        "What are the key features of diginuEgo? (ego-features)"
+        "Does diginu offer training? (training-001)?",
+        "Where can I find training? (training-002)"
       ],
       "aliases": [
-        "ego info",
-        "ego details",
-        "ego",
-        "learn about diginuEgo",
-        "ego website",
-        "diginuego website",
-        "diginuego link",
-        "where can I learn about ego"
+        "support email",
+        "help",
+        "where to get supports email",
+        "contact support",
+        "cashback support",
+        "support for cashback"
+      ],
+      "status": "published"
+    },
+    {
+      "id": "Update-email",
+      "question": "How do I update my email on diginu?",
+      "answer": "<p>To update your email address, Please email <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a>. Please enclude your full name, phone number, old email, new email address and the reason for the change.</p>",
+      "tags": ["change email", "account email", "update email"],
+      "intents": ["update_email_in_system"],
+      "followups": [
+        "Can you check if my email is in the diginu system? (account-email-verify)",
+        "Where can I find training? (training-002)"
+      ],
+      "aliases": [
+        "how can I update my email",
+        "where to update email",
+        "update email",
+        "where to change my email",
+        "how to change my email",
+        "email change",
+        "update email on account",
+        "change email on account"
       ],
       "status": "published"
     },
@@ -1603,12 +1644,12 @@
       "id": "account-email-verify",
       "question": "Can you check if my email is in the diginu system?",
       "answer": "<p>I'm not able to verify accounts directly. Please email <a href=\"mailto:wecare@diginu.com\">wecare@diginu.com</a> to confirm whether your email is in the system. You can also ask the admins on the official WhatsApp groups for help.</p><p><b>Tip:</b> Include your full name, phone number and the email address you want us to check to speed things up.</p>",
-      "tags": ["support", "account", "verification", "email"],
+      "tags": ["support", "account", "verification"],
       "intents": ["check_email_in_system"],
       "followups": [
-        "How do I update my email on diginu?",
-        "How do I contact diginu support?",
-        "What information should I include when emailing support?"
+        "How do I update my email on diginu? (Update-email)",
+        "How do I contact diginu support (account-support)?",
+        "Where can I find training? (training-002)"
       ],
       "aliases": [
         "check my email on diginu",
@@ -1835,7 +1876,7 @@
     "ftwc book details",
     "tell me about ftwc"
   ],
-  "answer": "Freedom Through Wealth Creation (FTWC) is a book written by Marius Adams. The FTWC book is available for purchase at https://diginu.com/ftwc.",
+  "answer": "Freedom Through Wealth Creation (FTWC) is a book written by Marius Adams. The FTWC book is available for purchase at </p><p><a href=\"https://diginu.com/ftwc\" target=\"_blank\" rel=\"noopener\">https://diginu.com/ftwc</a></p><p>.",
   "status": "published",
   "tags": ["ftwc", "book", "marius-adams", "resources"],
   "intents": ["about_ftwc"],
@@ -1854,7 +1895,7 @@
     "buy freedom through wealth creation",
     "ftwc order link"
   ],
-  "answer": "You can purchase Freedom Through Wealth Creation (FTWC) at https://diginu.com/ftwc.",
+  "answer": "You can purchase Freedom Through Wealth Creation (FTWC) at </p><p><a href=\"https://diginu.com/ftwc\" target=\"_blank\" rel=\"noopener\">https://diginu.com/ftwc</a></p><p>.",
   "status": "published",
   "tags": ["ftwc", "book", "purchase", "link"],
   "intents": ["buy_ftwc"],
@@ -1872,7 +1913,8 @@
     "head of field marketing diginu",
     "who is the head of field marketing",
     "freedom through wealth creation author",
-    "marius adams book"
+    "marius adams book",
+    "Marius"
   ],
   "answer": "Marius Adams is diginu head of field marketing. He is also the author of the book, \"Freedom Through Wealth Creation\"",
   "status": "published",
