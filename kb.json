@@ -706,7 +706,7 @@
       "tags": [],
       "intents": [],
       "followups": [
-        "How do I contact diginu support? (account-email-verify)",
+        "How do I contact diginu support? (account-support)",
         "Which banks and cards are supported by diginuPay? (diginupay-supported-banks)"
       ]
     },
@@ -1333,6 +1333,7 @@
       "tags": ["psp", "referral-link", "onboarding", "enrollment"],
       "intents": ["psp_referral_link"],
       "followups": [
+        "Where to find my referral link (psp-013)",
         "Do referrals need to use my link every time? (psp-005)",
         "Are referrals linked for life? (psp-004)"
       ],
@@ -2200,7 +2201,22 @@
     "What are the benefits of joining diginu as a merchant? (merchant-005)"
   ]
 },
-
+{
+    "id": "merchant-09",
+    "question": "How do I stop staff from accessing my diginuPay ewallet?",
+    "answer": "Enable the **free two-factor authentication (2FA)** on your **diginuPay** account to restrict access and protect your funds.",
+    "tags": ["merchant", "security", "2fa", "wallet"],
+    "intents": ["merchant_wallet_security"],
+    "followups": [
+    ],
+    "aliases": [
+      "restrict staff access",
+      "secure wallet",
+      "protect ewallet",
+      "enable 2fa diginupay"
+    ],
+    "status": "published"
+  },
 
 
 
@@ -2245,6 +2261,27 @@
   "intents": ["customer_account_usage"],
   "followups": []
 },
+     {
+  "id": "team-building",
+  "question": "How do I build up my team",
+  "aliases": [
+    "building teams",
+    "how to build a team",
+    "build my business",
+    "how to start building",
+    "how to start my business",
+    "start building",
+    "how to get a downline"
+  ],
+  "answer": "To start building a team, you will need to start by sharing your unique referral link to friends and family, next I'd suggest you start with our customer marketer training on the academy.",
+  "status": "published",
+  "tags": ["team", "build", "business"],
+  "intents": ["team_build"],
+  "followups": [
+    "Where to find my referral link (psp-013)",
+    "Where do I find the online training on diginu? (training-002)"
+  ]
+},
     {
   "id": "Welcome",
   "question": "Hi",
@@ -2274,7 +2311,219 @@
     "How do I order food on diginu? (diginuapp-ordering)",
     "Where do I find the online training on diginu? (training-002)"
   ]
+},
+    {
+  "id": "ranks-001",
+  "question": "How do I get to Diamond in diginu?",
+  "answer": "At diginu, we honour people who achieve success in the team. You can qualify for **Diamond Rank** in **two different ways** — either through **customer signups** or through **merchants you launch**:<ul><li><b>Diamond Club Member:</b> 100 personally enrolled customers <i>or</i> 10 merchants live</li><li><b>Diamond 25:</b> 250 personally enrolled customers <i>or</i> 25 merchants live</li><li><b>Diamond 50:</b> 500 personally enrolled customers <i>or</i> 50 merchants live</li><li><b>Diamond 100:</b> 1000 personally enrolled customers <i>or</i> 100 merchants live</li></ul>Both customer signups and merchant launches count towards your rank, so you can grow whichever side of the business suits you best.",
+  "tags": ["ranks", "diamond", "leadership", "psp", "merchant-marketer"],
+  "intents": ["diginu_rank_progression"],
+  "aliases": [
+    "how do I get to diamond",
+    "how to rank up in diginu",
+    "diamond qualification",
+    "how to become diamond",
+    "diginu ranks",
+    "diamond levels",
+    "ranking system diginu"
+  ],
+  "followups": [
+    "How do I find my referral link to start signing people up? (psp-013)"
+  ],
+  "status": "published"
+},
+    {
+  "id": "ranks-003",
+  "question": "What benefits are there to being a Diamond member in diginu?",
+  "answer": "When you achieve Diamond status in diginu, you unlock exclusive benefits designed to help you grow faster and connect with top leadership:<ul><li>✅ Added to the private <b>Diamond WhatsApp Group</b></li><li>✅ Direct access to <b>top diginu leaders</b></li><li>✅ <b>Personal guidance</b> and mentorship</li><li>✅ Early access to <b>company updates</b></li><li>✅ Ability to <b>give input on company progress</b></li></ul><p><b>Important:</b> Before joining the Diamond WhatsApp group, you must sign a <b>Non-Disclosure Agreement (NDA)</b>.</p>",
+  "tags": ["ranks", "diamond", "benefits", "leadership"],
+  "intents": ["diamond_benefits"],
+  "aliases": [
+    "diamond benefits",
+    "perks of diamond rank",
+    "what do diamonds get",
+    "why become diamond",
+    "diamond advantages"
+  ],
+  "followups": [
+    "How do I find my referral link to start signing people up? (psp-013)"
+  ],
+  "status": "published"
+},
+    {
+  "id": "ranks-004",
+  "question": "Where can I find the NDA to join the Diamond group?",
+  "answer": "You can sign the required <b>Non-Disclosure Agreement (NDA)</b> by clicking here: <a href=\"https://www.jotform.com/sign/251076671917059/invite/01js5g1d2qc705fe660ec12dea\" target=\"_blank\" rel=\"noopener\">Sign NDA</a>. Once completed, you will be added to the Diamond WhatsApp group by your upline or a diginu leader.",
+  "tags": ["ranks", "nda", "diamond", "compliance"],
+  "intents": ["diamond_nda"],
+  "aliases": [
+    "diamond nda",
+    "sign nda",
+    "where is the nda",
+    "diamond agreement",
+    "diamond whatsapp nda"
+  ],
+  "followups": [],
+  "status": "published"
+},
+    {
+  "id": "support-003",
+  "question": "I'm not getting a response from wecare@diginu.com, what should I do?",
+  "answer": "If you haven’t received a response from <b>wecare@diginu.com</b>, you can also email <b>cashback@diginu.com</b> for assistance.",
+  "tags": ["support", "email", "help", "contact"],
+  "intents": ["support_alternative_email"],
+  "aliases": [
+    "no reply from wecare",
+    "wecare not responding",
+    "wecare email problem",
+    "support email not working",
+  ],
+  "followups": [
+    "What is the correct email for diginu support? (account-support)"
+  ],
+  "status": "published"
+},
+    {
+  "id": "marketing-material",
+  "question": "Where can I find marketing material for diginu?",
+  "answer": "You can find all official marketing material inside the <b>Customer Marketer Training</b> in the <b>diginu Academy</b>. Just log in to your diginu profile, go to <b>My Academy</b> and open the training section.",
+  "tags": ["marketing", "academy", "material", "resources"],
+  "intents": ["find_marketing_material"],
+  "aliases": [
+    "marketing resources",
+    "where is the marketing material",
+    "training marketing files",
+    "diginu posters and ads",
+    "promo material diginu",
+    "marketing tools",
+    "share material diginu"
+  ],
+  "followups": [
+    "Where can I find the customer marketer training? (training-002)",
+  ],
+  "status": "published"
+},
+{
+  "id": "psp-see-referrals",
+  "question": "How can I see who signed up on my referral link?",
+  "answer": "You can view your referral list by logging in at <a href=\"https://diginu.com\" target=\"_blank\">diginu.com</a> and clicking on <b>Referrals</b> in the left menu. From there, click <b>Request Referral List</b> and your full list of signups will be emailed to you.",
+  "tags": ["psp", "referrals", "account", "earnings"],
+  "intents": ["view_referrals"],
+  "aliases": [
+    "see who signed up under me",
+    "view my referrals",
+    "who registered with my link",
+    "how to check referrals",
+    "find my referral list",
+    "my referrals diginu",
+    "see my team",
+    "see sign ups"
+  ],
+  "followups": [],
+  "status": "published"
+},
+    
+{
+  "id": "live-areas",
+  "question": "Which areas are diginu live in?",
+  "answer": "You can view all the areas where <b>diginu is currently live</b> by visiting <a href=\"https://diginu.com\" target=\"_blank\">diginu.com</a> and scrolling all the way down to the bottom of the page. There you will find the full list of active delivery areas.",
+  "tags": ["live-areas", "coverage", "delivery", "availability"],
+  "intents": ["find_live_areas"],
+  "aliases": [
+    "where does diginu operate",
+    "diginu delivery areas",
+    "which locations does diginu cover",
+    "is diginu in my area",
+    "diginu areas",
+    "where is diginu available",
+    "live areas",
+    "service areas diginu"
+  ],
+  "followups": [],
+  "status": "published"
+},
+    {
+  "id": "diginupay-setup",
+  "question": "How do I set up diginuPay?",
+  "answer": "If you recently registered with diginu, your <b>diginuPay wallet is already created automatically</b>. All you need to do is:<ol><li>Download the <b>diginuPay</b> app from the app store</li><li>Log in using the <b>same email and password</b> as your diginu account</li></ol>",
+  "tags": ["diginupay", "wallet", "setup", "payments"],
+  "intents": ["setup_diginupay"],
+  "aliases": [
+    "how to activate diginuPay",
+    "create diginupay wallet",
+    "setup wallet",
+    "start with diginupay",
+    "diginu pay setup"
+  ],
+  "followups": [
+    "I have been registered for a while and never used diginuPay, what should I do? (diginupay-late-setup)"
+  ],
+  "status": "published"
+},
+    {
+  "id": "diginupay-late-setup",
+  "question": "I have been registered for a while and never used diginuPay, what should I do?",
+  "answer": "If you joined diginu <b>before June 2025</b> and never activated your diginuPay wallet, follow these steps:<ol><li>Log in at <a href=\"https://diginu.com\" target=\"_blank\">diginu.com</a></li><li>Click on <b>eWallet</b> in the left menu</li><li>Fill in the activation form and submit</li><li>Then download the <b>diginuPay</b> app and log in</li></ol>",
+  "tags": ["diginupay", "wallet", "activation", "support"],
+  "intents": ["diginupay_old_users_help"],
+  "aliases": [
+    "wallet not working",
+    "diginu pay not setup",
+    "no wallet on my account",
+    "activate wallet",
+    "didnt register diginupay"
+  ],
+  "followups": [
+    "Why do I get an error when trying to register my diginuPay eWallet? (diginupay-ewallet-error)"
+  ],
+  "status": "published"
+}, 
+    {
+  "id": "diginupay-ewallet-error",
+  "question": "Why do I get an error when trying to register my diginuPay eWallet?",
+  "answer": "If you see an error while trying to register your eWallet, it means you <b>already have a diginuPay wallet</b> linked to your account. All you need to do is:<ol><li>Download the <b>diginuPay</b> app</li><li>Log in using the <b>same email and password</b> as your diginu account</li></ol>",
+  "tags": ["diginupay", "wallet", "error", "login", "support"],
+  "intents": ["diginupay_error_wallet_exists"],
+  "aliases": [
+    "error registering diginuPay",
+    "wallet already exists",
+    "cannot register wallet",
+    "ewallet error diginu",
+    "problem creating wallet",
+    "wallet registration failed",
+    "my ewallet gives an error"
+  ],
+  "followups": [
+    "I had a diginuPay wallet before, what should I do? (diginupay-existing-wallet)"
+  ],
+  "status": "published"
+}, 
+    {
+  "id": "diginupay-existing-wallet",
+  "question": "I had a diginuPay wallet before, what should I do?",
+  "answer": "If you previously had a diginuPay wallet, you don’t need to register again. Simply:<ol><li>Download the <b>diginuPay</b> app</li><li>Log in with your <b>diginu email and password</b></li></ol><p>If you forgot your password, use <b>‘Forgot Password’</b> on the login screen.</p>",
+  "tags": ["diginupay", "wallet", "support", "login"],
+  "intents": ["diginupay_existing_user"],
+  "aliases": [
+    "i used diginupay before",
+    "i had a wallet already",
+    "old wallet diginuPay",
+    "i had diginu pay long ago",
+    "cant access old wallet"
+  ],
+  "followups": [
+    "Do I need to do KYC on diginuPay? (diginupay-kyc)"
+  ],
+  "status": "published"
 }
+
+
+
+
+
+
+
+
 
   ]
 }
