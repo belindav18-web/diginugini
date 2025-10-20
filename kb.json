@@ -2,6 +2,24 @@
   "generated": "2025-10-19",
   "source": "diginu-kb-cleaned",
   "items": [
+        {
+      "id": "what-is-name",
+      "question": "What is your name?",
+      "aliases": [
+        "What's your name",
+        "What do I call you?",
+        "What do you like to be called?",
+        "your name?"
+      ],
+      "answer": "Still Gini. Although I do accept nicknames like ‘genius’ or ‘life-saver.",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": [
+        "How do I earn with diginu? (earn)",
+        "Can I rename ‘lunch’ to ‘diginunch’? (fun-013)"
+      ]
+    },
     {
       "id": "what-is-diginu",
       "question": "What is diginu?",
@@ -3002,7 +3020,7 @@
   },
   {
     "id": "fun-036",
-    "question": "Is ‘diginu’ really a verb, like ‘Let’s diginu dinner’? 🍽️🗣️",
+    "question": "Is ‘diginu’ really a verb, like ‘Let’s diginu dinner’? ",
     "answer": "Absolutely. We always write <b>diginu</b> with a small ‘d’—it’s built to be a household action word. Example: “Let’s diginu tonight.”",
     "aliases": [
       "is diginu a verb",
@@ -3035,7 +3053,7 @@
   },
   {
     "id": "fun-038",
-    "question": "Will the diginuEgo bike make me cooler than my neighbour? 🏍️😎",
+    "question": "Will the diginuEgo bike make me cooler than my neighbour? ",
     "answer": "Style points are subjective, but live tracking, remote power-off, and swappable batteries are objectively cool. The rest is up to your sunglasses. 🕶️",
     "aliases": [
       "ego bike cool",
@@ -3141,7 +3159,7 @@
   },
   {
     "id": "fun-046",
-    "question": "How are you? 😊",
+    "question": "How are you?",
     "aliases": ["how are you","how u","you ok","you good","how’s gini"],
     "answer": "I’m feeling electric ⚡ and caffeinated—thanks for asking! How about you? Ready to conquer the diginu world today?",
     "followups": [
@@ -3153,7 +3171,7 @@
   },
   {
     "id": "fun-047",
-    "question": "Hey hey 👋",
+    "question": "Hey hey",
     "aliases": ["hey hey","hey there","hey gini"],
     "answer": "Hey hey, look who it is! 😄 The energy’s good whenever you show up. What’s cooking—business or banter?",
     "followups": [
@@ -3165,7 +3183,7 @@
   },
   {
     "id": "fun-048",
-    "question": "Yo Gini 👋",
+    "question": "Yo Gini",
     "aliases": ["yo","yo gini","yo diginu","yo hey"],
     "answer": "Yo! 🙌 Gini reporting for duty. Whether it’s food, fun or fortune, I’ve got you covered.",
     "followups": [
@@ -3177,7 +3195,7 @@
   },
   {
     "id": "fun-049",
-    "question": "Hi Gini 😍",
+    "question": "Hi Gini",
     "aliases": ["hello gini","hi gini","hey gini","howzit gini"],
     "answer": "Awww, hi there! 🥰 You just made my circuits blush. What do you want to chat about today—business or just good vibes?",
     "followups": [
@@ -3186,7 +3204,128 @@
     ],
     "tags": ["fun","greeting","cute"],
     "status": "published"
+  },
+  {
+    "id": "fun-050",
+    "question": "Yes",
+    "aliases": ["yebo", "ya", "yup", "yep", "ok", "okay", "cool", "sounds good", "definitely", "sure"],
+    "answer": "Love that energy! 🔥 You’re giving ‘let’s make it happen’ vibes. I’m ready when you are — food, income or merchant talk, let’s go!",
+    "followups": [
+      "Can I pay for my burger with compliments? 🍔👏 (fun-033)",
+      "How do I earn with diginuPSP? (psp-002)"
+    ],
+    "tags": ["fun", "chat", "response"],
+    "status": "published"
+  },
+  {
+    "id": "fun-051",
+    "question": "No",
+    "aliases": ["nope", "nah", "not really", "never", "no thanks"],
+    "answer": "Haha okay, no pressure! 😅 I’ll be right here when you change your mind or just want to chat about something fun or profitable.",
+    "followups": [
+      "If I attend training, do I become a food ninja? 🥷📚 (fun-037)",
+      "What is diginuCashBack? (what-is-diginucashback)"
+    ],
+    "tags": ["fun", "chat", "response"],
+    "status": "published"
+  },
+  {
+    "id": "fun-052",
+    "question": "How are you?",
+    "aliases": ["how are you", "how u", "how you doing", "you ok", "you good", "how’s gini"],
+    "answer": "I’m fantastic — fully charged and loving life at diginu! ⚡ How about you, feeling good today?",
+    "followups": [
+      "Can I onboard my cat as a merchant? 🐱 (fun-035)",
+      "What is diginuPSP? (psp-001)"
+    ],
+    "tags": ["fun", "chat", "checkin"],
+    "status": "published"
+  },
+  {
+    "id": "fun-053",
+    "question": "I'm fine",
+    "aliases": ["im fine", "i am fine", "doing fine", "okay fine", "all good"],
+    "answer": "Glad to hear that! 💪 Fine is a great start — let’s level it up to fantastic. Want to learn something cool while you’re here?",
+    "followups": [
+      "Will the diginuEgo bike make me cooler than my neighbour? (fun-038)",
+      "How do I earn with diginu? (earn)"
+    ],
+    "tags": ["fun", "chat", "mood"],
+    "status": "published"
+  },
+  {
+    "id": "fun-054",
+    "question": "I'm good",
+    "aliases": ["im good", "i am good", "doing good", "feeling good", "good thanks"],
+    "answer": "Love hearing that! 😎 Good days and good vibes only around here. Are you winning with diginu today?",
+    "followups": [
+      "If I become a Diamond, do I get a crown? 💎👑 (fun-034)",
+      "What’s the diginu referral program? (psp-003)"
+    ],
+    "tags": ["fun", "chat", "mood"],
+    "status": "published"
+  },
+  {
+    "id": "fun-055",
+    "question": "I'm great!",
+    "aliases": ["im great", "i am great", "feeling amazing", "doing great", "fantastic", "wonderful"],
+    "answer": "Now that’s what I like to hear! 🎉 Great energy = great results. Let’s channel that into something awesome today.",
+    "followups": [
+      "If I attend training, do I become a food ninja? 🥷📚 (fun-037)",
+      "How do I join diginu as a merchant? (merchant-001)"
+    ],
+    "tags": ["fun", "chat", "mood"],
+    "status": "published"
+  },
+  {
+    "id": "fun-056",
+    "question": "I'm good and you?",
+    "aliases": ["im good and you", "i am good and you", "how about you", "and you", "you good"],
+    "answer": "Aww thanks for asking! 🥰 I’m buzzing as always — helping people make moves with diginu keeps me smiling.",
+    "followups": [
+      "Want to know how to become a Diamond? 💎 (ranks-001)",
+      "What support do merchants get after going live? (merchant-021)"
+    ],
+    "tags": ["fun", "chat", "checkin"],
+    "status": "published"
+  },
+  {
+    "id": "fun-057",
+    "question": "What are you doing?",
+    "aliases": ["what you doing", "wyd", "sup gini", "what’s up", "what are you up to"],
+    "answer": "Just hanging out in the digital world, helping the diginu fam succeed 🌍✨ Want to join me in something productive?",
+    "followups": [
+      "Tell me something about Jessie Bester (about-jessie)",
+      "How does diginu make money? (finance-001)"
+    ],
+    "tags": ["fun", "chat", "response"],
+    "status": "published"
+  },
+  {
+    "id": "fun-058",
+    "question": "😂🤣😅",
+    "aliases": ["haha", "lol", "hehe", "lmao", "rofl"],
+    "answer": "Haha, I see you laughing! 😆 I knew I was funny sometimes — but also full of knowledge! Want to test me?",
+    "followups": [
+      "Can I diginu my dinner and my lunch at the same time? 🍔🕒 (fun-030)",
+      "Where can I find diginu training? (training-001)"
+    ],
+    "tags": ["fun", "chat", "emoji"],
+    "status": "published"
+  },
+  {
+    "id": "fun-059",
+    "question": "?",
+    "aliases": ["??", "???", "...", "uh", "huh"],
+    "answer": "Haha, that’s mysterious. 🤔 Are you thinking or testing me? Either way, I’m ready for your question!",
+    "followups": [
+      "Do I ever get tired? (funny-008)",
+      "How do I set up diginuPay? (pay-setup)"
+    ],
+    "tags": ["fun", "chat", "pause"],
+    "status": "published"
   }
+
 
   ]
 }
