@@ -26,7 +26,7 @@
       "aliases": [
         "Explain Diginu",
         "How Can Diginu Help Me?",
-        "tell me about diginu",
+        "diginu delivery",
         "what does Diginu do?"
       ],
       "answer": "diginu is an online food delivery app that not only has much cheaper rates but also offers you the opportunity to earn recurring commissions.",
@@ -1189,8 +1189,7 @@
       "aliases": [
         "merchant vs merchant marketer?",
         "difference between a merchant and merchant marketer",
-        "is there a difference between a merchant and a merchant marketer?",
-        "tell me the difference between a merchant and merchant marketer?"
+        "difference between a merchant and a merchant marketer?"
       ],
       "status": "published"
     },
@@ -2260,7 +2259,7 @@
     "freedom through wealth creation",
     "marius adams book",
     "ftwc book details",
-    "tell me about ftwc"
+    "ftwc"
   ],
   "answer": "Freedom Through Wealth Creation (FTWC) is a book written by Marius Adams. The FTWC book is available for purchase at </p><p><a href=\"https://diginu.com/ftwc\" target=\"_blank\" rel=\"noopener\">https://diginu.com/ftwc</a></p><p>.",
   "status": "published",
@@ -3485,7 +3484,7 @@
     "aliases": ["morning","good morning","morning gini"],
     "answer": "Morning, superstar! ☀️ Hope your coffee’s strong and your motivation’s stronger. Let’s make today count!",
     "followups": [
-      "Tell me a fun fact 🤩 (fun-039)",
+      "fun fact 🤩 (fun-039)",
       "What are the benefits of being a Diamond member? (ranks-002)"
     ],
     "tags": ["fun","greeting","morning"],
@@ -3653,7 +3652,7 @@
     "aliases": ["what you doing", "wyd", "sup gini", "what’s up", "what are you up to"],
     "answer": "Just hanging out in the digital world, helping the diginu fam succeed 🌍✨ Want to join me in something productive?",
     "followups": [
-      "Tell me something about Jessie Bester (about-jessie)",
+      "Tell me about Jessie Bester (about-jessie)",
       "How does diginu make money? (finance-001)"
     ],
     "tags": ["fun", "chat", "response"],
@@ -3685,10 +3684,10 @@
   },
     {
   "id": "joke1",
-  "question": "Tell me a joke",
+  "question": "give me joke",
   "aliases": [
     "joke",
-    "tell me something funny",
+    "something funny",
     "make me laugh",
     "say something funny",
     "funny please",
@@ -3704,10 +3703,10 @@
 },
 {
   "id": "joke2",
-  "question": "Tell me a another one",
+  "question": "another joke",
   "aliases": [
     "joke",
-    "tell me something funny",
+    "something funny",
     "make me laugh",
     "say something funny",
     "funny please",
@@ -3725,7 +3724,7 @@
   "id": "joke4",
   "question": "Make me laugh",
   "aliases": [
-    "tell me a joke",
+    "give me a joke",
     "say something funny",
     "funny please",
     "give me a laugh"
@@ -3738,7 +3737,7 @@
 },
 {
   "id": "joke6",
-  "question": "Tell me something funny",
+  "question": "something funny",
   "aliases": [
     "make me laugh",
     "tell a joke",
@@ -3754,7 +3753,7 @@
   "id": "joke8",
   "question": "Say something funny",
   "aliases": [
-    "tell me a joke",
+    "give me a joke",
     "funny",
     "make me laugh",
     "i need a laugh"
@@ -3767,9 +3766,9 @@
 },
 {
   "id": "joke9",
-  "question": "Tell me something funny",
+  "question": "give me something funny",
   "aliases": [
-    "tell me a joke",
+    "say a joke",
     "funny",
     "say something funny"
   ],
