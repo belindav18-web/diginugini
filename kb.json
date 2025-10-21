@@ -52,6 +52,7 @@
         "Ways To Earn With diginu",
         "can i earn",
         "how can i earn",
+        "How do I get to make money in this platform",
         "how can i earn with diginu?",
         "how do i make money"
       ],
@@ -390,6 +391,7 @@
   "question": "What rewards and benefits do I get with diginuCashBack?",
   "aliases": [
     "diginuCashBack rewards",
+    "what cashback discounts does the customer get",
     "cashback rewards",
     "diginuCashBack benefits",
     "cashback benefits",
@@ -412,6 +414,29 @@
   "followups": ["How does diginuCashBack actually work? (cashback-003)", "Can I order motivation with my meal? (fun-017)",
         "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
+{
+  "id": "cashback-020",
+  "question": "Is VAT included in diginuCashBack discounts and rewards?",
+  "aliases": [
+    "cashback VAT",
+    "diginuCashBack VAT included",
+    "is VAT part of cashback",
+    "cashback merchants VAT",
+    "cashback VAT rules",
+    "VAT on cashback rewards",
+    "diginuCashBack prices with VAT",
+    "does cashback include VAT",
+    "cashback discount VAT included",
+    "VAT and cashback discounts"
+  ],
+  "answer": "Yes! 💛 All diginuCashBack discounts, rewards, and amounts shown by merchants already include VAT — both for customers and participating merchants. So what you see is what you get — no hidden surprises, just straightforward savings. ✨",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["What rewards and benefits do I get with diginuCashBack? (cashback-019)", 
+    "Can I promote diginuCashBack on social media? (cashback-010)",
+    "If I blink, will my order arrive faster? (fun-007)"]
+}
 
     {
       "id": "can-someone-be-moved",
@@ -2119,6 +2144,28 @@
       ],
       "status": "published"
     },
+    {
+  "id": "academy-001",
+  "question": "Where can I find the job posting training?",
+  "aliases": [
+    "linkedin training",
+    "indeed training",
+    "tiktok training",
+    "job posting",
+    "job posts",
+    "job posting training",
+    "how to post jobs",
+    "job ads training",
+    "social media job posting",
+    "diginu academy job training"
+  ],
+  "answer": "All LinkedIn, Indeed, and TikTok job posting training is available on the diginu Academy. 💼 Just log in at [https://diginu.com](https://diginu.com), open the left-hand menu, and click on **“My Academy.”** Then head to **Customer Marketer Training** — that’s where the magic happens! ✨",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How do I make money with diginuCashBack? (cashback-017)", "Does diginu offer certificates for training? (training-003)"]
+},
+
     {
       "id": "training-003",
       "question": "Does diginu offer certificates for training?",
