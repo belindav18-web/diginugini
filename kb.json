@@ -54,7 +54,8 @@
         "how can i earn",
         "How do I get to make money in this platform",
         "how can i earn with diginu?",
-        "how do i make money"
+        "how do i make money",
+        "brilliant business opportunity"
       ],
       "answer": "You can earn a few ways with diginu. You can earn from our delivery side (customers and merchants), our rewards programme (diginuCashBack) and our electric bikes (diginuEgo).",
       "status": "published",
@@ -1654,7 +1655,7 @@
     {
       "id": "enroller-change-policy",
       "question": "How do I request an enroller change on diginu?",
-      "answer": "diginu allows enroller changes within 7 days of joining. Email enrollerchange@diginu.com and include the original welcome email the user received when they joined. Before sending, verify that the enrollment date on the welcome email is within the last 7 days. If someone joined diginu directly on the website (and not via your referral link), you can request that they be moved under you by following the same process.",
+      "answer": "diginu doesn't allow enroller changes if they are registered under someone else but if they are registered under the complany, diginu allows enroller changes within 7 days of joining. Email enrollerchange@diginu.com and include the original welcome email the user received when they joined. Before sending, verify that the enrollment date on the welcome email is within the last 7 days. If someone joined diginu directly on the website (and not via your referral link), you can request that they be moved under you by following the same process.",
       "tags": ["enroller-change", "referrals", "policy", "support"],
       "intents": ["enroller_change_policy"],
       "followups": [
@@ -1663,6 +1664,8 @@
       ],
       "aliases": [
         "change my enroller",
+        "can you change your upline?",
+        "can you change your upline?",,
         "move under my referral",
         "fix wrong upline",
         "enrollment change request",
@@ -1827,6 +1830,8 @@
       ],
       "aliases": [
         "move a referral",
+        "can you change your upline?",
+        "change upline",
         "change enroller after joining",
         "can users switch enrollers",
         "transfer a referral",
