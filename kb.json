@@ -17,6 +17,7 @@
       "intents": [],
       "followups": [
         "How do I earn with diginu? (earn)",
+        "How do I make money with diginuCashBack? (cashback-017)",
         "Can I rename ‘lunch’ to ‘diginunch’? (fun-013)"
       ]
     },
@@ -36,9 +37,11 @@
       "followups": [
         "How do I earn with diginu? (earn)",
         "What is diginuCashBack? (what-is-diginucashback)",
+        "How do I make money with diginuCashBack? (cashback-017)",
         "What is diginuPSP? (psp-001)",
         "Where can I find more information about diginuEgo? (ego-001)",
-        "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)"
+        "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"
       ]
     },
     {
@@ -60,6 +63,7 @@
         "I'm new and nervous (motivation-003)",
         "What is diginuPSP? (psp-001)",
         "How do I earn with diginuPSP? (psp-002)",
+        "How do I make money with diginuCashBack? (cashback-017)",
         "What are the 2 ways to earn in diginuPSP? (psp-007)"
       ]
     },
@@ -81,7 +85,8 @@
       "followups": [
         "How do I cancel my diginuCashBack debit order? (cancel-cashback-debit)",
         "What is diginu? (what-is-diginu)",
-        "Can I diginu a midnight snack? (fun-001)"
+        "Can I diginu a midnight snack? (fun-001)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"
       ]
     },
     {
@@ -98,7 +103,9 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["How do diginuCashBack memberships work? (cashback-002)", "If I blink, will my order arrive faster? (fun-007)"]
+  "followups": ["How do diginuCashBack memberships work? (cashback-002)", "If I blink, will my order arrive faster? (fun-007)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"
+  ]
 },
 {
   "id": "cashback-002",
@@ -113,7 +120,9 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["How does diginuCashBack actually work? (cashback-003)", "Does diginuEgo make me instantly cooler? (fun-012)"]
+  "followups": ["How does diginuCashBack actually work? (cashback-003)", "Does diginuEgo make me instantly cooler? (fun-012)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"
+  ]
 },
     {
   "id": "cashback-003",
@@ -128,7 +137,9 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["How do I claim my diginuCashBack? (cashback-004)", "Does diginu deliver to Mars? (fun-020)"]
+  "followups": ["How do I claim my diginuCashBack? (cashback-004)", "Does diginu deliver to Mars? (fun-020)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"
+  ]
 },
 {
   "id": "cashback-004",
@@ -143,7 +154,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["What are the diginuCashBack claim rules? (cashback-005)", "Does diginu come with a happiness guarantee? (fun-016)"]
+  "followups": ["What are the diginuCashBack claim rules? (cashback-005)", "Does diginu come with a happiness guarantee? (fun-016)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-005",
@@ -158,7 +170,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["Can I get diginuCashBack on my birthday? (cashback-006)", "Can I pay for my order with good vibes? (fun-011)"]
+  "followups": ["Can I get diginuCashBack on my birthday? (cashback-006)", "Can I pay for my order with good vibes? (fun-011)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
     {
   "id": "cashback-006",
@@ -173,7 +186,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["What’s the diginuCashBack refund policy? (cashback-007)", "Will diginu make me famous? (fun-019)"]
+  "followups": ["What’s the diginuCashBack refund policy? (cashback-007)", "Will diginu make me famous? (fun-019)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-007",
@@ -188,7 +202,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["What’s not allowed in diginuCashBack? (cashback-008)", "If I become a Diamond, do I get a crown? 💎👑 (fun-034)"]
+  "followups": ["What’s not allowed in diginuCashBack? (cashback-008)", "If I become a Diamond, do I get a crown? 💎👑 (fun-034)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-008",
@@ -203,7 +218,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["What’s the diginuCashBack fair use policy? (cashback-009)", "If I whisper my order, will the driver tiptoe? 🤫👟 (fun-031)"]
+  "followups": ["What’s the diginuCashBack fair use policy? (cashback-009)", "If I whisper my order, will the driver tiptoe? 🤫👟 (fun-031)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-009",
@@ -218,7 +234,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["Can I promote diginuCashBack on social media? (cashback-010)", "Can I earn commission by convincing my cat to order? (fun-008)"]
+  "followups": ["Can I promote diginuCashBack on social media? (cashback-010)", "Can I earn commission by convincing my cat to order? (fun-008)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
     {
   "id": "cashback-010",
@@ -248,7 +265,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["Why can diginuCashBack suspend my account? (cashback-012)", "Does diginu deliver to Mars? (fun-020)"]
+  "followups": ["Why can diginuCashBack suspend my account? (cashback-012)", "Does diginu deliver to Mars? (fun-020)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-012",
@@ -263,7 +281,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["When will I get my diginuCashBack payout? (cashback-013)", "Can I tip my future self? (fun-006)"]
+  "followups": ["When will I get my diginuCashBack payout? (cashback-013)", "Can I tip my future self? (fun-006)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-013",
@@ -278,7 +297,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["Where can I find the official diginuCashBack Terms and Conditions? (cashback-014)", "If I whisper my order, will the driver tiptoe? 🤫👟 (fun-031)"]
+  "followups": ["Where can I find the official diginuCashBack Terms and Conditions? (cashback-014)", "If I whisper my order, will the driver tiptoe? 🤫👟 (fun-031)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-014",
@@ -293,7 +313,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["How do I contact diginuCashBack support? (cashback-015)", "Can I order motivation with my meal? (fun-017)"]
+  "followups": ["How do I contact diginuCashBack support? (cashback-015)", "Can I order motivation with my meal? (fun-017)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-015",
@@ -308,7 +329,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["Who can join diginuCashBack? (cashback-001)", "Can I rename ‘lunch’ to ‘diginunch’? (fun-013)"]
+  "followups": ["Who can join diginuCashBack? (cashback-001)", "Can I rename ‘lunch’ to ‘diginunch’? (fun-013)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-016",
@@ -323,7 +345,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["How does diginuCashBack actually work? (cashback-003)", "If I onboard a merchant, do I get bragging rights? (fun-018)"]
+  "followups": ["How does diginuCashBack actually work? (cashback-003)", "If I onboard a merchant, do I get bragging rights? (fun-018)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
     {
   "id": "cashback-017",
@@ -331,7 +354,7 @@
   "aliases": [
     "how to make money with diginuCashBack",
     "earn money in the diginu ecosystem",
-    "how to earn cashback income",
+    "cashback income",
     "earn from diginuCashBack memberships",
     "cashback commissions",
     "cashback levels",
@@ -341,7 +364,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["How do diginuCashBack levels and commissions work? (cashback-018)", "Can I pay for my burger with compliments? 🍔👏 (fun-033)"]
+  "followups": ["How do diginuCashBack levels and commissions work? (cashback-018)", "Can I pay for my burger with compliments? 🍔👏 (fun-033)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
     {
   "id": "cashback-018",
@@ -358,7 +382,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["How does diginuCashBack work with diginu Food orders? (cashback-016)", "Is the ‘small d’ in diginu because we’re humble? (fun-009)"]
+  "followups": ["How does diginuCashBack work with diginu Food orders? (cashback-016)", "Is the ‘small d’ in diginu because we’re humble? (fun-009)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 {
   "id": "cashback-019",
@@ -384,7 +409,8 @@
   "status": "published",
   "tags": [],
   "intents": [],
-  "followups": ["How does diginuCashBack actually work? (cashback-003)", "Can I order motivation with my meal? (fun-017)"]
+  "followups": ["How does diginuCashBack actually work? (cashback-003)", "Can I order motivation with my meal? (fun-017)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"]
 },
 
     {
@@ -428,7 +454,8 @@
       "intents": [],
       "followups": [
         "Where is diginu’s Privacy Policy? (privacy-policy-link)",
-        "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)"
+        "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"
       ]
     },
      {
