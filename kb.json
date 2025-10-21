@@ -326,6 +326,68 @@
   "followups": ["How does diginuCashBack actually work? (cashback-003)", "If I onboard a merchant, do I get bragging rights? (fun-018)"]
 },
     {
+  "id": "cashback-017",
+  "question": "How do I make money with diginuCashBack?",
+  "aliases": [
+    "how to make money with diginuCashBack",
+    "earn money in the diginu ecosystem",
+    "how to earn cashback income",
+    "earn from diginuCashBack memberships",
+    "cashback commissions",
+    "cashback levels",
+    "make money from cashback team"
+  ],
+  "answer": "diginuCashBack is the easiest way to earn inside the diginu ecosystem. 💛 You earn from memberships up to five levels deep in your team — and you also earn from all the cashback claims your team makes at selected merchants. It’s teamwork with rewards attached! ✨",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How do diginuCashBack levels and commissions work? (cashback-018)", "Can I pay for my burger with compliments? 🍔👏 (fun-033)"]
+},
+    {
+  "id": "cashback-018",
+  "question": "How do diginuCashBack levels and commissions work?",
+  "aliases": [
+    "cashback levels",
+    "diginuCashBack commission structure",
+    "cashback 5 level earnings",
+    "how much do I earn from my team cashback",
+    "cashback referral levels",
+    "cashback upline commission"
+  ],
+  "answer": "Here’s the scoop on diginuCashBack levels! 💛 The Value membership (R59) doesn’t qualify for membership commissions, but the Pro (R99) and Pro Annual (R999) do. You earn from your team up to 5 levels deep — here’s how it breaks down:\n\n👉 **When a Value Member (R59)** joins:\n• Level 1 – R7.50\n• Level 2 – R3\n• Level 3 – R2.25\n• Level 4 – R1.50\n• Level 5 – R0.75\n\n👉 **When a Pro Member (R99)** joins:\n• Level 1 – R15\n• Level 2 – R6\n• Level 3 – R4.50\n• Level 4 – R3.50\n• Level 5 – R1.50\n\n👉 **When a Pro Annual (R999)** joins:\n• Level 1 – R150\n• Level 2 – R60\n• Level 3 – R45\n• Level 4 – R35\n• Level 5 – R15\n\nNow that’s what we call teamwork that pays off! **Remember that this is on their active membership and if your membership is active. These are recurring Monthly commissions... ✨**",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How does diginuCashBack work with diginu Food orders? (cashback-016)", "Is the ‘small d’ in diginu because we’re humble? (fun-009)"]
+},
+{
+  "id": "cashback-019",
+  "question": "What rewards and benefits do I get with diginuCashBack?",
+  "aliases": [
+    "diginuCashBack rewards",
+    "cashback rewards",
+    "diginuCashBack benefits",
+    "cashback benefits",
+    "cashback perks",
+    "diginu rewards program",
+    "cashback discounts",
+    "diginuCashBack offers",
+    "cashback specials",
+    "diginu rewards and benefits",
+    "cashback deals",
+    "cashback coupons",
+    "diginu discounts",
+    "cashback promos",
+    "rewards from diginuCashBack"
+  ],
+  "answer": "With diginuCashBack, your everyday life comes with a bonus! 💛 You’ll enjoy 5% cashback on diginu delivery orders, 5% cashback at loads of partner businesses across South Africa— sometimes even more when merchants are feeling extra generous. 😎 5% discounts on big brands, some offer the use of coupons, others apply automatically. And the best part? We’re adding new rewards and benefits every single day... soon, we’ll be the best rewards company in South Africa. 🌟",
+  "status": "published",
+  "tags": [],
+  "intents": [],
+  "followups": ["How does diginuCashBack actually work? (cashback-003)", "Can I order motivation with my meal? (fun-017)"]
+},
+
+    {
       "id": "can-someone-be-moved",
       "question": "Can someone be moved if they signed up wrong?",
       "aliases": [
