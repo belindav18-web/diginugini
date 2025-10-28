@@ -22,6 +22,28 @@
       ]
     },
     {
+      "id": "Zoom-link",
+      "question": "What is the zoom link?",
+      "aliases": [
+        "Where can I find the zoom link?",
+        "Zoom link please",
+        "Register for the call",
+        "zoom call",
+        "register for the call",
+        "register for the Tuesday call",
+        "zoom link"
+      ],
+      "answer": "Great question, probably the best question as you start your journey with us. You can click on this link to register for our call, <a href=\"https://us06web.zoom.us/webinar/register/WN_EfnfoKKrTPKNCKFZatnpiA\" target=\"_blank\">Zoom Call</a></li><li>",
+      "status": "published",
+      "tags": ["zoom", "zoom link", "Tuesday call", "call link", "Tuesday Zoom"],
+      "intents": [],
+      "followups": [
+        "How do I earn with diginu? (earn)",
+        "How do I make money with diginuCashBack? (cashback-017)",
+        "Can I rename ‘lunch’ to ‘diginunch’? (fun-013)"
+      ]
+    },
+    {
       "id": "what-is-diginu",
       "question": "What is diginu?",
       "aliases": [
