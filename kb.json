@@ -33,9 +33,9 @@
         "register for the Tuesday call",
         "zoom link"
       ],
-      "answer": "Great question, probably the best question as you start your journey with us. You can click on this link to register for our call, <a href=\"https://us06web.zoom.us/webinar/register/WN_EfnfoKKrTPKNCKFZatnpiA\" target=\"_blank\">Zoom Call</a></li><li>",
+      "answer": "Great question, probably the best question as you start your journey with us. You can click on this link to register for our call, <a href=\"https://us06web.zoom.us/webinar/register/WN_EfnfoKKrTPKNCKFZatnpiA\" target=\"_blank\">Tuesday Zoom Call</a></li><li>",
       "status": "published",
-      "tags": ["zoom", "zoom link", "Tuesday call", "call link", "Tuesday Zoom"],
+      "tags": ["zoom", "zoom link", "Tuesday call", "Tuesday Zoom"],
       "intents": [],
       "followups": [
         "How do I earn with diginu? (earn)",
@@ -53,7 +53,8 @@
         "how to book for the monthly training",
         "register for monthly training",
         "training link",
-        "training zoom link"
+        "training zoom link",
+        "training "
       ],
       "answer": "Great question, probably the best question as you start your journey with us. You can click on this link to register for our call, <a href=\"https://us06web.zoom.us/webinar/register/WN_dDQwW6HgTr-vsfkOjO8rTQ#\" target=\"_blank\">Monthly Training</a></li><li>",
       "status": "published",
