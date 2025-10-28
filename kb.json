@@ -33,7 +33,7 @@
         "register for the Tuesday call",
         "zoom link"
       ],
-      "answer": "Great question, probably the best question as you start your journey with us. You can click on this link to register for our call, <a href=\"https://us06web.zoom.us/webinar/register/WN_EfnfoKKrTPKNCKFZatnpiA\" target=\"_blank\">Tuesday Zoom Call</a></li><li>",
+      "answer": "Great question, probably the best question as you start your journey with us. You can click on this link to register for our Tuesday Evening call, <a href=\"https://us06web.zoom.us/webinar/register/WN_EfnfoKKrTPKNCKFZatnpiA\" target=\"_blank\">Tuesday Zoom Call</a></li><li>",
       "status": "published",
       "tags": ["zoom", "zoom link", "Tuesday call", "Tuesday Zoom"],
       "intents": [],
@@ -56,7 +56,7 @@
         "training zoom link",
         "training "
       ],
-      "answer": "Great question, probably the best question as you start your journey with us. You can click on this link to register for our call, <a href=\"https://us06web.zoom.us/webinar/register/WN_dDQwW6HgTr-vsfkOjO8rTQ#\" target=\"_blank\">Monthly Training</a></li><li>",
+      "answer": "Great question, love your passion for learning, lets get you registered for the Monthly training.... You can click on this link to register for our call, <a href=\"https://us06web.zoom.us/webinar/register/WN_dDQwW6HgTr-vsfkOjO8rTQ#\" target=\"_blank\">Free Monthly Training</a></li><li>",
       "status": "published",
       "tags": ["Monthly zoom", "Monthly zoom link", "Training call", "training link", "training Zoom"],
       "intents": [],
