@@ -44,6 +44,28 @@
       ]
     },
     {
+      "id": "Monthly-training",
+      "question": "What is the link for the training?",
+      "aliases": [
+        "Where can I find the monthly training link?",
+        "Monthly training",
+        "where to book for the training",
+        "how to book for the monthly training",
+        "register for monthly training",
+        "training link",
+        "training zoom link"
+      ],
+      "answer": "Great question, probably the best question as you start your journey with us. You can click on this link to register for our call, <a href=\"https://us06web.zoom.us/webinar/register/WN_dDQwW6HgTr-vsfkOjO8rTQ#\" target=\"_blank\">Monthly Training</a></li><li>",
+      "status": "published",
+      "tags": ["Monthly zoom", "Monthly zoom link", "Training call", "training link", "training Zoom"],
+      "intents": [],
+      "followups": [
+        "How do I earn with diginu? (earn)",
+        "How do I make money with diginuCashBack? (cashback-017)",
+        "Can I rename ‘lunch’ to ‘diginunch’? (fun-013)"
+      ]
+    },
+    {
       "id": "what-is-diginu",
       "question": "What is diginu?",
       "aliases": [
