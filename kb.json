@@ -93,14 +93,14 @@
         "how to qualify for the wall of fame",
         "leaderboard"
       ],
-      "answer": "YYou need to be a diamond member and have an active diginuCashBack membership then you can be placed on the 'wall of fame', if you are already a diamond member, please send your full name, when you started, the test you have passed and how many people enrolled to Belinda@diginu.com",
+      "answer": "You need to be a diamond member and have an active diginuCashBack membership then you can be placed on the 'wall of fame', if you are already a diamond member, please send your full name, when you started, the test you have passed and how many people enrolled to Belinda@diginu.com",
       "status": "published",
       "tags": ["wall of fame", "leaderboard", "fame"],
       "intents": [],
       "followups": [
         "What is diginuCashBack? (what-is-diginucashback)",
         "How do I make money with diginuCashBack? (cashback-017)",
-        "How to become a diamond? (ranks-001)",
+        "How to become a diamond? (ranks-001)"
       ]
     },
     {
