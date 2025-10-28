@@ -44,6 +44,65 @@
         "Can I promote diginuCashBack on social media? (cashback-010)"
       ]
     },
+      {
+      "id": "WhatsApp-Group",
+      "question": "What is the whatsapp group?",
+      "aliases": [
+        "send whatsapp group",
+        "Where can I find the whatsapp group",
+        "Whatsapp group please",
+        "whatsapp group"
+      ],
+      "answer": "Happy to send you the WhatsApp group, it is our diginu Channel where all info is shared - please watch this channel closely.  <a href=\"https://whatsapp.com/channel/0029VadTId4IN9iwY66GCE0l\" target=\"_blank\">WhatsApp</a></li><li>",
+      "status": "published",
+      "tags": ["whatsapp", "group", "whatsapp group"],
+      "intents": [],
+      "followups": [
+        "What is diginuCashBack? (what-is-diginucashback)",
+        "How do I make money with diginuCashBack? (cashback-017)",
+        "What is diginuPSP? (psp-001)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"
+      ]
+    },
+        {
+      "id": "change-number",
+      "question": "I am trying to change my phone number on my Account Details but keep getting an error",
+      "aliases": [
+        "Change number",
+        "Change email",
+        "how can I change my number",
+        "how can I cahnge my email"
+      ],
+      "answer": "You cannot change your number or email yourself from the backoffice, you need to email wecare@diginu.com and request the change - please give both your old details and new details.",
+      "status": "published",
+      "tags": ["change number, change email, email change, number change"],
+      "intents": [],
+      "followups": [
+        "What is diginuCashBack? (what-is-diginucashback)",
+        "How do I make money with diginuCashBack? (cashback-017)",
+        "What is diginuPSP? (psp-001)",
+        "Can I promote diginuCashBack on social media? (cashback-010)"
+      ]
+    },
+            {
+      "id": "wall-of-fame",
+      "question": "how does one get on the wall of fame on the academy site?",
+      "aliases": [
+        "wall of fame",
+        "how to get my name on the academy site",
+        "how to qualify for the wall of fame",
+        "leaderboard"
+      ],
+      "answer": "YYou need to be a diamond member and have an active diginuCashBack membership then you can be placed on the 'wall of fame', if you are already a diamond member, please send your full name, when you started, the test you have passed and how many people enrolled to Belinda@diginu.com",
+      "status": "published",
+      "tags": ["wall of fame", "leaderboard", "fame"],
+      "intents": [],
+      "followups": [
+        "What is diginuCashBack? (what-is-diginucashback)",
+        "How do I make money with diginuCashBack? (cashback-017)",
+        "How to become a diamond? (ranks-001)",
+      ]
+    },
     {
       "id": "earn",
       "question": "How do I earn with diginu?",
@@ -1139,6 +1198,29 @@
         "How do I contact diginu support? (account-support)",
         "Which banks and cards are supported by diginuPay? (diginupay-supported-banks)"
       ]
+    },    
+    {
+      "id": "diginupay-register",
+      "question": "i can't open wallet account",
+      "aliases": [
+        "How to open a diginuPay?",
+        "Register for diginuPay",
+        "How to open a wallet",
+        "how to register for a wallet",
+        "Can't open a diginuPay",
+        "error on ewallet ",
+        "can't open an ewallet",
+        "setup diginuPay",
+        "setup ewallet"
+      ],
+      "answer": "When you register with diginu, you will automatically have a diginuPay wallet, all you need to do is download the app and login with your diginu login details. ",
+      "status": "published",
+      "tags": [],
+      "intents": [],
+      "followups": [
+        "How do I contact diginu support? (account-support)",
+        "Which banks and cards are supported by diginuPay? (diginupay-supported-banks)"
+      ]
     },
     {
       "id": "policies-and-terms-overview",
@@ -1221,6 +1303,30 @@
       "followups": [
         "Where can I find diginu’s Privacy Policy and Terms? (policies-and-terms-overview)"
       ]
+    },
+    {
+      "id": "mm-000",
+      "question": "When I press join now as a merchant it's not showing me the registration form",
+      "answer": "This is because you are still logged in on your own personal diginu account. Go to 'my account' and then on the left menu, right at the bottom is the log out button. Once logged out, you can try again.",
+      "tags": [
+        "register merchant",
+        "issue merchant",
+        "merchant registration"
+      ],
+      "intents": [
+        "explain_roles"
+      ],
+      "followups": [
+        "What is a merchant on diginu? (mm-002)",
+        "What is a merchant marketer on diginu? (mm-003)"
+      ],
+      "aliases": [
+        "cant register merchant",
+        "issue with registering merchant",
+        "merchant registration doesn't open",
+        "why can't I register a merchant?"
+      ],
+      "status": "published"
     },
     {
       "id": "mm-001",
@@ -1651,7 +1757,8 @@
         "6km delivery"
       ],
       "status": "published"
-    },
+    }, 
+  
     {
       "id": "enroller-change-policy",
       "question": "How do I request an enroller change on diginu?",
