@@ -138,7 +138,7 @@
         "how to qualify for the wall of fame",
         "leaderboard"
       ],
-      "answer": "You need to be a diamond member and have an active diginuCashBack membership then you can be placed on the 'wall of fame', if you are already a diamond member, please send your full name, when you started, the test you have passed and how many people enrolled to Belinda@diginu.com",
+      "answer": "You need to be a diamond member and have an active diginuCashBack membership then you can be placed on the 'wall of fame', if you are already a diamond member, please send your full name, when you started, the test you have passed and how many people enrolled to Beli@diginu.com",
       "status": "published",
       "tags": ["wall of fame", "leaderboard", "fame"],
       "intents": [],
@@ -896,7 +896,7 @@
   "question": "Ty",
   "aliases": ["Tu",
     "ty" ],
-  "answer": "Anytime! Helping’s kinda my hobby. 💫",
+  "answer": "Anytime! Helping’s ki my hobby. 💫",
   "status": "published",
   "tags": [],
   "intents": [],
@@ -1758,7 +1758,7 @@
     },
     {
       "id": "mm-020",
-      "question": "Is there a contract or NDA for merchant marketers?",
+      "question": "Is there a contract or  for merchant marketers?",
       "answer": "Accredited marketers accept diginu’s terms and conditions, which cover brand use, data handling, and compliance. Additional agreements will apply depending on your rank.",
       "tags": [
         "legal",
@@ -2261,7 +2261,7 @@
     {
       "id": "work-remote-policy",
       "question": "What is diginu's policy on remote work?",
-      "answer": "<p>diginu operates <b>100% remotely</b>. If you have a smartphone or computer with internet access, you can work from <b>anywhere</b>. There are no office attendance requirements.</p>",
+      "answer": "<p>diginu operates <b>100% remotely</b>. If you have a smartphone or computer with internet access, you can work from <b>anywhere</b>. There are no office attence requirements.</p>",
       "tags": ["work", "remote", "policy", "flexibility"],
       "intents": ["remote_work_policy"],
       "followups": [
@@ -2543,18 +2543,18 @@
   ]
 },
     {
-  "id": "about-belinda-ford",
-  "question": "Who is Belinda Ford?",
+  "id": "about-beli-ford",
+  "question": "Who is Beli Ford?",
   "aliases": [
-    "who is belinda",
-    "belinda ford diginu",
+    "who is beli",
+    "beli ford diginu",
     "head of cashback",
     "diginu cashback leader",
     "who runs diginu cashback",
     "who runs diginuCashBack?",
     "heaad of diginuCashBack"
   ],
-  "answer": "Belinda Ford is Head of diginuCashBack, our very exciting rewards programme.",
+  "answer": "Beli Ford is Head of diginuCashBack, our very exciting rewards programme.",
   "status": "published",
   "tags": ["team", "leadership", "cashback", "about", "people"],
   "intents": ["about_team_member"],
@@ -2937,7 +2937,7 @@
     {
   "id": "ranks-004",
   "question": "Where can I find the NDA to join the Diamond group?",
-  "answer": "You can sign the required <b>Non-Disclosure Agreement (NDA)</b> by clicking here: <a href=\"https://www.jotform.com/sign/251076671917059/invite/01js5g1d2qc705fe660ec12dea\" target=\"_blank\" rel=\"noopener\">Sign NDA</a>. Once completed, you will be added to the Diamond WhatsApp group by your upline or a diginu leader.",
+  "answer": "You can sign the required <b>Non-Disclosure Agreement (NDA)</b> by clicking here: <a href=\"https://www.jotform.com/sign/253163171925052/invite/01k9yjwfxrac5125a352c3f85f\" target=\"_blank\" rel=\"noopener\">Sign NDA</a>. Once completed, you will be added to the Diamond WhatsApp group by your upline or a diginu leader.",
   "tags": ["ranks", "nda", "diamond", "compliance"],
   "intents": ["diamond_nda"],
   "aliases": [
